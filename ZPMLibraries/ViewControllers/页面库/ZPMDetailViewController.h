@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL isShowTap;
 
+@property (nonatomic, strong) UIImage *hk_iconImage;
+
 @end
 
 NS_ASSUME_NONNULL_END

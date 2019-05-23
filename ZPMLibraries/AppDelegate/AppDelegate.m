@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ZPMTabBarController.h"
+#import "HKFloatManager.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,10 @@
     // Override point for customization after application launch.
     
     [self setupMainView];
+    
+    [self.window makeKeyAndVisible];
+    
+    [HKFloatManager addFloatVcs:@[@"ZPMFloatBallViewController"]];
     
     return YES;
 }

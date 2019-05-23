@@ -41,18 +41,18 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
                        @{@"title": @"对话框 Dialog", @"image": @"icn_icn_dialog"},
                        @{@"title": @"按钮 Button", @"image": @"icn_icn_button"},
                        @{@"title": @"进度条 Progress", @"image": @"icn_icn_progressview"},
-                       @{@"title": @"分段选择 Segment", @"image": @"icn_icn_loading"},
-                       @{@"title":  @"滑杆 Slider", @"image": @"icn_icn_loading"},
+                       @{@"title": @"分段选择 Segment", @"image": @"icn_color_icn_segment"},
+                       @{@"title":  @"滑杆 Slider", @"image": @"icn_color_icn_slider"},
                        @{@"title": @"开关 Switch", @"image": @"icn_icn_switch"},
-                       @{@"title": @"选择器 Picker", @"image": @"icn_icn_loading"},
+                       @{@"title": @"选择器 Picker", @"image": @"icn_color_icn_picker"},
                        @{@"title": @"搜索框 Seachbar", @"image": @"icn_icn_searchbar"},
-                       @{@"title": @"页卡 Tabbar", @"image": @"icn_icn_loading"},
-                       @{@"title": @"导航栏 Navigationbar", @"image": @"icn_icn_loading"}];
+                       @{@"title": @"页卡 Tabbar", @"image": @"icn_color_icn_tabbar"},
+                       @{@"title": @"导航栏 Navigationbar", @"image": @"icn_color_icn_navigation"}];
 }
 
 - (void)setupTableView
 {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
     tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     tableView.dataSource = self;

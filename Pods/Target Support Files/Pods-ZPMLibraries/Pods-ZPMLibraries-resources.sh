@@ -91,6 +91,24 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@2x.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@3x.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/previous@2x.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/previous@3x.png"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@2x.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@3x.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/previous@2x.png"
+  install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/previous@3x.png"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

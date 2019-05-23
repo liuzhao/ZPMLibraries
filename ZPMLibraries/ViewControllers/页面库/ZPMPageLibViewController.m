@@ -8,8 +8,15 @@
 
 #import "ZPMPageLibViewController.h"
 #import "ZPMTransitionViewController.h"
+#import "ZPMFloatBallViewController.h"
+#import "JPSuspensionEntrance.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
+
+static BOOL isHideNavBar_ = NO;
+static NSString *const JPSuspensionCacheMsgKey = @"JPSuspensionCacheMsgKey";
+static NSString *const JPSuspensionDefaultXKey = @"JPSuspensionDefaultXKey";
+static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
 
 @interface ZPMPageLibViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -18,6 +25,67 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 @end
 
 @implementation ZPMPageLibViewController
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    JPSEInstance.navCtr = self.navigationController;
+    
+    __weak typeof(self) weakSelf = self;
+    JPSEInstance.willSpreadSuspensionViewControllerBlock = ^(UIViewController<JPSuspensionEntranceProtocol> *targetVC) {
+//        [(ViewController *)targetVC setIsHideNavBar:weakSelf.isHideNavBar];
+//        [(ViewController *)targetVC setRightBtnTitle:@"取消浮窗"];
+    };
+}
+
+- (void)setupJPSEInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        
+        // 是否可以播放提示音
+        JPSEInstance.canPlaySound = YES;
+        
+        //        // 配置展开时的提示音
+        //        JPSEInstance.playSpreadSoundBlock = ^{
+        //
+        //        };
+        //
+        //        // 配置闭合时的提示音
+        //        JPSEInstance.playShrinkSoundBlock = ^{
+        //
+        //        };
+        
+        JPSEInstance.cacheMsgBlock = ^(NSString *cacheMsg) {
+            [[NSUserDefaults standardUserDefaults] setObject:cacheMsg forKey:JPSuspensionCacheMsgKey];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+        };
+        
+        JPSEInstance.cacheSuspensionFrameBlock = ^(CGRect suspensionFrame) {
+            [[NSUserDefaults standardUserDefaults] setFloat:suspensionFrame.origin.x forKey:JPSuspensionDefaultXKey];
+            [[NSUserDefaults standardUserDefaults] setFloat:suspensionFrame.origin.y forKey:JPSuspensionDefaultYKey];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+        };
+        
+    });
+}
+
+- (void)setupSuspensionView {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        
+        NSString *cachaMsg = [[NSUserDefaults standardUserDefaults] stringForKey:JPSuspensionCacheMsgKey];
+        if (cachaMsg) {
+            ZPMFloatBallViewController *vc = [[ZPMFloatBallViewController alloc] init];
+            vc.title = cachaMsg;
+//            vc.isHideNavBar = YES;
+            
+            CGFloat x = [[NSUserDefaults standardUserDefaults] floatForKey:JPSuspensionDefaultXKey];
+            CGFloat y = [[NSUserDefaults standardUserDefaults] floatForKey:JPSuspensionDefaultYKey];
+            [JPSEInstance setupSuspensionViewWithTargetVC:vc suspensionXY:CGPointMake(x, y)];
+        }
+        
+    });
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -28,11 +96,17 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     [self initData];
     
     [self setupTableView];
+    
+    [self setupJPSEInstance];
+    [self setupSuspensionView];
 }
 
 - (void)initData
 {
     ZPMTransitionViewController *vc1 = [[ZPMTransitionViewController alloc] init];
+    
+    ZPMFloatBallViewController *vc2 = [ZPMFloatBallViewController new];
+    vc2.hk_iconImage = [UIImage imageNamed:@"icn_color_utils"];
     
     self.listArray = @[@[@{@"title": @"空页面 EmptyPage"},
                          @{@"title": @"加载页面 LoadingPage"},
@@ -41,7 +115,8 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
                          @{@"title": @"轮播页 Banner"},
                          ],
                        @[@{@"title": @"页面转场 TransitionPage", @"vc": vc1}
-                         ]];
+                         ],
+                       @[@{@"title": @"悬浮小窗", @"vc": vc2}]];
 }
 
 - (void)setupTableView
@@ -89,6 +164,11 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 60;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    return 10;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

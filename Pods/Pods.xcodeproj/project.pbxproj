@@ -3,300 +3,403 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B285968E1E6A68CBF0DF231686EF62D /* icon_sign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E57F8DA09A718E61CA0A5E6C8FF098A3 /* icon_sign@3x.png */; };
-		0B3AD329399B800BEDAA2806FB81C5E6 /* ic_toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D76EEE10D9F6E0D5D38916CED5F635F /* ic_toast_success@3x.png */; };
-		173454351B23C3CAC305C2A564DAA436 /* CLToastUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E699D3FDA407724ED3076278C80F9E5 /* CLToastUtils.swift */; };
-		1D78FF741DE8E9EF0A6906581E06D8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		37339C5E8EB940E763A13C9CF7F1C2C1 /* CLToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB66DA2B0A0D74B4B56857A6985EBC6 /* CLToastManager.swift */; };
-		5217B6626D4D42843BF1445B2B53033A /* ScreenTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F71861663BADA8FF5D4A5F74E7E9AE7 /* ScreenTools.swift */; };
-		61416EE6122DC3176FD4539AD7C27982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6856F9FDD04FCDE133E692C9B1CEFB1D /* icon_sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 632518503F3DD30C239801AC3B1FEEEF /* icon_sign@2x.png */; };
-		767098E8F15A36CC3AF1C4DD4653886E /* Pods-ZPMLibraries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3686B396757564BA656BDB70398A6ACB /* Pods-ZPMLibraries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		786DD500425F2D9CE7722E62186CDA02 /* CLToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D16D15168638BA876EDA79296FF44C /* CLToast-dummy.m */; };
-		7AA0AE0B9DB7CD0B9E2258A5F6F23889 /* CLImageToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587BF3291F3D7F0C7F433037A1E44F36 /* CLImageToast.swift */; };
-		8AC6A8645E2D6E7F4A75FA9416263C1E /* CLToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */; };
-		96B7A8E966A3300F6E1499083E9DB38E /* Pods-ZPMLibraries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F825D340608F03F2CFE3D0F253D6F145 /* Pods-ZPMLibraries-dummy.m */; };
-		A3A0D5948E5EB8FCADAB4771752D2268 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D70C9014A16C629828F041F03FADFE /* AppConfig.swift */; };
-		B39AEB075E9AE9777AA3E671E1448230 /* CLTextToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD55C2E612B45B44AED1A2A1146AA7A9 /* CLTextToast.swift */; };
-		E28958AE99136669DE3FA745A951064D /* ic_toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C79B3C5A77F01EA671DD5530AB4E2FCA /* ic_toast_success@2x.png */; };
-		E61957EFBF511CC3E2F5C861738C799B /* CLToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 276FE3BED75A714F9FEEEDD3FCD34AA7 /* CLToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E80B05152C1B13F196E516C42084098E /* CLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A12997C6601EF47E797291C1664FB5 /* CLToast.swift */; };
-		F772216F3813C0F3A1FFDE1F15A410F5 /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714ACF65E796012E4CA8B8C5CE17034D /* BundleUtil.swift */; };
+		0BE8342C8FE6F2B53EEDA11AFA49B98D /* UIViewController+JPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3106174D494B3ED1A30F44FC904FE6 /* UIViewController+JPExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		100ABED17C95530B8F52AFDC27161C11 /* JPSuspensionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 80315E6AE035736EDDAF1910DDD8CC47 /* JPSuspensionTransition.m */; };
+		17FBD4032D26CC06EED10B7D6A4A86C0 /* JPSuspensionEntranceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0388CF9167DA1A3CEF9FE441BFCD1758 /* JPSuspensionEntranceProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D0DB5FF72032AC49C8B49B38B7F4CBA /* JPSuspensionEntrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4A32FBC1109C6B5B7EA47DE204B6F /* JPSuspensionEntrance.m */; };
+		2A6D5E3D31458B33DBF3B3CB73BA8CD2 /* ZPMDebugOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCB78E171E9E4118BF5F64212C176BC /* ZPMDebugOverlay.m */; };
+		2AB1869D72C7FECFE95BA27E461169DD /* circle_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF878300678EEA12F6EEECD15BBE51D0 /* circle_delete@3x.png */; };
+		301A6870CB210143DAB400C513433990 /* ZPMConsoleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F46ED22192A8FFDE948F0BF792B88F /* ZPMConsoleViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34258B18C9A7F030EE4B7BBA522E63B9 /* JPSuspensionDecideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E7F05DD783E4D0135D4794E100A9A4 /* JPSuspensionDecideView.m */; };
+		3463C4BA1BA01D26CD7BD9EC905161F1 /* JPSuspensionEntrance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F45C4B132FDF54FF489660C5FC52E /* JPSuspensionEntrance-dummy.m */; };
+		3DE0B4E0B545389D040B4B1861D609BE /* ZPMConsoleLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0359D42DC39051B3A77610D56221EC7A /* ZPMConsoleLog-dummy.m */; };
+		4063B48A64D8E675BD5F0CF37A0ECCED /* circle_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 561DCE726A50030603DAA6E7CC39CE8F /* circle_big@3x.png */; };
+		4973220DC600EE192F41B24B99CA6829 /* Pods-ZPMLibraries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7107FA3C12675F7781A5889785AA07 /* Pods-ZPMLibraries-dummy.m */; };
+		4D6C332647B37C6F90CB2FFAAE2A2DE8 /* circle_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F3D74842CA861909CC470321495119 /* circle_delete@2x.png */; };
+		510D0403ECB1195DE37C38D03C3881BB /* circle_little@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 676CF549725DE7BEAEF9F0C31D471333 /* circle_little@3x.png */; };
+		5745B9E1C1BE6C0A9282423C6E8EA2EA /* JPSuspensionTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B7DCB70B468E3B60EE0B713734CD3F /* JPSuspensionTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5857E771B7A07C0B13BD0B663C0D4D97 /* ZPMLog.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF96F593105D482A7D3AA9F93AEBB71 /* ZPMLog.m */; };
+		5A1792A0128EE27B59F8137945C63BB6 /* JPPopInteraction.h in Headers */ = {isa = PBXBuildFile; fileRef = C01CEF7A6D2C4B28A57BBA790D5DC34A /* JPPopInteraction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A8C9C68740A0611D617EF4FCE9DC367 /* UIViewController+JPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D2793F5363C94E67EDBBE5EBB20B2 /* UIViewController+JPExtension.m */; };
+		6C0ACFD34491AD705F1A3350DA52D2EB /* ZPMConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B382198BF3C49FF80895069A2458FD5B /* ZPMConsoleViewController.m */; };
+		7323B498DFF57A3D4B66CA4DEE99FC70 /* JPPopInteraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 825E7A03F2549F08E8B6E026252D6BF8 /* JPPopInteraction.m */; };
+		79CE27F0889CE2C0B536EA753FCCDBEE /* circle_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 401F3961865DA27B8A4681952D459523 /* circle_big@2x.png */; };
+		7F7707570C63706DA7DA562CD41B4A79 /* ZPMLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 887EC76BE457114E4CA3F1A9337945BD /* ZPMLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1476C1B1B228F0F86C882E58844EF03 /* ZPMDebugOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 7932F40F328427F712B47C435FF50832 /* ZPMDebugOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D27E85A4AADE408AF87FB5E90A21F529 /* JPSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC89BFC8B98A9DBF1A6F775CF34834C /* JPSuspensionView.m */; };
+		D79A5E246FC3E12571D61075B81D9C89 /* JPSuspensionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCE2361D8959200F1597D9BF2124CCE /* JPSuspensionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC537E965617CFF1AB4289335AE0095A /* UIWebView+SearchWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785300B0AB3B09532EB1484D65C99338 /* UIWebView+SearchWebView.m */; };
+		DD8DA715074745F3F32761D198963381 /* UIWebView+SearchWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2133C6760FA332BB37AE7660139BB362 /* UIWebView+SearchWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E15A89D76C60AA728AABC5D261EBD069 /* circle_little@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA26B9B3AF13272A01C1ACBA7AAEFBF7 /* circle_little@2x.png */; };
+		EBD560A4728F796DEA33965F1BC1913B /* JPSuspensionDecideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9FBB2D662F9A540D4EF22F7872618C /* JPSuspensionDecideView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8F11CBB4E919DED7B99CB39D8685249 /* JPSuspensionEntrance.h in Headers */ = {isa = PBXBuildFile; fileRef = B83A75725F8FB92E927C0A37C3FBEE0A /* JPSuspensionEntrance.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		146EE0D360D7317959594318F604AC63 /* PBXContainerItemProxy */ = {
+		63C0E4FB8D94B2776F7A02C54B7DEC3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0E075E43134485D5A51397CF9D78D64;
-			remoteInfo = CLToast;
+			remoteGlobalIDString = 3649BCB5D4260D4B9B4AEF8F85B625B3;
+			remoteInfo = ZPMConsoleLog;
 		};
-		25581213140597E5D38A6FD1E5C77681 /* PBXContainerItemProxy */ = {
+		D5A2FEBD36EAE400F7680EE435088397 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E703F567B175D80201E3BFBABAB5F582;
-			remoteInfo = "CLToast-CLToast";
+			remoteGlobalIDString = 0D86023D66699E236F69FB35F9FC700C;
+			remoteInfo = JPSuspensionEntrance;
+		};
+		DA8EB1E6AC24F022CFF26B461BAC6F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5B6FD55A03E7ECB239C74FA329812A;
+			remoteInfo = "JPSuspensionEntrance-JPSuspensionEntrance";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		086CFF23AE81ED9B62D757DD3704EA36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLToast.xcconfig; sourceTree = "<group>"; };
-		16A9275D59B76DE9D4A9C5B0762EFD74 /* CLToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLToast-prefix.pch"; sourceTree = "<group>"; };
-		1BB66DA2B0A0D74B4B56857A6985EBC6 /* CLToastManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLToastManager.swift; path = CLToast/CLToast/CLToastManager.swift; sourceTree = "<group>"; };
-		1FF5795165DD86F2BE783D9120EB46FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		276FE3BED75A714F9FEEEDD3FCD34AA7 /* CLToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLToast-umbrella.h"; sourceTree = "<group>"; };
-		3686B396757564BA656BDB70398A6ACB /* Pods-ZPMLibraries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPMLibraries-umbrella.h"; sourceTree = "<group>"; };
-		4552D26525F5657CAA61FA3F2D03F13F /* Pods_ZPMLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPMLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		587BF3291F3D7F0C7F433037A1E44F36 /* CLImageToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLImageToast.swift; path = CLToast/CLToast/CLImageToast.swift; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5E699D3FDA407724ED3076278C80F9E5 /* CLToastUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLToastUtils.swift; path = CLToast/CLToast/CLToastUtils.swift; sourceTree = "<group>"; };
-		5F71861663BADA8FF5D4A5F74E7E9AE7 /* ScreenTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenTools.swift; path = CLToast/CLToast/ScreenTools.swift; sourceTree = "<group>"; };
-		632518503F3DD30C239801AC3B1FEEEF /* icon_sign@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_sign@2x.png"; path = "CLToast/CLToast/Images/icon_sign@2x.png"; sourceTree = "<group>"; };
-		648625A6A948A8397FDE347F715E64D5 /* Pods-ZPMLibraries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPMLibraries.modulemap"; sourceTree = "<group>"; };
-		67470133001DA2872D4D476567CDCA1B /* Pods-ZPMLibraries-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPMLibraries-acknowledgements.plist"; sourceTree = "<group>"; };
-		714ACF65E796012E4CA8B8C5CE17034D /* BundleUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleUtil.swift; path = CLToast/CLToast/BundleUtil.swift; sourceTree = "<group>"; };
-		7155BCB97B4C8F5847E027C5B6F85605 /* ResourceBundle-CLToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CLToast-Info.plist"; sourceTree = "<group>"; };
-		72E1E3F067B1207F0E42964BEA0A36A3 /* Pods-ZPMLibraries-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPMLibraries-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7367856237083E9758401D8545577608 /* Pods-ZPMLibraries-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMLibraries-frameworks.sh"; sourceTree = "<group>"; };
-		78A12997C6601EF47E797291C1664FB5 /* CLToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLToast.swift; path = CLToast/CLToast/CLToast.swift; sourceTree = "<group>"; };
-		90AA83E4CFE264824C21B82EA0CBE827 /* CLToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D76EEE10D9F6E0D5D38916CED5F635F /* ic_toast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_toast_success@3x.png"; path = "CLToast/CLToast/Images/ic_toast_success@3x.png"; sourceTree = "<group>"; };
-		9ECB1DE02B266C2A21B9EDD5370E2EA1 /* Pods-ZPMLibraries-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMLibraries-resources.sh"; sourceTree = "<group>"; };
-		B5D16D15168638BA876EDA79296FF44C /* CLToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLToast-dummy.m"; sourceTree = "<group>"; };
-		C3D70C9014A16C629828F041F03FADFE /* AppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppConfig.swift; path = CLToast/CLToast/AppConfig.swift; sourceTree = "<group>"; };
-		C79B3C5A77F01EA671DD5530AB4E2FCA /* ic_toast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_toast_success@2x.png"; path = "CLToast/CLToast/Images/ic_toast_success@2x.png"; sourceTree = "<group>"; };
-		CD55C2E612B45B44AED1A2A1146AA7A9 /* CLTextToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTextToast.swift; path = CLToast/CLToast/CLTextToast.swift; sourceTree = "<group>"; };
-		D1C9C3071A249E64CE8AD8910C615542 /* CLToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLToast.modulemap; sourceTree = "<group>"; };
-		E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E57F8DA09A718E61CA0A5E6C8FF098A3 /* icon_sign@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_sign@3x.png"; path = "CLToast/CLToast/Images/icon_sign@3x.png"; sourceTree = "<group>"; };
-		E8079C4F397E2D86DB83FC2D0D322D2A /* Pods-ZPMLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMLibraries.debug.xcconfig"; sourceTree = "<group>"; };
-		EEA033D6B882A07B4DFDF86BC6B8507A /* Pods-ZPMLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMLibraries.release.xcconfig"; sourceTree = "<group>"; };
-		F825D340608F03F2CFE3D0F253D6F145 /* Pods-ZPMLibraries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPMLibraries-dummy.m"; sourceTree = "<group>"; };
+		0359D42DC39051B3A77610D56221EC7A /* ZPMConsoleLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPMConsoleLog-dummy.m"; sourceTree = "<group>"; };
+		0388CF9167DA1A3CEF9FE441BFCD1758 /* JPSuspensionEntranceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSuspensionEntranceProtocol.h; path = JPSuspensionEntrance/Classes/JPSuspensionEntranceProtocol.h; sourceTree = "<group>"; };
+		15F5B92F52E57A1F1E1A79BE3ED15D7E /* Pods-ZPMLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMLibraries.debug.xcconfig"; sourceTree = "<group>"; };
+		1896A4E3A7F8BC93A0997B3F06205EBA /* previous@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "previous@2x.png"; path = "ZPMConsoleLog/Resources/previous@2x.png"; sourceTree = "<group>"; };
+		1E3106174D494B3ED1A30F44FC904FE6 /* UIViewController+JPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JPExtension.h"; path = "JPSuspensionEntrance/Classes/UIViewController+JPExtension.h"; sourceTree = "<group>"; };
+		2133C6760FA332BB37AE7660139BB362 /* UIWebView+SearchWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+SearchWebView.h"; path = "ZPMConsoleLog/Console/UIWebView+SearchWebView.h"; sourceTree = "<group>"; };
+		21AF736CC3DC1ABF7469A2ECEE8D5B3F /* next@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "next@3x.png"; path = "ZPMConsoleLog/Resources/next@3x.png"; sourceTree = "<group>"; };
+		248D2793F5363C94E67EDBBE5EBB20B2 /* UIViewController+JPExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JPExtension.m"; path = "JPSuspensionEntrance/Classes/UIViewController+JPExtension.m"; sourceTree = "<group>"; };
+		2D9FBB2D662F9A540D4EF22F7872618C /* JPSuspensionDecideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSuspensionDecideView.h; path = JPSuspensionEntrance/Classes/JPSuspensionDecideView.h; sourceTree = "<group>"; };
+		323BEDD46ED0C8BD627827C7E02D0448 /* libJPSuspensionEntrance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJPSuspensionEntrance.a; path = libJPSuspensionEntrance.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DDEFC05D759F82B0D1D8CEA5CF0D73 /* libPods-ZPMLibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPMLibraries.a"; path = "libPods-ZPMLibraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F96DAE4E109CE38E7AE732A51912D4 /* Pods-ZPMLibraries-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMLibraries-frameworks.sh"; sourceTree = "<group>"; };
+		3CE9B219E8E7DF8DE19A12F45A4005FA /* JPSuspensionEntrance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSuspensionEntrance-prefix.pch"; sourceTree = "<group>"; };
+		3D6F12D779DA9A6B97375973F4955217 /* Pods-ZPMLibraries-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPMLibraries-acknowledgements.markdown"; sourceTree = "<group>"; };
+		401F3961865DA27B8A4681952D459523 /* circle_big@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle_big@2x.png"; path = "JPSuspensionEntrance/Assets/circle_big@2x.png"; sourceTree = "<group>"; };
+		404462978A19B74EA90418D88C816995 /* GithubDebug.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = GithubDebug.png; path = ZPMConsoleLog/Resources/GithubDebug.png; sourceTree = "<group>"; };
+		561DCE726A50030603DAA6E7CC39CE8F /* circle_big@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle_big@3x.png"; path = "JPSuspensionEntrance/Assets/circle_big@3x.png"; sourceTree = "<group>"; };
+		5EC4A32FBC1109C6B5B7EA47DE204B6F /* JPSuspensionEntrance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSuspensionEntrance.m; path = JPSuspensionEntrance/Classes/JPSuspensionEntrance.m; sourceTree = "<group>"; };
+		676CF549725DE7BEAEF9F0C31D471333 /* circle_little@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle_little@3x.png"; path = "JPSuspensionEntrance/Assets/circle_little@3x.png"; sourceTree = "<group>"; };
+		71F46ED22192A8FFDE948F0BF792B88F /* ZPMConsoleViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPMConsoleViewController.h; path = ZPMConsoleLog/Console/ZPMConsoleViewController.h; sourceTree = "<group>"; };
+		785300B0AB3B09532EB1484D65C99338 /* UIWebView+SearchWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+SearchWebView.m"; path = "ZPMConsoleLog/Console/UIWebView+SearchWebView.m"; sourceTree = "<group>"; };
+		7932F40F328427F712B47C435FF50832 /* ZPMDebugOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPMDebugOverlay.h; path = ZPMConsoleLog/Console/ZPMDebugOverlay.h; sourceTree = "<group>"; };
+		7EC89BFC8B98A9DBF1A6F775CF34834C /* JPSuspensionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSuspensionView.m; path = JPSuspensionEntrance/Classes/JPSuspensionView.m; sourceTree = "<group>"; };
+		80315E6AE035736EDDAF1910DDD8CC47 /* JPSuspensionTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSuspensionTransition.m; path = JPSuspensionEntrance/Classes/JPSuspensionTransition.m; sourceTree = "<group>"; };
+		812F45C4B132FDF54FF489660C5FC52E /* JPSuspensionEntrance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSuspensionEntrance-dummy.m"; sourceTree = "<group>"; };
+		819196BAD655A0E67BD73289652A4A94 /* Pods-ZPMLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMLibraries.release.xcconfig"; sourceTree = "<group>"; };
+		825E7A03F2549F08E8B6E026252D6BF8 /* JPPopInteraction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPPopInteraction.m; path = JPSuspensionEntrance/Classes/JPPopInteraction.m; sourceTree = "<group>"; };
+		887EC76BE457114E4CA3F1A9337945BD /* ZPMLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPMLog.h; path = ZPMConsoleLog/Console/ZPMLog.h; sourceTree = "<group>"; };
+		8C05B601ADBBFFF3175473AB1DCA5938 /* JPSuspensionEntrance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSuspensionEntrance.xcconfig; sourceTree = "<group>"; };
+		91CF545AA61DD25DBA6077B587272B71 /* Pods-ZPMLibraries-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPMLibraries-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A49992A35AD725031FE13094C5752EA9 /* Pods-ZPMLibraries-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMLibraries-resources.sh"; sourceTree = "<group>"; };
+		A4A07DDA61DB4F99450F94A86D92A755 /* ZPMConsoleLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPMConsoleLog.xcconfig; sourceTree = "<group>"; };
+		A6F3D74842CA861909CC470321495119 /* circle_delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle_delete@2x.png"; path = "JPSuspensionEntrance/Assets/circle_delete@2x.png"; sourceTree = "<group>"; };
+		AA26B9B3AF13272A01C1ACBA7AAEFBF7 /* circle_little@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle_little@2x.png"; path = "JPSuspensionEntrance/Assets/circle_little@2x.png"; sourceTree = "<group>"; };
+		B382198BF3C49FF80895069A2458FD5B /* ZPMConsoleViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPMConsoleViewController.m; path = ZPMConsoleLog/Console/ZPMConsoleViewController.m; sourceTree = "<group>"; };
+		B83A75725F8FB92E927C0A37C3FBEE0A /* JPSuspensionEntrance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSuspensionEntrance.h; path = JPSuspensionEntrance/Classes/JPSuspensionEntrance.h; sourceTree = "<group>"; };
+		BBCE2361D8959200F1597D9BF2124CCE /* JPSuspensionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSuspensionView.h; path = JPSuspensionEntrance/Classes/JPSuspensionView.h; sourceTree = "<group>"; };
+		BD6952BB9DFA588875D2A4B5ABA6F3E7 /* previous@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "previous@3x.png"; path = "ZPMConsoleLog/Resources/previous@3x.png"; sourceTree = "<group>"; };
+		C01CEF7A6D2C4B28A57BBA790D5DC34A /* JPPopInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPPopInteraction.h; path = JPSuspensionEntrance/Classes/JPPopInteraction.h; sourceTree = "<group>"; };
+		C3E7F05DD783E4D0135D4794E100A9A4 /* JPSuspensionDecideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSuspensionDecideView.m; path = JPSuspensionEntrance/Classes/JPSuspensionDecideView.m; sourceTree = "<group>"; };
+		C434DE4E69328C298C0C5D67B5C98989 /* ResourceBundle-JPSuspensionEntrance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JPSuspensionEntrance-Info.plist"; sourceTree = "<group>"; };
+		C4D160E6F4E0801D96A7B5EA68B1E146 /* libZPMConsoleLog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZPMConsoleLog.a; path = libZPMConsoleLog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B7DCB70B468E3B60EE0B713734CD3F /* JPSuspensionTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSuspensionTransition.h; path = JPSuspensionEntrance/Classes/JPSuspensionTransition.h; sourceTree = "<group>"; };
+		D7267B697D372C1E043BC1F58413CD23 /* HighlightKeywords.js */ = {isa = PBXFileReference; includeInIndex = 1; name = HighlightKeywords.js; path = ZPMConsoleLog/Resources/HighlightKeywords.js; sourceTree = "<group>"; };
+		D97B3FE54BFEC072BB36C96C8DBE2168 /* next@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "next@2x.png"; path = "ZPMConsoleLog/Resources/next@2x.png"; sourceTree = "<group>"; };
+		E8BBF7C4EA13128286C66390ECE70FD4 /* ZPMConsoleLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPMConsoleLog-prefix.pch"; sourceTree = "<group>"; };
+		EAF96F593105D482A7D3AA9F93AEBB71 /* ZPMLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPMLog.m; path = ZPMConsoleLog/Console/ZPMLog.m; sourceTree = "<group>"; };
+		F9F0023B24060697CD7A6F527AC9271E /* JPSuspensionEntrance.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JPSuspensionEntrance.bundle; path = "JPSuspensionEntrance-JPSuspensionEntrance.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7107FA3C12675F7781A5889785AA07 /* Pods-ZPMLibraries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPMLibraries-dummy.m"; sourceTree = "<group>"; };
+		FF878300678EEA12F6EEECD15BBE51D0 /* circle_delete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle_delete@3x.png"; path = "JPSuspensionEntrance/Assets/circle_delete@3x.png"; sourceTree = "<group>"; };
+		FFCB78E171E9E4118BF5F64212C176BC /* ZPMDebugOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZPMDebugOverlay.m; path = ZPMConsoleLog/Console/ZPMDebugOverlay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4E5561F466F4C946D1FC334810B3A350 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61416EE6122DC3176FD4539AD7C27982 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6646EF6E4B0294D0A651652DFBD480E8 /* Frameworks */ = {
+		0151234D88E9E2177D47439DEC6A60DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA86F150FE82CE79B3094C193031845D /* Frameworks */ = {
+		93D5A1CB53C1B1C323F2E31C25A9BF31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D78FF741DE8E9EF0A6906581E06D8D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2ED78A8B07664C15D2D7AD121A0860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE85428AB2B4C1B2E3220F21A08C783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00014ECB78A1F09D2D3F35ABE9D12A3C /* Products */ = {
+		0CE6E4361A4412B1BE166B18DE2D4AA5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */,
-				90AA83E4CFE264824C21B82EA0CBE827 /* CLToast.framework */,
-				4552D26525F5657CAA61FA3F2D03F13F /* Pods_ZPMLibraries.framework */,
+				404462978A19B74EA90418D88C816995 /* GithubDebug.png */,
+				D7267B697D372C1E043BC1F58413CD23 /* HighlightKeywords.js */,
+				D97B3FE54BFEC072BB36C96C8DBE2168 /* next@2x.png */,
+				21AF736CC3DC1ABF7469A2ECEE8D5B3F /* next@3x.png */,
+				1896A4E3A7F8BC93A0997B3F06205EBA /* previous@2x.png */,
+				BD6952BB9DFA588875D2A4B5ABA6F3E7 /* previous@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		191DFED45A3D81943F5AA534B00B7F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F0023B24060697CD7A6F527AC9271E /* JPSuspensionEntrance.bundle */,
+				323BEDD46ED0C8BD627827C7E02D0448 /* libJPSuspensionEntrance.a */,
+				32DDEFC05D759F82B0D1D8CEA5CF0D73 /* libPods-ZPMLibraries.a */,
+				C4D160E6F4E0801D96A7B5EA68B1E146 /* libZPMConsoleLog.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B114DBC5D86E27242E5CAB3496C9BCB /* Support Files */ = {
+		29788C923A07EAB97B9B0E9EF8354DB8 /* JPSuspensionEntrance */ = {
 			isa = PBXGroup;
 			children = (
-				D1C9C3071A249E64CE8AD8910C615542 /* CLToast.modulemap */,
-				0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */,
-				B5D16D15168638BA876EDA79296FF44C /* CLToast-dummy.m */,
-				16A9275D59B76DE9D4A9C5B0762EFD74 /* CLToast-prefix.pch */,
-				276FE3BED75A714F9FEEEDD3FCD34AA7 /* CLToast-umbrella.h */,
-				086CFF23AE81ED9B62D757DD3704EA36 /* Info.plist */,
-				7155BCB97B4C8F5847E027C5B6F85605 /* ResourceBundle-CLToast-Info.plist */,
+				C01CEF7A6D2C4B28A57BBA790D5DC34A /* JPPopInteraction.h */,
+				825E7A03F2549F08E8B6E026252D6BF8 /* JPPopInteraction.m */,
+				2D9FBB2D662F9A540D4EF22F7872618C /* JPSuspensionDecideView.h */,
+				C3E7F05DD783E4D0135D4794E100A9A4 /* JPSuspensionDecideView.m */,
+				B83A75725F8FB92E927C0A37C3FBEE0A /* JPSuspensionEntrance.h */,
+				5EC4A32FBC1109C6B5B7EA47DE204B6F /* JPSuspensionEntrance.m */,
+				0388CF9167DA1A3CEF9FE441BFCD1758 /* JPSuspensionEntranceProtocol.h */,
+				D4B7DCB70B468E3B60EE0B713734CD3F /* JPSuspensionTransition.h */,
+				80315E6AE035736EDDAF1910DDD8CC47 /* JPSuspensionTransition.m */,
+				BBCE2361D8959200F1597D9BF2124CCE /* JPSuspensionView.h */,
+				7EC89BFC8B98A9DBF1A6F775CF34834C /* JPSuspensionView.m */,
+				1E3106174D494B3ED1A30F44FC904FE6 /* UIViewController+JPExtension.h */,
+				248D2793F5363C94E67EDBBE5EBB20B2 /* UIViewController+JPExtension.m */,
+				CD1BE6475D493846BB09B7C47BD55601 /* Resources */,
+				5431BBB5A24058AC39751E7B0EA45CD4 /* Support Files */,
+			);
+			name = JPSuspensionEntrance;
+			path = JPSuspensionEntrance;
+			sourceTree = "<group>";
+		};
+		5431BBB5A24058AC39751E7B0EA45CD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C05B601ADBBFFF3175473AB1DCA5938 /* JPSuspensionEntrance.xcconfig */,
+				812F45C4B132FDF54FF489660C5FC52E /* JPSuspensionEntrance-dummy.m */,
+				3CE9B219E8E7DF8DE19A12F45A4005FA /* JPSuspensionEntrance-prefix.pch */,
+				C434DE4E69328C298C0C5D67B5C98989 /* ResourceBundle-JPSuspensionEntrance-Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CLToast";
+			path = "../Target Support Files/JPSuspensionEntrance";
 			sourceTree = "<group>";
 		};
-		3DA34582DCB73D9D4C688719BF7A99F4 /* Targets Support Files */ = {
+		5C2D7617D6EBEDA0D06158AB9BBF798C /* ZPMConsoleLog */ = {
 			isa = PBXGroup;
 			children = (
-				6B385E878DE14B3EC6C9E7CD851B2282 /* Pods-ZPMLibraries */,
+				2133C6760FA332BB37AE7660139BB362 /* UIWebView+SearchWebView.h */,
+				785300B0AB3B09532EB1484D65C99338 /* UIWebView+SearchWebView.m */,
+				71F46ED22192A8FFDE948F0BF792B88F /* ZPMConsoleViewController.h */,
+				B382198BF3C49FF80895069A2458FD5B /* ZPMConsoleViewController.m */,
+				7932F40F328427F712B47C435FF50832 /* ZPMDebugOverlay.h */,
+				FFCB78E171E9E4118BF5F64212C176BC /* ZPMDebugOverlay.m */,
+				887EC76BE457114E4CA3F1A9337945BD /* ZPMLog.h */,
+				EAF96F593105D482A7D3AA9F93AEBB71 /* ZPMLog.m */,
+				0CE6E4361A4412B1BE166B18DE2D4AA5 /* Resources */,
+				74D9AD4716076C21E316D3B26212CD08 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = ZPMConsoleLog;
+			path = ZPMConsoleLog;
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		74D9AD4716076C21E316D3B26212CD08 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				A4A07DDA61DB4F99450F94A86D92A755 /* ZPMConsoleLog.xcconfig */,
+				0359D42DC39051B3A77610D56221EC7A /* ZPMConsoleLog-dummy.m */,
+				E8BBF7C4EA13128286C66390ECE70FD4 /* ZPMConsoleLog-prefix.pch */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6B385E878DE14B3EC6C9E7CD851B2282 /* Pods-ZPMLibraries */ = {
-			isa = PBXGroup;
-			children = (
-				1FF5795165DD86F2BE783D9120EB46FB /* Info.plist */,
-				648625A6A948A8397FDE347F715E64D5 /* Pods-ZPMLibraries.modulemap */,
-				72E1E3F067B1207F0E42964BEA0A36A3 /* Pods-ZPMLibraries-acknowledgements.markdown */,
-				67470133001DA2872D4D476567CDCA1B /* Pods-ZPMLibraries-acknowledgements.plist */,
-				F825D340608F03F2CFE3D0F253D6F145 /* Pods-ZPMLibraries-dummy.m */,
-				7367856237083E9758401D8545577608 /* Pods-ZPMLibraries-frameworks.sh */,
-				9ECB1DE02B266C2A21B9EDD5370E2EA1 /* Pods-ZPMLibraries-resources.sh */,
-				3686B396757564BA656BDB70398A6ACB /* Pods-ZPMLibraries-umbrella.h */,
-				E8079C4F397E2D86DB83FC2D0D322D2A /* Pods-ZPMLibraries.debug.xcconfig */,
-				EEA033D6B882A07B4DFDF86BC6B8507A /* Pods-ZPMLibraries.release.xcconfig */,
-			);
-			name = "Pods-ZPMLibraries";
-			path = "Target Support Files/Pods-ZPMLibraries";
+			name = "Support Files";
+			path = "../Target Support Files/ZPMConsoleLog";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D55A9612E60EDD066C8265B1012D734E /* Pods */,
-				00014ECB78A1F09D2D3F35ABE9D12A3C /* Products */,
-				3DA34582DCB73D9D4C688719BF7A99F4 /* Targets Support Files */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				C5AEB93C4EEA91C1FD19123AAAFFFB2E /* Pods */,
+				191DFED45A3D81943F5AA534B00B7F84 /* Products */,
+				D3697C83D4FB3070DE5567C2F08B0ABE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C5AEB93C4EEA91C1FD19123AAAFFFB2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCC7450EB628C2CD1E9B48FB4B5E589B /* CLToast */ = {
-			isa = PBXGroup;
-			children = (
-				C3D70C9014A16C629828F041F03FADFE /* AppConfig.swift */,
-				714ACF65E796012E4CA8B8C5CE17034D /* BundleUtil.swift */,
-				587BF3291F3D7F0C7F433037A1E44F36 /* CLImageToast.swift */,
-				CD55C2E612B45B44AED1A2A1146AA7A9 /* CLTextToast.swift */,
-				78A12997C6601EF47E797291C1664FB5 /* CLToast.swift */,
-				1BB66DA2B0A0D74B4B56857A6985EBC6 /* CLToastManager.swift */,
-				5E699D3FDA407724ED3076278C80F9E5 /* CLToastUtils.swift */,
-				5F71861663BADA8FF5D4A5F74E7E9AE7 /* ScreenTools.swift */,
-				FA4645383C147F9DF665F1F1893DF36D /* Resources */,
-				3B114DBC5D86E27242E5CAB3496C9BCB /* Support Files */,
-			);
-			path = CLToast;
-			sourceTree = "<group>";
-		};
-		D55A9612E60EDD066C8265B1012D734E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CCC7450EB628C2CD1E9B48FB4B5E589B /* CLToast */,
+				29788C923A07EAB97B9B0E9EF8354DB8 /* JPSuspensionEntrance */,
+				5C2D7617D6EBEDA0D06158AB9BBF798C /* ZPMConsoleLog */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FA4645383C147F9DF665F1F1893DF36D /* Resources */ = {
+		CD1BE6475D493846BB09B7C47BD55601 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C79B3C5A77F01EA671DD5530AB4E2FCA /* ic_toast_success@2x.png */,
-				9D76EEE10D9F6E0D5D38916CED5F635F /* ic_toast_success@3x.png */,
-				632518503F3DD30C239801AC3B1FEEEF /* icon_sign@2x.png */,
-				E57F8DA09A718E61CA0A5E6C8FF098A3 /* icon_sign@3x.png */,
+				401F3961865DA27B8A4681952D459523 /* circle_big@2x.png */,
+				561DCE726A50030603DAA6E7CC39CE8F /* circle_big@3x.png */,
+				A6F3D74842CA861909CC470321495119 /* circle_delete@2x.png */,
+				FF878300678EEA12F6EEECD15BBE51D0 /* circle_delete@3x.png */,
+				AA26B9B3AF13272A01C1ACBA7AAEFBF7 /* circle_little@2x.png */,
+				676CF549725DE7BEAEF9F0C31D471333 /* circle_little@3x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3697C83D4FB3070DE5567C2F08B0ABE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E463913A62A06091CEB0E9E60CFE5C67 /* Pods-ZPMLibraries */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E463913A62A06091CEB0E9E60CFE5C67 /* Pods-ZPMLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F12D779DA9A6B97375973F4955217 /* Pods-ZPMLibraries-acknowledgements.markdown */,
+				91CF545AA61DD25DBA6077B587272B71 /* Pods-ZPMLibraries-acknowledgements.plist */,
+				FB7107FA3C12675F7781A5889785AA07 /* Pods-ZPMLibraries-dummy.m */,
+				38F96DAE4E109CE38E7AE732A51912D4 /* Pods-ZPMLibraries-frameworks.sh */,
+				A49992A35AD725031FE13094C5752EA9 /* Pods-ZPMLibraries-resources.sh */,
+				15F5B92F52E57A1F1E1A79BE3ED15D7E /* Pods-ZPMLibraries.debug.xcconfig */,
+				819196BAD655A0E67BD73289652A4A94 /* Pods-ZPMLibraries.release.xcconfig */,
+			);
+			name = "Pods-ZPMLibraries";
+			path = "Target Support Files/Pods-ZPMLibraries";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11B6EB58281C01AB4ECC42BA541F09EF /* Headers */ = {
+		3D5D36E3BF1B953272C3271286FD0B62 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61957EFBF511CC3E2F5C861738C799B /* CLToast-umbrella.h in Headers */,
+				5A1792A0128EE27B59F8137945C63BB6 /* JPPopInteraction.h in Headers */,
+				EBD560A4728F796DEA33965F1BC1913B /* JPSuspensionDecideView.h in Headers */,
+				F8F11CBB4E919DED7B99CB39D8685249 /* JPSuspensionEntrance.h in Headers */,
+				17FBD4032D26CC06EED10B7D6A4A86C0 /* JPSuspensionEntranceProtocol.h in Headers */,
+				5745B9E1C1BE6C0A9282423C6E8EA2EA /* JPSuspensionTransition.h in Headers */,
+				D79A5E246FC3E12571D61075B81D9C89 /* JPSuspensionView.h in Headers */,
+				0BE8342C8FE6F2B53EEDA11AFA49B98D /* UIViewController+JPExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92D8F15E831E93D4E4A89EFA2E608825 /* Headers */ = {
+		88DB9D3294B229A7C9F43765120256F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767098E8F15A36CC3AF1C4DD4653886E /* Pods-ZPMLibraries-umbrella.h in Headers */,
+				DD8DA715074745F3F32761D198963381 /* UIWebView+SearchWebView.h in Headers */,
+				301A6870CB210143DAB400C513433990 /* ZPMConsoleViewController.h in Headers */,
+				B1476C1B1B228F0F86C882E58844EF03 /* ZPMDebugOverlay.h in Headers */,
+				7F7707570C63706DA7DA562CD41B4A79 /* ZPMLog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9EF309A46EF7B28496EE1BE34A847EF2 /* Pods-ZPMLibraries */ = {
+		0D86023D66699E236F69FB35F9FC700C /* JPSuspensionEntrance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF284364F8BA23F1B41EF0A01F7A6119 /* Build configuration list for PBXNativeTarget "Pods-ZPMLibraries" */;
+			buildConfigurationList = 20E1F2E15B4A8F6C683D375EA5247077 /* Build configuration list for PBXNativeTarget "JPSuspensionEntrance" */;
 			buildPhases = (
-				ED0391B89FD37930D28AD230961C5475 /* Sources */,
-				DA86F150FE82CE79B3094C193031845D /* Frameworks */,
-				92D8F15E831E93D4E4A89EFA2E608825 /* Headers */,
+				5EEAFA4ADBA63891CC5D5B182AA5463D /* Sources */,
+				AE2ED78A8B07664C15D2D7AD121A0860 /* Frameworks */,
+				3D5D36E3BF1B953272C3271286FD0B62 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				719BED4643C9A5E7ABADABEC40184380 /* PBXTargetDependency */,
+				745150326042900B73217EB028ABFC44 /* PBXTargetDependency */,
+			);
+			name = JPSuspensionEntrance;
+			productName = JPSuspensionEntrance;
+			productReference = 323BEDD46ED0C8BD627827C7E02D0448 /* libJPSuspensionEntrance.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		222B91D297AABE34004A6A46EB42ADA8 /* Pods-ZPMLibraries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F9B8484F1732502F8576E62EC600C4 /* Build configuration list for PBXNativeTarget "Pods-ZPMLibraries" */;
+			buildPhases = (
+				B6540FF2FA0E5BDE8E8390BF183FE409 /* Sources */,
+				0151234D88E9E2177D47439DEC6A60DC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D8AC14A774CC62B5D6736226076A31 /* PBXTargetDependency */,
+				B23F43FBB9575F337469F85526781E20 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPMLibraries";
 			productName = "Pods-ZPMLibraries";
-			productReference = 4552D26525F5657CAA61FA3F2D03F13F /* Pods_ZPMLibraries.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 32DDEFC05D759F82B0D1D8CEA5CF0D73 /* libPods-ZPMLibraries.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		A0E075E43134485D5A51397CF9D78D64 /* CLToast */ = {
+		3649BCB5D4260D4B9B4AEF8F85B625B3 /* ZPMConsoleLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8DA87CB7696A945F0231BC4BB3389FD /* Build configuration list for PBXNativeTarget "CLToast" */;
+			buildConfigurationList = 19833F1FADBE2E699C782C2DC0DC327A /* Build configuration list for PBXNativeTarget "ZPMConsoleLog" */;
 			buildPhases = (
-				318D12D8FD08A7E979838C4C2B6FE627 /* Sources */,
-				4E5561F466F4C946D1FC334810B3A350 /* Frameworks */,
-				E2D48059D152EF9006DB9A4533AF8310 /* Resources */,
-				11B6EB58281C01AB4ECC42BA541F09EF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02A168495BC38F061DB0839285376382 /* PBXTargetDependency */,
-			);
-			name = CLToast;
-			productName = CLToast;
-			productReference = 90AA83E4CFE264824C21B82EA0CBE827 /* CLToast.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E703F567B175D80201E3BFBABAB5F582 /* CLToast-CLToast */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 70BAC37B50412B0F243ECAB83BD5F6B4 /* Build configuration list for PBXNativeTarget "CLToast-CLToast" */;
-			buildPhases = (
-				73AEEC7C001BFD0CFFA23F1D40873CC1 /* Sources */,
-				6646EF6E4B0294D0A651652DFBD480E8 /* Frameworks */,
-				3DBF5866DE99E9DB992F56098C1355BB /* Resources */,
+				DE8F707D8D50D88058BED360633A7610 /* Sources */,
+				EDE85428AB2B4C1B2E3220F21A08C783 /* Frameworks */,
+				88DB9D3294B229A7C9F43765120256F1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CLToast-CLToast";
-			productName = "CLToast-CLToast";
-			productReference = E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */;
+			name = ZPMConsoleLog;
+			productName = ZPMConsoleLog;
+			productReference = C4D160E6F4E0801D96A7B5EA68B1E146 /* libZPMConsoleLog.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C5B6FD55A03E7ECB239C74FA329812A /* JPSuspensionEntrance-JPSuspensionEntrance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E409E03EC6186BAE7D1596EEBDDFC81 /* Build configuration list for PBXNativeTarget "JPSuspensionEntrance-JPSuspensionEntrance" */;
+			buildPhases = (
+				77555197C76E6B03C4B0C5910F009418 /* Sources */,
+				93D5A1CB53C1B1C323F2E31C25A9BF31 /* Frameworks */,
+				B7D4CCA4DBCE28C779568D584E875AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JPSuspensionEntrance-JPSuspensionEntrance";
+			productName = "JPSuspensionEntrance-JPSuspensionEntrance";
+			productReference = F9F0023B24060697CD7A6F527AC9271E /* JPSuspensionEntrance.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -316,89 +419,146 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 00014ECB78A1F09D2D3F35ABE9D12A3C /* Products */;
+			productRefGroup = 191DFED45A3D81943F5AA534B00B7F84 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0E075E43134485D5A51397CF9D78D64 /* CLToast */,
-				E703F567B175D80201E3BFBABAB5F582 /* CLToast-CLToast */,
-				9EF309A46EF7B28496EE1BE34A847EF2 /* Pods-ZPMLibraries */,
+				0D86023D66699E236F69FB35F9FC700C /* JPSuspensionEntrance */,
+				8C5B6FD55A03E7ECB239C74FA329812A /* JPSuspensionEntrance-JPSuspensionEntrance */,
+				222B91D297AABE34004A6A46EB42ADA8 /* Pods-ZPMLibraries */,
+				3649BCB5D4260D4B9B4AEF8F85B625B3 /* ZPMConsoleLog */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3DBF5866DE99E9DB992F56098C1355BB /* Resources */ = {
+		B7D4CCA4DBCE28C779568D584E875AA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E28958AE99136669DE3FA745A951064D /* ic_toast_success@2x.png in Resources */,
-				0B3AD329399B800BEDAA2806FB81C5E6 /* ic_toast_success@3x.png in Resources */,
-				6856F9FDD04FCDE133E692C9B1CEFB1D /* icon_sign@2x.png in Resources */,
-				0B285968E1E6A68CBF0DF231686EF62D /* icon_sign@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2D48059D152EF9006DB9A4533AF8310 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8AC6A8645E2D6E7F4A75FA9416263C1E /* CLToast.bundle in Resources */,
+				79CE27F0889CE2C0B536EA753FCCDBEE /* circle_big@2x.png in Resources */,
+				4063B48A64D8E675BD5F0CF37A0ECCED /* circle_big@3x.png in Resources */,
+				4D6C332647B37C6F90CB2FFAAE2A2DE8 /* circle_delete@2x.png in Resources */,
+				2AB1869D72C7FECFE95BA27E461169DD /* circle_delete@3x.png in Resources */,
+				E15A89D76C60AA728AABC5D261EBD069 /* circle_little@2x.png in Resources */,
+				510D0403ECB1195DE37C38D03C3881BB /* circle_little@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		318D12D8FD08A7E979838C4C2B6FE627 /* Sources */ = {
+		5EEAFA4ADBA63891CC5D5B182AA5463D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A0D5948E5EB8FCADAB4771752D2268 /* AppConfig.swift in Sources */,
-				F772216F3813C0F3A1FFDE1F15A410F5 /* BundleUtil.swift in Sources */,
-				7AA0AE0B9DB7CD0B9E2258A5F6F23889 /* CLImageToast.swift in Sources */,
-				B39AEB075E9AE9777AA3E671E1448230 /* CLTextToast.swift in Sources */,
-				786DD500425F2D9CE7722E62186CDA02 /* CLToast-dummy.m in Sources */,
-				E80B05152C1B13F196E516C42084098E /* CLToast.swift in Sources */,
-				37339C5E8EB940E763A13C9CF7F1C2C1 /* CLToastManager.swift in Sources */,
-				173454351B23C3CAC305C2A564DAA436 /* CLToastUtils.swift in Sources */,
-				5217B6626D4D42843BF1445B2B53033A /* ScreenTools.swift in Sources */,
+				7323B498DFF57A3D4B66CA4DEE99FC70 /* JPPopInteraction.m in Sources */,
+				34258B18C9A7F030EE4B7BBA522E63B9 /* JPSuspensionDecideView.m in Sources */,
+				3463C4BA1BA01D26CD7BD9EC905161F1 /* JPSuspensionEntrance-dummy.m in Sources */,
+				1D0DB5FF72032AC49C8B49B38B7F4CBA /* JPSuspensionEntrance.m in Sources */,
+				100ABED17C95530B8F52AFDC27161C11 /* JPSuspensionTransition.m in Sources */,
+				D27E85A4AADE408AF87FB5E90A21F529 /* JPSuspensionView.m in Sources */,
+				6A8C9C68740A0611D617EF4FCE9DC367 /* UIViewController+JPExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73AEEC7C001BFD0CFFA23F1D40873CC1 /* Sources */ = {
+		77555197C76E6B03C4B0C5910F009418 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED0391B89FD37930D28AD230961C5475 /* Sources */ = {
+		B6540FF2FA0E5BDE8E8390BF183FE409 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B7A8E966A3300F6E1499083E9DB38E /* Pods-ZPMLibraries-dummy.m in Sources */,
+				4973220DC600EE192F41B24B99CA6829 /* Pods-ZPMLibraries-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8F707D8D50D88058BED360633A7610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC537E965617CFF1AB4289335AE0095A /* UIWebView+SearchWebView.m in Sources */,
+				3DE0B4E0B545389D040B4B1861D609BE /* ZPMConsoleLog-dummy.m in Sources */,
+				6C0ACFD34491AD705F1A3350DA52D2EB /* ZPMConsoleViewController.m in Sources */,
+				2A6D5E3D31458B33DBF3B3CB73BA8CD2 /* ZPMDebugOverlay.m in Sources */,
+				5857E771B7A07C0B13BD0B663C0D4D97 /* ZPMLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02A168495BC38F061DB0839285376382 /* PBXTargetDependency */ = {
+		13D8AC14A774CC62B5D6736226076A31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "CLToast-CLToast";
-			target = E703F567B175D80201E3BFBABAB5F582 /* CLToast-CLToast */;
-			targetProxy = 25581213140597E5D38A6FD1E5C77681 /* PBXContainerItemProxy */;
+			name = JPSuspensionEntrance;
+			target = 0D86023D66699E236F69FB35F9FC700C /* JPSuspensionEntrance */;
+			targetProxy = D5A2FEBD36EAE400F7680EE435088397 /* PBXContainerItemProxy */;
 		};
-		719BED4643C9A5E7ABADABEC40184380 /* PBXTargetDependency */ = {
+		745150326042900B73217EB028ABFC44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CLToast;
-			target = A0E075E43134485D5A51397CF9D78D64 /* CLToast */;
-			targetProxy = 146EE0D360D7317959594318F604AC63 /* PBXContainerItemProxy */;
+			name = "JPSuspensionEntrance-JPSuspensionEntrance";
+			target = 8C5B6FD55A03E7ECB239C74FA329812A /* JPSuspensionEntrance-JPSuspensionEntrance */;
+			targetProxy = DA8EB1E6AC24F022CFF26B461BAC6F13 /* PBXContainerItemProxy */;
+		};
+		B23F43FBB9575F337469F85526781E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZPMConsoleLog;
+			target = 3649BCB5D4260D4B9B4AEF8F85B625B3 /* ZPMConsoleLog */;
+			targetProxy = 63C0E4FB8D94B2776F7A02C54B7DEC3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		07D1C2B091309513C755ABBF5966120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819196BAD655A0E67BD73289652A4A94 /* Pods-ZPMLibraries.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09510C4A03064501FD3DEB61AB141FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A07DDA61DB4F99450F94A86D92A755 /* ZPMConsoleLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPMConsoleLog/ZPMConsoleLog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZPMConsoleLog;
+				PRODUCT_NAME = ZPMConsoleLog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -462,172 +622,128 @@
 			};
 			name = Debug;
 		};
-		27A0B09C0614816CB6ECA56120D0C7A0 /* Release */ = {
+		76AA9708089AA86A98F6A3120F83C729 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEA033D6B882A07B4DFDF86BC6B8507A /* Pods-ZPMLibraries.release.xcconfig */;
+			baseConfigurationReference = 8C05B601ADBBFFF3175473AB1DCA5938 /* JPSuspensionEntrance.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPMLibraries/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSuspensionEntrance/JPSuspensionEntrance-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		36ABB5C2689CD749A78E5DB002F5FF74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLToast/CLToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CLToast/CLToast.modulemap";
-				PRODUCT_MODULE_NAME = CLToast;
-				PRODUCT_NAME = CLToast;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPSuspensionEntrance;
+				PRODUCT_NAME = JPSuspensionEntrance;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3981C79578CD629F23793069151FCDDA /* Debug */ = {
+		77E74976CEA701999496ED106EF03BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLToast/CLToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CLToast/CLToast.modulemap";
-				PRODUCT_MODULE_NAME = CLToast;
-				PRODUCT_NAME = CLToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		86221C1B8F760BAA373C113A6BAF5C63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
+			baseConfigurationReference = 8C05B601ADBBFFF3175473AB1DCA5938 /* JPSuspensionEntrance.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLToast";
-				INFOPLIST_FILE = "Target Support Files/CLToast/ResourceBundle-CLToast-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JPSuspensionEntrance";
+				INFOPLIST_FILE = "Target Support Files/JPSuspensionEntrance/ResourceBundle-JPSuspensionEntrance-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = CLToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A227E9CB49BF28D63EB7E72B7FB4C886 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8079C4F397E2D86DB83FC2D0D322D2A /* Pods-ZPMLibraries.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZPMLibraries/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C49264365A077D036442C0012E3C96FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLToast";
-				INFOPLIST_FILE = "Target Support Files/CLToast/ResourceBundle-CLToast-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = CLToast;
+				PRODUCT_NAME = JPSuspensionEntrance;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		C0391C51A6BADC6D7EC422A44C7632A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F5B92F52E57A1F1E1A79BE3ED15D7E /* Pods-ZPMLibraries.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E018D4E819826FECB62BD2DC66FCFE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A07DDA61DB4F99450F94A86D92A755 /* ZPMConsoleLog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPMConsoleLog/ZPMConsoleLog-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZPMConsoleLog;
+				PRODUCT_NAME = ZPMConsoleLog;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB5880880E69DC24C94C3E78959B5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C05B601ADBBFFF3175473AB1DCA5938 /* JPSuspensionEntrance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSuspensionEntrance/JPSuspensionEntrance-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPSuspensionEntrance;
+				PRODUCT_NAME = JPSuspensionEntrance;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEA7518F3D4B00679E09185E3B8C2B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C05B601ADBBFFF3175473AB1DCA5938 /* JPSuspensionEntrance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JPSuspensionEntrance";
+				INFOPLIST_FILE = "Target Support Files/JPSuspensionEntrance/ResourceBundle-JPSuspensionEntrance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JPSuspensionEntrance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -690,6 +806,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19833F1FADBE2E699C782C2DC0DC327A /* Build configuration list for PBXNativeTarget "ZPMConsoleLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E018D4E819826FECB62BD2DC66FCFE24 /* Debug */,
+				09510C4A03064501FD3DEB61AB141FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E1F2E15B4A8F6C683D375EA5247077 /* Build configuration list for PBXNativeTarget "JPSuspensionEntrance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5880880E69DC24C94C3E78959B5FE7 /* Debug */,
+				76AA9708089AA86A98F6A3120F83C729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -699,29 +833,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70BAC37B50412B0F243ECAB83BD5F6B4 /* Build configuration list for PBXNativeTarget "CLToast-CLToast" */ = {
+		3E409E03EC6186BAE7D1596EEBDDFC81 /* Build configuration list for PBXNativeTarget "JPSuspensionEntrance-JPSuspensionEntrance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86221C1B8F760BAA373C113A6BAF5C63 /* Debug */,
-				C49264365A077D036442C0012E3C96FE /* Release */,
+				EEA7518F3D4B00679E09185E3B8C2B82 /* Debug */,
+				77E74976CEA701999496ED106EF03BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF284364F8BA23F1B41EF0A01F7A6119 /* Build configuration list for PBXNativeTarget "Pods-ZPMLibraries" */ = {
+		F6F9B8484F1732502F8576E62EC600C4 /* Build configuration list for PBXNativeTarget "Pods-ZPMLibraries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A227E9CB49BF28D63EB7E72B7FB4C886 /* Debug */,
-				27A0B09C0614816CB6ECA56120D0C7A0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F8DA87CB7696A945F0231BC4BB3389FD /* Build configuration list for PBXNativeTarget "CLToast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3981C79578CD629F23793069151FCDDA /* Debug */,
-				36ABB5C2689CD749A78E5DB002F5FF74 /* Release */,
+				C0391C51A6BADC6D7EC422A44C7632A9 /* Debug */,
+				07D1C2B091309513C755ABBF5966120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

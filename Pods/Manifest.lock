@@ -1,16 +1,20 @@
 PODS:
-  - CLToast (1.0.3)
+  - JPSuspensionEntrance (0.2.2)
+  - ZPMConsoleLog (0.0.6)
 
 DEPENDENCIES:
-  - CLToast
+  - JPSuspensionEntrance
+  - ZPMConsoleLog
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - CLToast
+    - JPSuspensionEntrance
+    - ZPMConsoleLog
 
 SPEC CHECKSUMS:
-  CLToast: 2e88c737d01eb44316e21ccc9ac485df8f5b35bf
+  JPSuspensionEntrance: 9d3c6946d88edf39479c0cbb7466102f9862aa97
+  ZPMConsoleLog: bf20a7551a452dbd57c346b7c6da895562084465
 
-PODFILE CHECKSUM: c4ee83214d229f1d7f15fd2cde7709bbdfeb523f
+PODFILE CHECKSUM: af3a55ccf1509f9d5b7549f29cfe453f710910da
 
 COCOAPODS: 1.5.3

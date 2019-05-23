@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C3B73C6FD7F6B4239698CD /* libPods-ZPMLibraries.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012B81BC6858D25DE191516 /* libPods-ZPMLibraries.a */; };
 		250F9BBA229532C600A3800E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9BB9229532C600A3800E /* AppDelegate.m */; };
 		250F9BBD229532C600A3800E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9BBC229532C600A3800E /* ViewController.m */; };
 		250F9BC0229532C600A3800E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F9BBE229532C600A3800E /* Main.storyboard */; };
@@ -98,11 +99,11 @@
 		25D32C6222968CA700B3D882 /* XYDebugViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5522968CA500B3D882 /* XYDebugViewManager.m */; };
 		25D32C6322968CA700B3D882 /* XYDebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5622968CA600B3D882 /* XYDebugWindow.m */; };
 		25D32C6422968CA700B3D882 /* XYOverlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5B22968CA600B3D882 /* XYOverlayerView.m */; };
-		525D3AE2DB0D05A6834A2382 /* Pods_ZPMLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157A2143228D07AD148222EF /* Pods_ZPMLibraries.framework */; };
+		25D32C7E2296BAFC00B3D882 /* ZPMFloatBallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C7D2296BAFC00B3D882 /* ZPMFloatBallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		157A2143228D07AD148222EF /* Pods_ZPMLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPMLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1012B81BC6858D25DE191516 /* libPods-ZPMLibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPMLibraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		250F9BB5229532C600A3800E /* ZPMLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPMLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		250F9BB8229532C600A3800E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		250F9BB9229532C600A3800E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -281,6 +282,8 @@
 		25D32C5A22968CA600B3D882 /* XYOverlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYOverlayerView.h; sourceTree = "<group>"; };
 		25D32C5B22968CA600B3D882 /* XYOverlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYOverlayerView.m; sourceTree = "<group>"; };
 		25D32C5C22968CA700B3D882 /* XYDebugCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDebugCategory.h; sourceTree = "<group>"; };
+		25D32C7C2296BAFC00B3D882 /* ZPMFloatBallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMFloatBallViewController.h; sourceTree = "<group>"; };
+		25D32C7D2296BAFC00B3D882 /* ZPMFloatBallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMFloatBallViewController.m; sourceTree = "<group>"; };
 		590AE23E4B288E6A290063DD /* Pods-ZPMLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPMLibraries.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4162412166E9731C5BCD16 /* Pods-ZPMLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPMLibraries.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -290,7 +293,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525D3AE2DB0D05A6834A2382 /* Pods_ZPMLibraries.framework in Frameworks */,
+				24C3B73C6FD7F6B4239698CD /* libPods-ZPMLibraries.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +509,8 @@
 				25D32BFB22964A9000B3D882 /* ZPMTransitionViewController.m */,
 				25D32BFD22964F6300B3D882 /* ZPMDetailViewController.h */,
 				25D32BFE22964F6300B3D882 /* ZPMDetailViewController.m */,
+				25D32C7C2296BAFC00B3D882 /* ZPMFloatBallViewController.h */,
+				25D32C7D2296BAFC00B3D882 /* ZPMFloatBallViewController.m */,
 			);
 			path = "页面库";
 			sourceTree = "<group>";
@@ -623,7 +628,7 @@
 		B2D9160610EB4667C5B007BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				157A2143228D07AD148222EF /* Pods_ZPMLibraries.framework */,
+				1012B81BC6858D25DE191516 /* libPods-ZPMLibraries.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -639,7 +644,7 @@
 				250F9BB1229532C600A3800E /* Sources */,
 				250F9BB2229532C600A3800E /* Frameworks */,
 				250F9BB3229532C600A3800E /* Resources */,
-				C8E54C04CCDEC849E34FF912 /* [CP] Embed Pods Frameworks */,
+				290C214F3B7EE9B324BD3385 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -701,22 +706,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C8E54C04CCDEC849E34FF912 /* [CP] Embed Pods Frameworks */ = {
+		290C214F3B7EE9B324BD3385 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CLToast/CLToast.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle",
+				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png",
+				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js",
+				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@2x.png",
+				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@3x.png",
+				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/previous@2x.png",
+				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/previous@3x.png",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLToast.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JPSuspensionEntrance.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GithubDebug.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightKeywords.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/next@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/next@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/previous@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/previous@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED4C9C9F7152794B558713DB /* [CP] Check Pods Manifest.lock */ = {
@@ -754,6 +771,7 @@
 				25D32BFC22964A9000B3D882 /* ZPMTransitionViewController.m in Sources */,
 				25D32BEF22964A4200B3D882 /* AnimationScaleBegin.m in Sources */,
 				250F9C522295430C00A3800E /* SPActivityIndicatorLoadingFailAnimation.m in Sources */,
+				25D32C7E2296BAFC00B3D882 /* ZPMFloatBallViewController.m in Sources */,
 				250F9C532295430C00A3800E /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */,
 				25D32BED22964A4200B3D882 /* AnimationFadeEnd.m in Sources */,
 				250F9C492295430C00A3800E /* SPActivityIndicator3DotsExchangePositionAnimation.m in Sources */,

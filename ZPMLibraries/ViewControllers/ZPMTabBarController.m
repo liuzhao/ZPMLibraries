@@ -12,6 +12,7 @@
 #import "ZPMAnimationLibViewController.h"
 #import "ZPMUnitLibViewController.h"
 #import "ZPMDebugViewController.h"
+#import "HKFloatManager.h"
 
 @interface ZPMTabBarController ()
 
@@ -51,11 +52,11 @@
                                                       tag:1];
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:vc3];
     nav3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"动画库"
-                                                    image:[UIImage imageNamed:@"icn_color_icn_uikit"]
+                                                    image:[UIImage imageNamed:@"icn_color_animation"]
                                                       tag:2];
     UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:vc4];
     nav4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"工具库"
-                                                    image:[UIImage imageNamed:@"icn_color_icn_uikit"]
+                                                    image:[UIImage imageNamed:@"icn_color_utils"]
                                                       tag:3];
     UINavigationController *nav5 = [[UINavigationController alloc] initWithRootViewController:vc5];
     nav5.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"调试库"
@@ -64,6 +65,8 @@
     
     NSArray *items = [NSArray arrayWithObjects:nav1, nav2, nav3, nav4, nav5, nil];
     [self setViewControllers:items];
+    
+    [HKFloatManager addFloatVcs:@[@"ZPMDetailViewController"]];
 }
 
 /*

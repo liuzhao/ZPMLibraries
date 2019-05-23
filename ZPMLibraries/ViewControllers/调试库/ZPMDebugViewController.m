@@ -8,6 +8,7 @@
 
 #import "ZPMDebugViewController.h"
 #import "XYDebugViewManager.h"
+#import "ZPMLog.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -17,6 +18,8 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 //@property (strong, nonatomic) UISwitch *debugCustom3D;
 @property (strong, nonatomic) UISwitch *debugWindow2D;
 @property (strong, nonatomic) UISwitch *debugWindow3D;
+
+@property (strong, nonatomic) UISwitch *consoleLogSwitch;
 
 @property (strong, nonatomic) NSArray<UISwitch *> *allSwitch;
 
@@ -43,7 +46,8 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 {
     self.listArray = @[@[@"DebugWindow_2D",
                          @"DebugWindow_3D",
-                         ]];
+                         ],
+                       @[@"控制台日志"]];
 }
 
 - (void)setupUI
@@ -55,6 +59,9 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     [self.debugWindow3D addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
     
     self.allSwitch = [[NSArray alloc] initWithObjects:self.debugWindow2D, self.debugWindow3D, nil];
+    
+    self.consoleLogSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(self.view.bounds.size.width - 80, 7, 70, 29)];
+    [self.consoleLogSwitch addTarget:self action:@selector(switchConsoleLog:) forControlEvents:UIControlEventValueChanged];
 }
 
 - (void)setupTableView
@@ -102,6 +109,9 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
             [cell.contentView addSubview:self.debugWindow3D];
         }
     }
+    else if (indexPath.section == 1) {
+        [cell.contentView addSubview:self.consoleLogSwitch];
+    }
     
     return cell;
 }
@@ -123,6 +133,23 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
             [XYDebugViewManager showDebugWithStyle:XYDebugStyle3D];
         }
     }
+}
+
+- (void)switchConsoleLog:(UISwitch *)sender
+{
+    if (sender.on) {
+        [[ZPMLog shareInstance] showConsoleWindow];
+        // 打开记录到日志文件，打开后，xcode控制台将不会显示出信息
+        [[ZPMLog shareInstance] openNSLogToDocumentFolder];
+        NSLog(@"ConsoleWindowOpen");
+    }
+    else {
+        [[ZPMLog shareInstance] didmissConsoleWindow];
+        // 关闭记录到日志文件，关闭后，xcode控制台将会显示出信息
+        [[ZPMLog shareInstance] closeNSLogToDocumentFolder];
+        NSLog(@"ConsoleWindowClose");
+    }
+    
 }
 
 /*

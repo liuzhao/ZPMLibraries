@@ -1,0 +1,1 @@
+../../../ZPMConsoleLog/ZPMConsoleLog/Console/ZPMLog.h

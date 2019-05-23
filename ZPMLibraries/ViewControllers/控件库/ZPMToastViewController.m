@@ -7,7 +7,6 @@
 //
 
 #import "ZPMToastViewController.h"
-#import "CLToast-Swift.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -51,7 +50,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 - (void)setupTableView
 {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
     tableView.dataSource = self;
     tableView.delegate = self;
