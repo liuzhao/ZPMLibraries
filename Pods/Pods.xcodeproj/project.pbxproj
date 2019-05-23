@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B285968E1E6A68CBF0DF231686EF62D /* icon_sign@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E57F8DA09A718E61CA0A5E6C8FF098A3 /* icon_sign@3x.png */; };
+		0B3AD329399B800BEDAA2806FB81C5E6 /* ic_toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D76EEE10D9F6E0D5D38916CED5F635F /* ic_toast_success@3x.png */; };
+		173454351B23C3CAC305C2A564DAA436 /* CLToastUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E699D3FDA407724ED3076278C80F9E5 /* CLToastUtils.swift */; };
+		1D78FF741DE8E9EF0A6906581E06D8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		37339C5E8EB940E763A13C9CF7F1C2C1 /* CLToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB66DA2B0A0D74B4B56857A6985EBC6 /* CLToastManager.swift */; };
+		5217B6626D4D42843BF1445B2B53033A /* ScreenTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F71861663BADA8FF5D4A5F74E7E9AE7 /* ScreenTools.swift */; };
+		61416EE6122DC3176FD4539AD7C27982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6856F9FDD04FCDE133E692C9B1CEFB1D /* icon_sign@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 632518503F3DD30C239801AC3B1FEEEF /* icon_sign@2x.png */; };
+		767098E8F15A36CC3AF1C4DD4653886E /* Pods-ZPMLibraries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3686B396757564BA656BDB70398A6ACB /* Pods-ZPMLibraries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786DD500425F2D9CE7722E62186CDA02 /* CLToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D16D15168638BA876EDA79296FF44C /* CLToast-dummy.m */; };
+		7AA0AE0B9DB7CD0B9E2258A5F6F23889 /* CLImageToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587BF3291F3D7F0C7F433037A1E44F36 /* CLImageToast.swift */; };
+		8AC6A8645E2D6E7F4A75FA9416263C1E /* CLToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */; };
+		96B7A8E966A3300F6E1499083E9DB38E /* Pods-ZPMLibraries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F825D340608F03F2CFE3D0F253D6F145 /* Pods-ZPMLibraries-dummy.m */; };
+		A3A0D5948E5EB8FCADAB4771752D2268 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D70C9014A16C629828F041F03FADFE /* AppConfig.swift */; };
+		B39AEB075E9AE9777AA3E671E1448230 /* CLTextToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD55C2E612B45B44AED1A2A1146AA7A9 /* CLTextToast.swift */; };
+		E28958AE99136669DE3FA745A951064D /* ic_toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C79B3C5A77F01EA671DD5530AB4E2FCA /* ic_toast_success@2x.png */; };
+		E61957EFBF511CC3E2F5C861738C799B /* CLToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 276FE3BED75A714F9FEEEDD3FCD34AA7 /* CLToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80B05152C1B13F196E516C42084098E /* CLToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A12997C6601EF47E797291C1664FB5 /* CLToast.swift */; };
+		F772216F3813C0F3A1FFDE1F15A410F5 /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714ACF65E796012E4CA8B8C5CE17034D /* BundleUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		146EE0D360D7317959594318F604AC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E075E43134485D5A51397CF9D78D64;
+			remoteInfo = CLToast;
+		};
+		25581213140597E5D38A6FD1E5C77681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E703F567B175D80201E3BFBABAB5F582;
+			remoteInfo = "CLToast-CLToast";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086CFF23AE81ED9B62D757DD3704EA36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLToast.xcconfig; sourceTree = "<group>"; };
+		16A9275D59B76DE9D4A9C5B0762EFD74 /* CLToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLToast-prefix.pch"; sourceTree = "<group>"; };
+		1BB66DA2B0A0D74B4B56857A6985EBC6 /* CLToastManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLToastManager.swift; path = CLToast/CLToast/CLToastManager.swift; sourceTree = "<group>"; };
+		1FF5795165DD86F2BE783D9120EB46FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276FE3BED75A714F9FEEEDD3FCD34AA7 /* CLToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLToast-umbrella.h"; sourceTree = "<group>"; };
+		3686B396757564BA656BDB70398A6ACB /* Pods-ZPMLibraries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPMLibraries-umbrella.h"; sourceTree = "<group>"; };
+		4552D26525F5657CAA61FA3F2D03F13F /* Pods_ZPMLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPMLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		587BF3291F3D7F0C7F433037A1E44F36 /* CLImageToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLImageToast.swift; path = CLToast/CLToast/CLImageToast.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E699D3FDA407724ED3076278C80F9E5 /* CLToastUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLToastUtils.swift; path = CLToast/CLToast/CLToastUtils.swift; sourceTree = "<group>"; };
+		5F71861663BADA8FF5D4A5F74E7E9AE7 /* ScreenTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenTools.swift; path = CLToast/CLToast/ScreenTools.swift; sourceTree = "<group>"; };
+		632518503F3DD30C239801AC3B1FEEEF /* icon_sign@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_sign@2x.png"; path = "CLToast/CLToast/Images/icon_sign@2x.png"; sourceTree = "<group>"; };
+		648625A6A948A8397FDE347F715E64D5 /* Pods-ZPMLibraries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPMLibraries.modulemap"; sourceTree = "<group>"; };
+		67470133001DA2872D4D476567CDCA1B /* Pods-ZPMLibraries-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPMLibraries-acknowledgements.plist"; sourceTree = "<group>"; };
+		714ACF65E796012E4CA8B8C5CE17034D /* BundleUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleUtil.swift; path = CLToast/CLToast/BundleUtil.swift; sourceTree = "<group>"; };
+		7155BCB97B4C8F5847E027C5B6F85605 /* ResourceBundle-CLToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CLToast-Info.plist"; sourceTree = "<group>"; };
+		72E1E3F067B1207F0E42964BEA0A36A3 /* Pods-ZPMLibraries-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPMLibraries-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7367856237083E9758401D8545577608 /* Pods-ZPMLibraries-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMLibraries-frameworks.sh"; sourceTree = "<group>"; };
+		78A12997C6601EF47E797291C1664FB5 /* CLToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLToast.swift; path = CLToast/CLToast/CLToast.swift; sourceTree = "<group>"; };
+		90AA83E4CFE264824C21B82EA0CBE827 /* CLToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CLToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D76EEE10D9F6E0D5D38916CED5F635F /* ic_toast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_toast_success@3x.png"; path = "CLToast/CLToast/Images/ic_toast_success@3x.png"; sourceTree = "<group>"; };
+		9ECB1DE02B266C2A21B9EDD5370E2EA1 /* Pods-ZPMLibraries-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMLibraries-resources.sh"; sourceTree = "<group>"; };
+		B5D16D15168638BA876EDA79296FF44C /* CLToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLToast-dummy.m"; sourceTree = "<group>"; };
+		C3D70C9014A16C629828F041F03FADFE /* AppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppConfig.swift; path = CLToast/CLToast/AppConfig.swift; sourceTree = "<group>"; };
+		C79B3C5A77F01EA671DD5530AB4E2FCA /* ic_toast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_toast_success@2x.png"; path = "CLToast/CLToast/Images/ic_toast_success@2x.png"; sourceTree = "<group>"; };
+		CD55C2E612B45B44AED1A2A1146AA7A9 /* CLTextToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTextToast.swift; path = CLToast/CLToast/CLTextToast.swift; sourceTree = "<group>"; };
+		D1C9C3071A249E64CE8AD8910C615542 /* CLToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLToast.modulemap; sourceTree = "<group>"; };
+		E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57F8DA09A718E61CA0A5E6C8FF098A3 /* icon_sign@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_sign@3x.png"; path = "CLToast/CLToast/Images/icon_sign@3x.png"; sourceTree = "<group>"; };
+		E8079C4F397E2D86DB83FC2D0D322D2A /* Pods-ZPMLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMLibraries.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA033D6B882A07B4DFDF86BC6B8507A /* Pods-ZPMLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMLibraries.release.xcconfig"; sourceTree = "<group>"; };
+		F825D340608F03F2CFE3D0F253D6F145 /* Pods-ZPMLibraries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPMLibraries-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5561F466F4C946D1FC334810B3A350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61416EE6122DC3176FD4539AD7C27982 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6646EF6E4B0294D0A651652DFBD480E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA86F150FE82CE79B3094C193031845D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D78FF741DE8E9EF0A6906581E06D8D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00014ECB78A1F09D2D3F35ABE9D12A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */,
+				90AA83E4CFE264824C21B82EA0CBE827 /* CLToast.framework */,
+				4552D26525F5657CAA61FA3F2D03F13F /* Pods_ZPMLibraries.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B114DBC5D86E27242E5CAB3496C9BCB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C9C3071A249E64CE8AD8910C615542 /* CLToast.modulemap */,
+				0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */,
+				B5D16D15168638BA876EDA79296FF44C /* CLToast-dummy.m */,
+				16A9275D59B76DE9D4A9C5B0762EFD74 /* CLToast-prefix.pch */,
+				276FE3BED75A714F9FEEEDD3FCD34AA7 /* CLToast-umbrella.h */,
+				086CFF23AE81ED9B62D757DD3704EA36 /* Info.plist */,
+				7155BCB97B4C8F5847E027C5B6F85605 /* ResourceBundle-CLToast-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CLToast";
+			sourceTree = "<group>";
+		};
+		3DA34582DCB73D9D4C688719BF7A99F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B385E878DE14B3EC6C9E7CD851B2282 /* Pods-ZPMLibraries */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B385E878DE14B3EC6C9E7CD851B2282 /* Pods-ZPMLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				1FF5795165DD86F2BE783D9120EB46FB /* Info.plist */,
+				648625A6A948A8397FDE347F715E64D5 /* Pods-ZPMLibraries.modulemap */,
+				72E1E3F067B1207F0E42964BEA0A36A3 /* Pods-ZPMLibraries-acknowledgements.markdown */,
+				67470133001DA2872D4D476567CDCA1B /* Pods-ZPMLibraries-acknowledgements.plist */,
+				F825D340608F03F2CFE3D0F253D6F145 /* Pods-ZPMLibraries-dummy.m */,
+				7367856237083E9758401D8545577608 /* Pods-ZPMLibraries-frameworks.sh */,
+				9ECB1DE02B266C2A21B9EDD5370E2EA1 /* Pods-ZPMLibraries-resources.sh */,
+				3686B396757564BA656BDB70398A6ACB /* Pods-ZPMLibraries-umbrella.h */,
+				E8079C4F397E2D86DB83FC2D0D322D2A /* Pods-ZPMLibraries.debug.xcconfig */,
+				EEA033D6B882A07B4DFDF86BC6B8507A /* Pods-ZPMLibraries.release.xcconfig */,
+			);
+			name = "Pods-ZPMLibraries";
+			path = "Target Support Files/Pods-ZPMLibraries";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D55A9612E60EDD066C8265B1012D734E /* Pods */,
+				00014ECB78A1F09D2D3F35ABE9D12A3C /* Products */,
+				3DA34582DCB73D9D4C688719BF7A99F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC7450EB628C2CD1E9B48FB4B5E589B /* CLToast */ = {
+			isa = PBXGroup;
+			children = (
+				C3D70C9014A16C629828F041F03FADFE /* AppConfig.swift */,
+				714ACF65E796012E4CA8B8C5CE17034D /* BundleUtil.swift */,
+				587BF3291F3D7F0C7F433037A1E44F36 /* CLImageToast.swift */,
+				CD55C2E612B45B44AED1A2A1146AA7A9 /* CLTextToast.swift */,
+				78A12997C6601EF47E797291C1664FB5 /* CLToast.swift */,
+				1BB66DA2B0A0D74B4B56857A6985EBC6 /* CLToastManager.swift */,
+				5E699D3FDA407724ED3076278C80F9E5 /* CLToastUtils.swift */,
+				5F71861663BADA8FF5D4A5F74E7E9AE7 /* ScreenTools.swift */,
+				FA4645383C147F9DF665F1F1893DF36D /* Resources */,
+				3B114DBC5D86E27242E5CAB3496C9BCB /* Support Files */,
+			);
+			path = CLToast;
+			sourceTree = "<group>";
+		};
+		D55A9612E60EDD066C8265B1012D734E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCC7450EB628C2CD1E9B48FB4B5E589B /* CLToast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA4645383C147F9DF665F1F1893DF36D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C79B3C5A77F01EA671DD5530AB4E2FCA /* ic_toast_success@2x.png */,
+				9D76EEE10D9F6E0D5D38916CED5F635F /* ic_toast_success@3x.png */,
+				632518503F3DD30C239801AC3B1FEEEF /* icon_sign@2x.png */,
+				E57F8DA09A718E61CA0A5E6C8FF098A3 /* icon_sign@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11B6EB58281C01AB4ECC42BA541F09EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61957EFBF511CC3E2F5C861738C799B /* CLToast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D8F15E831E93D4E4A89EFA2E608825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767098E8F15A36CC3AF1C4DD4653886E /* Pods-ZPMLibraries-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9EF309A46EF7B28496EE1BE34A847EF2 /* Pods-ZPMLibraries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF284364F8BA23F1B41EF0A01F7A6119 /* Build configuration list for PBXNativeTarget "Pods-ZPMLibraries" */;
+			buildPhases = (
+				ED0391B89FD37930D28AD230961C5475 /* Sources */,
+				DA86F150FE82CE79B3094C193031845D /* Frameworks */,
+				92D8F15E831E93D4E4A89EFA2E608825 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719BED4643C9A5E7ABADABEC40184380 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPMLibraries";
+			productName = "Pods-ZPMLibraries";
+			productReference = 4552D26525F5657CAA61FA3F2D03F13F /* Pods_ZPMLibraries.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0E075E43134485D5A51397CF9D78D64 /* CLToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DA87CB7696A945F0231BC4BB3389FD /* Build configuration list for PBXNativeTarget "CLToast" */;
+			buildPhases = (
+				318D12D8FD08A7E979838C4C2B6FE627 /* Sources */,
+				4E5561F466F4C946D1FC334810B3A350 /* Frameworks */,
+				E2D48059D152EF9006DB9A4533AF8310 /* Resources */,
+				11B6EB58281C01AB4ECC42BA541F09EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A168495BC38F061DB0839285376382 /* PBXTargetDependency */,
+			);
+			name = CLToast;
+			productName = CLToast;
+			productReference = 90AA83E4CFE264824C21B82EA0CBE827 /* CLToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E703F567B175D80201E3BFBABAB5F582 /* CLToast-CLToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70BAC37B50412B0F243ECAB83BD5F6B4 /* Build configuration list for PBXNativeTarget "CLToast-CLToast" */;
+			buildPhases = (
+				73AEEC7C001BFD0CFFA23F1D40873CC1 /* Sources */,
+				6646EF6E4B0294D0A651652DFBD480E8 /* Frameworks */,
+				3DBF5866DE99E9DB992F56098C1355BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLToast-CLToast";
+			productName = "CLToast-CLToast";
+			productReference = E499F2C26F12C0671703B2C28EEF9970 /* CLToast.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00014ECB78A1F09D2D3F35ABE9D12A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E075E43134485D5A51397CF9D78D64 /* CLToast */,
+				E703F567B175D80201E3BFBABAB5F582 /* CLToast-CLToast */,
+				9EF309A46EF7B28496EE1BE34A847EF2 /* Pods-ZPMLibraries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DBF5866DE99E9DB992F56098C1355BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28958AE99136669DE3FA745A951064D /* ic_toast_success@2x.png in Resources */,
+				0B3AD329399B800BEDAA2806FB81C5E6 /* ic_toast_success@3x.png in Resources */,
+				6856F9FDD04FCDE133E692C9B1CEFB1D /* icon_sign@2x.png in Resources */,
+				0B285968E1E6A68CBF0DF231686EF62D /* icon_sign@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D48059D152EF9006DB9A4533AF8310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC6A8645E2D6E7F4A75FA9416263C1E /* CLToast.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318D12D8FD08A7E979838C4C2B6FE627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A0D5948E5EB8FCADAB4771752D2268 /* AppConfig.swift in Sources */,
+				F772216F3813C0F3A1FFDE1F15A410F5 /* BundleUtil.swift in Sources */,
+				7AA0AE0B9DB7CD0B9E2258A5F6F23889 /* CLImageToast.swift in Sources */,
+				B39AEB075E9AE9777AA3E671E1448230 /* CLTextToast.swift in Sources */,
+				786DD500425F2D9CE7722E62186CDA02 /* CLToast-dummy.m in Sources */,
+				E80B05152C1B13F196E516C42084098E /* CLToast.swift in Sources */,
+				37339C5E8EB940E763A13C9CF7F1C2C1 /* CLToastManager.swift in Sources */,
+				173454351B23C3CAC305C2A564DAA436 /* CLToastUtils.swift in Sources */,
+				5217B6626D4D42843BF1445B2B53033A /* ScreenTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73AEEC7C001BFD0CFFA23F1D40873CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0391B89FD37930D28AD230961C5475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B7A8E966A3300F6E1499083E9DB38E /* Pods-ZPMLibraries-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02A168495BC38F061DB0839285376382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CLToast-CLToast";
+			target = E703F567B175D80201E3BFBABAB5F582 /* CLToast-CLToast */;
+			targetProxy = 25581213140597E5D38A6FD1E5C77681 /* PBXContainerItemProxy */;
+		};
+		719BED4643C9A5E7ABADABEC40184380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CLToast;
+			target = A0E075E43134485D5A51397CF9D78D64 /* CLToast */;
+			targetProxy = 146EE0D360D7317959594318F604AC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27A0B09C0614816CB6ECA56120D0C7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA033D6B882A07B4DFDF86BC6B8507A /* Pods-ZPMLibraries.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPMLibraries/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36ABB5C2689CD749A78E5DB002F5FF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLToast/CLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLToast/CLToast.modulemap";
+				PRODUCT_MODULE_NAME = CLToast;
+				PRODUCT_NAME = CLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3981C79578CD629F23793069151FCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CLToast/CLToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CLToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CLToast/CLToast.modulemap";
+				PRODUCT_MODULE_NAME = CLToast;
+				PRODUCT_NAME = CLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86221C1B8F760BAA373C113A6BAF5C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLToast";
+				INFOPLIST_FILE = "Target Support Files/CLToast/ResourceBundle-CLToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A227E9CB49BF28D63EB7E72B7FB4C886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8079C4F397E2D86DB83FC2D0D322D2A /* Pods-ZPMLibraries.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPMLibraries/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C49264365A077D036442C0012E3C96FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEC441BC221C3E76BA83D2A5F315F2E /* CLToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CLToast";
+				INFOPLIST_FILE = "Target Support Files/CLToast/ResourceBundle-CLToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CLToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70BAC37B50412B0F243ECAB83BD5F6B4 /* Build configuration list for PBXNativeTarget "CLToast-CLToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86221C1B8F760BAA373C113A6BAF5C63 /* Debug */,
+				C49264365A077D036442C0012E3C96FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF284364F8BA23F1B41EF0A01F7A6119 /* Build configuration list for PBXNativeTarget "Pods-ZPMLibraries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A227E9CB49BF28D63EB7E72B7FB4C886 /* Debug */,
+				27A0B09C0614816CB6ECA56120D0C7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DA87CB7696A945F0231BC4BB3389FD /* Build configuration list for PBXNativeTarget "CLToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3981C79578CD629F23793069151FCDDA /* Debug */,
+				36ABB5C2689CD749A78E5DB002F5FF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

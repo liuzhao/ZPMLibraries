@@ -1,0 +1,16 @@
+PODS:
+  - CLToast (1.0.3)
+
+DEPENDENCIES:
+  - CLToast
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CLToast
+
+SPEC CHECKSUMS:
+  CLToast: 2e88c737d01eb44316e21ccc9ac485df8f5b35bf
+
+PODFILE CHECKSUM: c4ee83214d229f1d7f15fd2cde7709bbdfeb523f
+
+COCOAPODS: 1.5.3
