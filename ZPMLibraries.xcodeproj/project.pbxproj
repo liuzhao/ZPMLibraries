@@ -90,14 +90,14 @@
 		25D32BFF22964F6300B3D882 /* ZPMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BFE22964F6300B3D882 /* ZPMDetailViewController.m */; };
 		25D32C062296756300B3D882 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C042296756300B3D882 /* 2.jpg */; };
 		25D32C072296756300B3D882 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C052296756300B3D882 /* 1.jpg */; };
-		25D32C1A2296814200B3D882 /* XYDebugCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C0C2296814100B3D882 /* XYDebugCategory.m */; };
-		25D32C1B2296814200B3D882 /* XYOverlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C0E2296814100B3D882 /* XYOverlayerView.xib */; };
-		25D32C1C2296814200B3D882 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C0F2296814100B3D882 /* reset.png */; };
-		25D32C1D2296814200B3D882 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C102296814100B3D882 /* filter.png */; };
-		25D32C1E2296814200B3D882 /* XYDebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C122296814100B3D882 /* XYDebugWindow.m */; };
-		25D32C1F2296814200B3D882 /* XYDebugViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C132296814100B3D882 /* XYDebugViewManager.m */; };
-		25D32C202296814200B3D882 /* XYOverlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C152296814200B3D882 /* XYOverlayerView.m */; };
-		25D32C212296814200B3D882 /* XYDebugCloneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C172296814200B3D882 /* XYDebugCloneView.m */; };
+		25D32C5D22968CA700B3D882 /* XYOverlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C4F22968CA500B3D882 /* XYOverlayerView.xib */; };
+		25D32C5E22968CA700B3D882 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C5022968CA500B3D882 /* reset.png */; };
+		25D32C5F22968CA700B3D882 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C5122968CA500B3D882 /* filter.png */; };
+		25D32C6022968CA700B3D882 /* XYDebugCloneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5222968CA500B3D882 /* XYDebugCloneView.m */; };
+		25D32C6122968CA700B3D882 /* XYDebugCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5422968CA500B3D882 /* XYDebugCategory.m */; };
+		25D32C6222968CA700B3D882 /* XYDebugViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5522968CA500B3D882 /* XYDebugViewManager.m */; };
+		25D32C6322968CA700B3D882 /* XYDebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5622968CA600B3D882 /* XYDebugWindow.m */; };
+		25D32C6422968CA700B3D882 /* XYOverlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32C5B22968CA600B3D882 /* XYOverlayerView.m */; };
 		525D3AE2DB0D05A6834A2382 /* Pods_ZPMLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157A2143228D07AD148222EF /* Pods_ZPMLibraries.framework */; };
 /* End PBXBuildFile section */
 
@@ -267,20 +267,20 @@
 		25D32BFE22964F6300B3D882 /* ZPMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMDetailViewController.m; sourceTree = "<group>"; };
 		25D32C042296756300B3D882 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		25D32C052296756300B3D882 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		25D32C0B2296814100B3D882 /* XYDebugCloneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDebugCloneView.h; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugCloneView.h"; sourceTree = "<group>"; };
-		25D32C0C2296814100B3D882 /* XYDebugCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYDebugCategory.m; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugCategory.m"; sourceTree = "<group>"; };
-		25D32C0E2296814100B3D882 /* XYOverlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYOverlayerView.xib; sourceTree = "<group>"; };
-		25D32C0F2296814100B3D882 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
-		25D32C102296814100B3D882 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
-		25D32C112296814100B3D882 /* XYDebugWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDebugWindow.h; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugWindow.h"; sourceTree = "<group>"; };
-		25D32C122296814100B3D882 /* XYDebugWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYDebugWindow.m; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugWindow.m"; sourceTree = "<group>"; };
-		25D32C132296814100B3D882 /* XYDebugViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYDebugViewManager.m; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugViewManager.m"; sourceTree = "<group>"; };
-		25D32C142296814100B3D882 /* XYOverlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYOverlayerView.h; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYOverlayerView.h"; sourceTree = "<group>"; };
-		25D32C152296814200B3D882 /* XYOverlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYOverlayerView.m; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYOverlayerView.m"; sourceTree = "<group>"; };
-		25D32C162296814200B3D882 /* XYDebugCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDebugCategory.h; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugCategory.h"; sourceTree = "<group>"; };
-		25D32C172296814200B3D882 /* XYDebugCloneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYDebugCloneView.m; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugCloneView.m"; sourceTree = "<group>"; };
-		25D32C182296814200B3D882 /* XYdebugConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYdebugConst.h; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYdebugConst.h"; sourceTree = "<group>"; };
-		25D32C192296814200B3D882 /* XYDebugViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYDebugViewManager.h; path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/XYDebugViewManager.h"; sourceTree = "<group>"; };
+		25D32C4F22968CA500B3D882 /* XYOverlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYOverlayerView.xib; sourceTree = "<group>"; };
+		25D32C5022968CA500B3D882 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		25D32C5122968CA500B3D882 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
+		25D32C5222968CA500B3D882 /* XYDebugCloneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDebugCloneView.m; sourceTree = "<group>"; };
+		25D32C5322968CA500B3D882 /* XYdebugConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYdebugConst.h; sourceTree = "<group>"; };
+		25D32C5422968CA500B3D882 /* XYDebugCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDebugCategory.m; sourceTree = "<group>"; };
+		25D32C5522968CA500B3D882 /* XYDebugViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDebugViewManager.m; sourceTree = "<group>"; };
+		25D32C5622968CA600B3D882 /* XYDebugWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDebugWindow.m; sourceTree = "<group>"; };
+		25D32C5722968CA600B3D882 /* XYDebugCloneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDebugCloneView.h; sourceTree = "<group>"; };
+		25D32C5822968CA600B3D882 /* XYDebugViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDebugViewManager.h; sourceTree = "<group>"; };
+		25D32C5922968CA600B3D882 /* XYDebugWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDebugWindow.h; sourceTree = "<group>"; };
+		25D32C5A22968CA600B3D882 /* XYOverlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYOverlayerView.h; sourceTree = "<group>"; };
+		25D32C5B22968CA600B3D882 /* XYOverlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYOverlayerView.m; sourceTree = "<group>"; };
+		25D32C5C22968CA700B3D882 /* XYDebugCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDebugCategory.h; sourceTree = "<group>"; };
 		590AE23E4B288E6A290063DD /* Pods-ZPMLibraries.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPMLibraries.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4162412166E9731C5BCD16 /* Pods-ZPMLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPMLibraries.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -576,49 +576,48 @@
 		25D32C0822967C9F00B3D882 /* 调试库 */ = {
 			isa = PBXGroup;
 			children = (
-				25D32C0922967CAF00B3D882 /* Others */,
+				25D32C2322968BC100B3D882 /* Others */,
 				250F9BDC2295344200A3800E /* ZPMDebugViewController.h */,
 				250F9BDD2295344200A3800E /* ZPMDebugViewController.m */,
 			);
 			path = "调试库";
 			sourceTree = "<group>";
 		};
-		25D32C0922967CAF00B3D882 /* Others */ = {
+		25D32C2322968BC100B3D882 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				25D32C0A2296813000B3D882 /* XYDebug */,
+				25D32C2422968BC800B3D882 /* XYDebug */,
 			);
 			path = Others;
 			sourceTree = "<group>";
 		};
-		25D32C0A2296813000B3D882 /* XYDebug */ = {
+		25D32C2422968BC800B3D882 /* XYDebug */ = {
 			isa = PBXGroup;
 			children = (
-				25D32C0D2296814100B3D882 /* resource */,
-				25D32C182296814200B3D882 /* XYdebugConst.h */,
-				25D32C162296814200B3D882 /* XYDebugCategory.h */,
-				25D32C0C2296814100B3D882 /* XYDebugCategory.m */,
-				25D32C0B2296814100B3D882 /* XYDebugCloneView.h */,
-				25D32C172296814200B3D882 /* XYDebugCloneView.m */,
-				25D32C192296814200B3D882 /* XYDebugViewManager.h */,
-				25D32C132296814100B3D882 /* XYDebugViewManager.m */,
-				25D32C112296814100B3D882 /* XYDebugWindow.h */,
-				25D32C122296814100B3D882 /* XYDebugWindow.m */,
-				25D32C142296814100B3D882 /* XYOverlayerView.h */,
-				25D32C152296814200B3D882 /* XYOverlayerView.m */,
+				25D32C4E22968CA500B3D882 /* resource */,
+				25D32C5C22968CA700B3D882 /* XYDebugCategory.h */,
+				25D32C5422968CA500B3D882 /* XYDebugCategory.m */,
+				25D32C5722968CA600B3D882 /* XYDebugCloneView.h */,
+				25D32C5222968CA500B3D882 /* XYDebugCloneView.m */,
+				25D32C5322968CA500B3D882 /* XYdebugConst.h */,
+				25D32C5822968CA600B3D882 /* XYDebugViewManager.h */,
+				25D32C5522968CA500B3D882 /* XYDebugViewManager.m */,
+				25D32C5922968CA600B3D882 /* XYDebugWindow.h */,
+				25D32C5622968CA600B3D882 /* XYDebugWindow.m */,
+				25D32C5A22968CA600B3D882 /* XYOverlayerView.h */,
+				25D32C5B22968CA600B3D882 /* XYOverlayerView.m */,
 			);
 			path = XYDebug;
 			sourceTree = "<group>";
 		};
-		25D32C0D2296814100B3D882 /* resource */ = {
+		25D32C4E22968CA500B3D882 /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				25D32C0E2296814100B3D882 /* XYOverlayerView.xib */,
-				25D32C0F2296814100B3D882 /* reset.png */,
-				25D32C102296814100B3D882 /* filter.png */,
+				25D32C4F22968CA500B3D882 /* XYOverlayerView.xib */,
+				25D32C5022968CA500B3D882 /* reset.png */,
+				25D32C5122968CA500B3D882 /* filter.png */,
 			);
-			name = resource;
-			path = "../../../../../../../Downloads/XYDebugView-master/XYDebugView/resource";
+			path = resource;
 			sourceTree = "<group>";
 		};
 		B2D9160610EB4667C5B007BF /* Frameworks */ = {
@@ -688,12 +687,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25D32C1C2296814200B3D882 /* reset.png in Resources */,
+				25D32C5E22968CA700B3D882 /* reset.png in Resources */,
 				250F9BC5229532C700A3800E /* LaunchScreen.storyboard in Resources */,
 				250F9BC2229532C700A3800E /* Assets.xcassets in Resources */,
-				25D32C1D2296814200B3D882 /* filter.png in Resources */,
+				25D32C5F22968CA700B3D882 /* filter.png in Resources */,
 				25D32C062296756300B3D882 /* 2.jpg in Resources */,
-				25D32C1B2296814200B3D882 /* XYOverlayerView.xib in Resources */,
+				25D32C5D22968CA700B3D882 /* XYOverlayerView.xib in Resources */,
 				250F9BC0229532C600A3800E /* Main.storyboard in Resources */,
 				25D32C072296756300B3D882 /* 1.jpg in Resources */,
 			);
@@ -746,8 +745,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				250F9C4E2295430C00A3800E /* SPActivityIndicatorBallScaleRippleAnimation.m in Sources */,
-				25D32C202296814200B3D882 /* XYOverlayerView.m in Sources */,
 				250F9C602295430C00A3800E /* SPActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				25D32C6122968CA700B3D882 /* XYDebugCategory.m in Sources */,
 				250F9C652295430C00A3800E /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
 				25D32BF722964A4200B3D882 /* AnimationScaleEnd.m in Sources */,
 				250F9C672295430C00A3800E /* SPActivityIndicatorBallRotaingAroundBallAnimation.m in Sources */,
@@ -764,18 +763,17 @@
 				250F9C6D2295430C00A3800E /* SPActivityIndicatorBallPulseSyncAnimation.m in Sources */,
 				250F9C662295430C00A3800E /* SPActivityIndicatorRotatingSandglassAnimation.m in Sources */,
 				250F9C572295430C00A3800E /* SPActivityIndicatorAnimation.m in Sources */,
-				25D32C212296814200B3D882 /* XYDebugCloneView.m in Sources */,
 				25D32BF122964A4200B3D882 /* VCInteractionDelegate.m in Sources */,
 				250F9C642295430C00A3800E /* SPActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
 				250F9C592295430C00A3800E /* SPActivityIndicatorLineJumpUpAndDownAnimation.m in Sources */,
 				250F9C5D2295430C00A3800E /* SPActivityIndicatorTwoDotsAnimation.m in Sources */,
 				250F9BE42295354900A3800E /* ZPMTabBarController.m in Sources */,
+				25D32C6322968CA700B3D882 /* XYDebugWindow.m in Sources */,
 				250F9C6E2295430C00A3800E /* SPActivityIndicatorNineDotsAnimation.m in Sources */,
 				25D32BF022964A4200B3D882 /* UIViewController+HHTransition.m in Sources */,
-				25D32C1A2296814200B3D882 /* XYDebugCategory.m in Sources */,
 				250F9C442295430C00A3800E /* SPActivityIndicatorBallClipRotateAnimation.m in Sources */,
 				250F9C692295430C00A3800E /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
-				25D32C1F2296814200B3D882 /* XYDebugViewManager.m in Sources */,
+				25D32C6222968CA700B3D882 /* XYDebugViewManager.m in Sources */,
 				25D32BF622964A4200B3D882 /* AnimationTransitionBegin.m in Sources */,
 				250F9C582295430C00A3800E /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m in Sources */,
 				250F9C482295430C00A3800E /* SPActivityIndicatorBallPulseAnimation.m in Sources */,
@@ -797,6 +795,7 @@
 				25D32BEA22964A4200B3D882 /* AnimationTiltBegin.m in Sources */,
 				250F9C6C2295430C00A3800E /* SPActivityIndicatorFiveDotsAnimation.m in Sources */,
 				25D32BF522964A4200B3D882 /* AnimationErectEnd.m in Sources */,
+				25D32C6422968CA700B3D882 /* XYOverlayerView.m in Sources */,
 				250F9C462295430C00A3800E /* SPActivityIndicatorRotatingTrigonAnimation.m in Sources */,
 				250F9C6B2295430C00A3800E /* SPActivityIndicatorBallZigZagAnimation.m in Sources */,
 				250F9C552295430C00A3800E /* SPActivityIndicatorCookieTerminatorAnimation.m in Sources */,
@@ -806,9 +805,9 @@
 				250F9BC8229532C700A3800E /* main.m in Sources */,
 				250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */,
 				250F9C5A2295430C00A3800E /* SPActivityIndicatorLineScalePartyAnimation.m in Sources */,
-				25D32C1E2296814200B3D882 /* XYDebugWindow.m in Sources */,
 				25D32BF222964A4200B3D882 /* AnimationWaveBegin.m in Sources */,
 				250F9C682295430C00A3800E /* SPActivityIndicatorThreeDotsAnimation.m in Sources */,
+				25D32C6022968CA700B3D882 /* XYDebugCloneView.m in Sources */,
 				250F9C5F2295430C00A3800E /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */,
 				250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */,
 				25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */,
