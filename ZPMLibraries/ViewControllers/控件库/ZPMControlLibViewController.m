@@ -15,7 +15,6 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 @interface ZPMControlLibViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, copy) NSArray *listArray;
-@property (nonatomic, copy) NSArray *imageArray;
 
 @end
 

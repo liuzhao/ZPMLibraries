@@ -27,6 +27,7 @@
 - (void)setupMainView
 {
     ZPMTabBarController *tabbar = [[ZPMTabBarController alloc] init];
+    [tabbar setSelectedIndex:1];
     self.window.rootViewController = tabbar;
 }
 
