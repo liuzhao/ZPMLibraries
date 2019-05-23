@@ -9,6 +9,7 @@
 #import "ZPMTransitionViewController.h"
 #import "ZPMDetailViewController.h"
 #import "UIViewController+HHTransition.h"
+#import "XYDebugViewManager.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -77,7 +78,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 2;
+    return self.listArray.count;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
