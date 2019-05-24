@@ -11,6 +11,7 @@
 #import "ZPMFloatBallViewController.h"
 #import "JPSuspensionEntrance.h"
 #import "ZPMLoadingPageViewController.h"
+#import "ZPMEmptyViewController.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -111,7 +112,9 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
     
     ZPMLoadingPageViewController *vc3 = [[ZPMLoadingPageViewController alloc] init];
     
-    self.listArray = @[@[@{@"title": @"空页面 EmptyPage"},
+    ZPMEmptyViewController *vc4 = [[ZPMEmptyViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    self.listArray = @[@[@{@"title": @"空页面 EmptyPage", @"vc": vc4},
                          @{@"title": @"加载页面 LoadingPage", @"vc": vc3},
                          @{@"title": @"引导页 GuidePage"},
                          @{@"title": @"广告页 AdPage"},
@@ -124,7 +127,7 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
 
 - (void)setupTableView
 {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStyleGrouped];
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
     tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     tableView.dataSource = self;

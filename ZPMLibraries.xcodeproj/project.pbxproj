@@ -119,6 +119,11 @@
 		25437AF82297C2F300B0105E /* TABViewAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE42297C2F300B0105E /* TABViewAnimated.m */; };
 		25437AF92297C2F300B0105E /* TABCollectionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE52297C2F300B0105E /* TABCollectionAnimated.m */; };
 		25437AFA2297C2F300B0105E /* TABTableAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE62297C2F300B0105E /* TABTableAnimated.m */; };
+		25437B022297C75800B0105E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AFC2297C75800B0105E /* DetailViewController.m */; };
+		25437B032297C75800B0105E /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AFF2297C75800B0105E /* Application.m */; };
+		25437B042297C75800B0105E /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437B012297C75800B0105E /* UIColor+Hexadecimal.m */; };
+		25437B0B2297C9EE00B0105E /* ZPMEmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437B0A2297C9EE00B0105E /* ZPMEmptyViewController.m */; };
+		25437B0D2297F2CE00B0105E /* applications.json in Resources */ = {isa = PBXBuildFile; fileRef = 25437B0C2297F2CE00B0105E /* applications.json */; };
 		25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */; };
 		25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC222964A4200B3D882 /* AnimationBackEnd.m */; };
 		25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC322964A4200B3D882 /* AnimationTransitionEnd.m */; };
@@ -369,6 +374,15 @@
 		25437AE82297C2F300B0105E /* TABViewAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABViewAnimated.h; sourceTree = "<group>"; };
 		25437AE92297C2F300B0105E /* TABTableAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABTableAnimated.h; sourceTree = "<group>"; };
 		25437AEA2297C2F300B0105E /* TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimated.h; sourceTree = "<group>"; };
+		25437AFC2297C75800B0105E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		25437AFD2297C75800B0105E /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		25437AFE2297C75800B0105E /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
+		25437AFF2297C75800B0105E /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		25437B002297C75800B0105E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		25437B012297C75800B0105E /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
+		25437B092297C9EE00B0105E /* ZPMEmptyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMEmptyViewController.h; sourceTree = "<group>"; };
+		25437B0A2297C9EE00B0105E /* ZPMEmptyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMEmptyViewController.m; sourceTree = "<group>"; };
+		25437B0C2297F2CE00B0105E /* applications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = applications.json; sourceTree = "<group>"; };
 		25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWaveEnd.m; sourceTree = "<group>"; };
 		25D32BC022964A4200B3D882 /* AnimationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationStyle.h; sourceTree = "<group>"; };
 		25D32BC122964A4200B3D882 /* UIView+HHLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHLayout.h"; sourceTree = "<group>"; };
@@ -663,6 +677,8 @@
 				25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */,
 				25437AC32297A53400B0105E /* ZPMSkeletonViewController.h */,
 				25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */,
+				25437B092297C9EE00B0105E /* ZPMEmptyViewController.h */,
+				25437B0A2297C9EE00B0105E /* ZPMEmptyViewController.m */,
 			);
 			path = "页面库";
 			sourceTree = "<group>";
@@ -812,6 +828,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		25437AFB2297C73800B0105E /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				25437B0C2297F2CE00B0105E /* applications.json */,
+				25437AFD2297C75800B0105E /* Application.h */,
+				25437AFF2297C75800B0105E /* Application.m */,
+				25437B002297C75800B0105E /* DetailViewController.h */,
+				25437AFC2297C75800B0105E /* DetailViewController.m */,
+				25437AFE2297C75800B0105E /* UIColor+Hexadecimal.h */,
+				25437B012297C75800B0105E /* UIColor+Hexadecimal.m */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
 		25D32BBE22964A4200B3D882 /* HHTransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -861,6 +891,7 @@
 		25D32BF922964A6700B3D882 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				25437AFB2297C73800B0105E /* DZNEmptyDataSet */,
 				25437A262297965D00B0105E /* TABAnimated */,
 				25D32BBE22964A4200B3D882 /* HHTransition */,
 			);
@@ -990,6 +1021,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25437B0D2297F2CE00B0105E /* applications.json in Resources */,
 				25D32C5E22968CA700B3D882 /* reset.png in Resources */,
 				25437A402297979500B0105E /* long.jpg in Resources */,
 				250F9BC5229532C700A3800E /* LaunchScreen.storyboard in Resources */,
@@ -1076,7 +1108,9 @@
 				25437AEC2297C2F300B0105E /* TABAnimationMethod.m in Sources */,
 				25D32C6122968CA700B3D882 /* XYDebugCategory.m in Sources */,
 				25437A4A22979CE000B0105E /* NewsCollectionViewCell.m in Sources */,
+				25437B0B2297C9EE00B0105E /* ZPMEmptyViewController.m in Sources */,
 				25437A7522979D6F00B0105E /* DailyCollectionViewCell.m in Sources */,
+				25437B032297C75800B0105E /* Application.m in Sources */,
 				25437A292297967F00B0105E /* TestTableViewController.m in Sources */,
 				250F9C652295430C00A3800E /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
 				25D32BF722964A4200B3D882 /* AnimationScaleEnd.m in Sources */,
@@ -1135,6 +1169,7 @@
 				25437A6322979D5F00B0105E /* SegmentCollectionViewController.m in Sources */,
 				25D32BF822964A4200B3D882 /* QuadrantRecognise.m in Sources */,
 				250F9C562295430C00A3800E /* SPActivityIndicatorTripleRingsAnimation.m in Sources */,
+				25437B022297C75800B0105E /* DetailViewController.m in Sources */,
 				25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */,
 				25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */,
 				25437A7622979D6F00B0105E /* CardCollectionViewCell.m in Sources */,
@@ -1183,6 +1218,7 @@
 				250F9C432295430C00A3800E /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
 				250F9C512295430C00A3800E /* SPActivityIndicatorThreeDotsFadeAnimation.m in Sources */,
 				25437A7722979D6F00B0105E /* LawyerArticleCollectionViewCell.m in Sources */,
+				25437B042297C75800B0105E /* UIColor+Hexadecimal.m in Sources */,
 				25437AF02297C2F300B0105E /* NSArray+TABAnimated.m in Sources */,
 				250F9C472295430C00A3800E /* SPActivityIndicatorBallScaleAnimation.m in Sources */,
 				25437AF32297C2F300B0105E /* TABManagerMethod.m in Sources */,
