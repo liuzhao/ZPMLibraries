@@ -33,9 +33,9 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     [super viewWillAppear:animated];
     
     // Resets styling
-    self.navigationController.navigationBar.titleTextAttributes = nil;
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithHex:@"f8f8f8"];;
-    self.navigationController.navigationBar.translucent = NO;
+//    self.navigationController.navigationBar.titleTextAttributes = nil;
+//    self.navigationController.navigationBar.barTintColor = [UIColor colorWithHex:@"f8f8f8"];
+//    self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
 
