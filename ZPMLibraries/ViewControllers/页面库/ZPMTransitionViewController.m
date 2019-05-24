@@ -22,6 +22,11 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 @implementation ZPMTransitionViewController
 
+- (void)dealloc
+{
+    NSLog(@"dealloc");
+}
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

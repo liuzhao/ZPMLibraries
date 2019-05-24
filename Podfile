@@ -6,6 +6,9 @@ target 'ZPMLibraries' do
 
    pod 'ZPMConsoleLog'
    pod 'JPSuspensionEntrance'
+   pod 'Masonry'
+   pod 'JXCategoryView'
+   pod 'MJRefresh'
   # Pods for ZPMLibraries
   
 end

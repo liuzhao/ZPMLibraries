@@ -68,6 +68,57 @@
 		250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C712295431400A3800E /* SPActivityIndicatorView.m */; };
 		250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */; };
 		250F9C7A2295515600A3800E /* ZPMToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C792295515600A3800E /* ZPMToastViewController.m */; };
+		25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */; };
+		25437A292297967F00B0105E /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A272297967E00B0105E /* TestTableViewController.m */; };
+		25437A2C229796B400B0105E /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A2A229796B400B0105E /* TestTableViewCell.m */; };
+		25437A2F229796DD00B0105E /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A2E229796DC00B0105E /* Game.m */; };
+		25437A392297979500B0105E /* TABKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25437A312297979500B0105E /* TABKit.framework */; };
+		25437A3A2297979500B0105E /* test0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A322297979500B0105E /* test0.jpg */; };
+		25437A3B2297979500B0105E /* test1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A332297979500B0105E /* test1.jpg */; };
+		25437A3C2297979500B0105E /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A342297979500B0105E /* test2.jpg */; };
+		25437A3D2297979500B0105E /* comic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A352297979500B0105E /* comic.jpg */; };
+		25437A3E2297979500B0105E /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A362297979500B0105E /* test.jpg */; };
+		25437A3F2297979500B0105E /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A372297979500B0105E /* head.jpg */; };
+		25437A402297979500B0105E /* long.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25437A382297979500B0105E /* long.jpg */; };
+		25437A4522979AE800B0105E /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A4122979AE700B0105E /* TestCollectionViewController.m */; };
+		25437A4622979AE800B0105E /* LabWithLinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A4222979AE700B0105E /* LabWithLinesViewController.m */; };
+		25437A4A22979CE000B0105E /* NewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A4822979CDF00B0105E /* NewsCollectionViewCell.m */; };
+		25437A4D22979CFE00B0105E /* BaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A4B22979CFD00B0105E /* BaseCollectionCell.m */; };
+		25437A5022979D1600B0105E /* LabWithLinesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A4F22979D1600B0105E /* LabWithLinesViewCell.m */; };
+		25437A5F22979D5F00B0105E /* NestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5422979D5B00B0105E /* NestCollectionViewController.m */; };
+		25437A6022979D5F00B0105E /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5622979D5B00B0105E /* CardViewController.m */; };
+		25437A6122979D5F00B0105E /* SectionsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5722979D5B00B0105E /* SectionsCollectionViewController.m */; };
+		25437A6222979D5F00B0105E /* ExampleOfPackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5922979D5C00B0105E /* ExampleOfPackageViewController.m */; };
+		25437A6322979D5F00B0105E /* SegmentCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5C22979D5D00B0105E /* SegmentCollectionViewController.m */; };
+		25437A6422979D5F00B0105E /* SectionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5D22979D5E00B0105E /* SectionsTableViewController.m */; };
+		25437A6522979D5F00B0105E /* ViewExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A5E22979D5E00B0105E /* ViewExampleViewController.m */; };
+		25437A7222979D6F00B0105E /* LawyerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A6622979D6B00B0105E /* LawyerCollectionViewCell.m */; };
+		25437A7322979D6F00B0105E /* CourseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A6722979D6C00B0105E /* CourseCollectionViewCell.m */; };
+		25437A7422979D6F00B0105E /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A6822979D6C00B0105E /* ImageCollectionViewCell.m */; };
+		25437A7522979D6F00B0105E /* DailyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A6A22979D6C00B0105E /* DailyCollectionViewCell.m */; };
+		25437A7622979D6F00B0105E /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A6B22979D6D00B0105E /* CardCollectionViewCell.m */; };
+		25437A7722979D6F00B0105E /* LawyerArticleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A7122979D6F00B0105E /* LawyerArticleCollectionViewCell.m */; };
+		25437A7A22979D8400B0105E /* NestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A7922979D8400B0105E /* NestCollectionViewCell.m */; };
+		25437A8722979EC700B0105E /* PackageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8522979EC700B0105E /* PackageTableViewCell.m */; };
+		25437A8A22979F7E00B0105E /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8922979F7E00B0105E /* News.m */; };
+		25437AB02297A25300B0105E /* TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8C2297A25300B0105E /* TABAnimated.m */; };
+		25437AB12297A25300B0105E /* TABAnimationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8E2297A25300B0105E /* TABAnimationMethod.m */; };
+		25437AB22297A25300B0105E /* UIView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A912297A25300B0105E /* UIView+TABControlAnimation.m */; };
+		25437AB32297A25300B0105E /* UICollectionView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A932297A25300B0105E /* UICollectionView+TABAnimated.m */; };
+		25437AB42297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A942297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */; };
+		25437AB52297A25300B0105E /* NSArray+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A962297A25300B0105E /* NSArray+TABAnimated.m */; };
+		25437AB62297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A972297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m */; };
+		25437AB72297A25300B0105E /* UIView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A992297A25300B0105E /* UIView+TABAnimated.m */; };
+		25437AB82297A25300B0105E /* TABManagerMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A9A2297A25300B0105E /* TABManagerMethod.m */; };
+		25437AB92297A25300B0105E /* UITableView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A9E2297A25300B0105E /* UITableView+TABAnimated.m */; };
+		25437ABA2297A25300B0105E /* UIView+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA12297A25300B0105E /* UIView+TABLayoutSubviews.m */; };
+		25437ABB2297A25300B0105E /* TABComponentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA42297A25300B0105E /* TABComponentLayer.m */; };
+		25437ABC2297A25300B0105E /* TABLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA72297A25300B0105E /* TABLayer.m */; };
+		25437ABD2297A25300B0105E /* TABViewAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA92297A25300B0105E /* TABViewAnimated.m */; };
+		25437ABE2297A25300B0105E /* TABCollectionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AAA2297A25300B0105E /* TABCollectionAnimated.m */; };
+		25437ABF2297A25300B0105E /* TABTableAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AAB2297A25300B0105E /* TABTableAnimated.m */; };
+		25437AC22297A29900B0105E /* TestHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AC02297A29900B0105E /* TestHeadView.m */; };
+		25437AC52297A53400B0105E /* ZPMSkeletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */; };
 		25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */; };
 		25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC222964A4200B3D882 /* AnimationBackEnd.m */; };
 		25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC322964A4200B3D882 /* AnimationTransitionEnd.m */; };
@@ -223,6 +274,101 @@
 		250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMIndicatorViewViewController.m; sourceTree = "<group>"; };
 		250F9C782295515600A3800E /* ZPMToastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMToastViewController.h; sourceTree = "<group>"; };
 		250F9C792295515600A3800E /* ZPMToastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMToastViewController.m; sourceTree = "<group>"; };
+		25437A232297940A00B0105E /* ZPMLoadingPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMLoadingPageViewController.h; sourceTree = "<group>"; };
+		25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMLoadingPageViewController.m; sourceTree = "<group>"; };
+		25437A272297967E00B0105E /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		25437A282297967F00B0105E /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		25437A2A229796B400B0105E /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		25437A2B229796B400B0105E /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		25437A2D229796DC00B0105E /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		25437A2E229796DC00B0105E /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		25437A312297979500B0105E /* TABKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TABKit.framework; sourceTree = "<group>"; };
+		25437A322297979500B0105E /* test0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test0.jpg; sourceTree = "<group>"; };
+		25437A332297979500B0105E /* test1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test1.jpg; sourceTree = "<group>"; };
+		25437A342297979500B0105E /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		25437A352297979500B0105E /* comic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comic.jpg; sourceTree = "<group>"; };
+		25437A362297979500B0105E /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		25437A372297979500B0105E /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		25437A382297979500B0105E /* long.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = long.jpg; sourceTree = "<group>"; };
+		25437A4122979AE700B0105E /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
+		25437A4222979AE700B0105E /* LabWithLinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabWithLinesViewController.m; sourceTree = "<group>"; };
+		25437A4322979AE800B0105E /* LabWithLinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabWithLinesViewController.h; sourceTree = "<group>"; };
+		25437A4422979AE800B0105E /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		25437A4722979B9A00B0105E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		25437A4822979CDF00B0105E /* NewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A4922979CDF00B0105E /* NewsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A4B22979CFD00B0105E /* BaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionCell.m; sourceTree = "<group>"; };
+		25437A4C22979CFE00B0105E /* BaseCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionCell.h; sourceTree = "<group>"; };
+		25437A4E22979D1600B0105E /* LabWithLinesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabWithLinesViewCell.h; sourceTree = "<group>"; };
+		25437A4F22979D1600B0105E /* LabWithLinesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabWithLinesViewCell.m; sourceTree = "<group>"; };
+		25437A5122979D5A00B0105E /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		25437A5222979D5B00B0105E /* SectionsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsCollectionViewController.h; sourceTree = "<group>"; };
+		25437A5322979D5B00B0105E /* NestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestCollectionViewController.h; sourceTree = "<group>"; };
+		25437A5422979D5B00B0105E /* NestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestCollectionViewController.m; sourceTree = "<group>"; };
+		25437A5522979D5B00B0105E /* ViewExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewExampleViewController.h; sourceTree = "<group>"; };
+		25437A5622979D5B00B0105E /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		25437A5722979D5B00B0105E /* SectionsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsCollectionViewController.m; sourceTree = "<group>"; };
+		25437A5822979D5C00B0105E /* SegmentCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentCollectionViewController.h; sourceTree = "<group>"; };
+		25437A5922979D5C00B0105E /* ExampleOfPackageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleOfPackageViewController.m; sourceTree = "<group>"; };
+		25437A5A22979D5D00B0105E /* ExampleOfPackageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleOfPackageViewController.h; sourceTree = "<group>"; };
+		25437A5B22979D5D00B0105E /* SectionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionsTableViewController.h; sourceTree = "<group>"; };
+		25437A5C22979D5D00B0105E /* SegmentCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentCollectionViewController.m; sourceTree = "<group>"; };
+		25437A5D22979D5E00B0105E /* SectionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionsTableViewController.m; sourceTree = "<group>"; };
+		25437A5E22979D5E00B0105E /* ViewExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewExampleViewController.m; sourceTree = "<group>"; };
+		25437A6622979D6B00B0105E /* LawyerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LawyerCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A6722979D6C00B0105E /* CourseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A6822979D6C00B0105E /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A6922979D6C00B0105E /* LawyerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LawyerCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A6A22979D6C00B0105E /* DailyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A6B22979D6D00B0105E /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A6C22979D6D00B0105E /* DailyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A6D22979D6E00B0105E /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A6E22979D6E00B0105E /* LawyerArticleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LawyerArticleCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A6F22979D6E00B0105E /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A7022979D6E00B0105E /* CourseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A7122979D6F00B0105E /* LawyerArticleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LawyerArticleCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A7822979D8400B0105E /* NestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestCollectionViewCell.h; sourceTree = "<group>"; };
+		25437A7922979D8400B0105E /* NestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestCollectionViewCell.m; sourceTree = "<group>"; };
+		25437A8522979EC700B0105E /* PackageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageTableViewCell.m; sourceTree = "<group>"; };
+		25437A8622979EC700B0105E /* PackageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageTableViewCell.h; sourceTree = "<group>"; };
+		25437A8822979F7E00B0105E /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		25437A8922979F7E00B0105E /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		25437A8C2297A25300B0105E /* TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimated.m; sourceTree = "<group>"; };
+		25437A8E2297A25300B0105E /* TABAnimationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimationMethod.m; sourceTree = "<group>"; };
+		25437A8F2297A25300B0105E /* TABAnimationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimationMethod.h; sourceTree = "<group>"; };
+		25437A912297A25300B0105E /* UIView+TABControlAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABControlAnimation.m"; sourceTree = "<group>"; };
+		25437A922297A25300B0105E /* TABManagerMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABManagerMethod.h; sourceTree = "<group>"; };
+		25437A932297A25300B0105E /* UICollectionView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TABAnimated.m"; sourceTree = "<group>"; };
+		25437A942297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TABLayoutSubviews.m"; sourceTree = "<group>"; };
+		25437A952297A25300B0105E /* UITableView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TABAnimated.h"; sourceTree = "<group>"; };
+		25437A962297A25300B0105E /* NSArray+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TABAnimated.m"; sourceTree = "<group>"; };
+		25437A972297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TABLayoutSubviews.m"; sourceTree = "<group>"; };
+		25437A982297A25300B0105E /* UIView+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABLayoutSubviews.h"; sourceTree = "<group>"; };
+		25437A992297A25300B0105E /* UIView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABAnimated.m"; sourceTree = "<group>"; };
+		25437A9A2297A25300B0105E /* TABManagerMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABManagerMethod.m; sourceTree = "<group>"; };
+		25437A9B2297A25300B0105E /* UIView+TABControlAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABControlAnimation.h"; sourceTree = "<group>"; };
+		25437A9C2297A25300B0105E /* NSArray+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TABAnimated.h"; sourceTree = "<group>"; };
+		25437A9D2297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TABLayoutSubviews.h"; sourceTree = "<group>"; };
+		25437A9E2297A25300B0105E /* UITableView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TABAnimated.m"; sourceTree = "<group>"; };
+		25437A9F2297A25300B0105E /* UICollectionView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TABAnimated.h"; sourceTree = "<group>"; };
+		25437AA02297A25300B0105E /* UITableViewCell+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TABLayoutSubviews.h"; sourceTree = "<group>"; };
+		25437AA12297A25300B0105E /* UIView+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABLayoutSubviews.m"; sourceTree = "<group>"; };
+		25437AA22297A25300B0105E /* UIView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABAnimated.h"; sourceTree = "<group>"; };
+		25437AA42297A25300B0105E /* TABComponentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentLayer.m; sourceTree = "<group>"; };
+		25437AA52297A25300B0105E /* TABLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABLayer.h; sourceTree = "<group>"; };
+		25437AA62297A25300B0105E /* TABComponentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayer.h; sourceTree = "<group>"; };
+		25437AA72297A25300B0105E /* TABLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABLayer.m; sourceTree = "<group>"; };
+		25437AA92297A25300B0105E /* TABViewAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABViewAnimated.m; sourceTree = "<group>"; };
+		25437AAA2297A25300B0105E /* TABCollectionAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABCollectionAnimated.m; sourceTree = "<group>"; };
+		25437AAB2297A25300B0105E /* TABTableAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABTableAnimated.m; sourceTree = "<group>"; };
+		25437AAC2297A25300B0105E /* TABCollectionAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABCollectionAnimated.h; sourceTree = "<group>"; };
+		25437AAD2297A25300B0105E /* TABViewAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABViewAnimated.h; sourceTree = "<group>"; };
+		25437AAE2297A25300B0105E /* TABTableAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABTableAnimated.h; sourceTree = "<group>"; };
+		25437AAF2297A25300B0105E /* TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimated.h; sourceTree = "<group>"; };
+		25437AC02297A29900B0105E /* TestHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeadView.m; sourceTree = "<group>"; };
+		25437AC12297A29900B0105E /* TestHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeadView.h; sourceTree = "<group>"; };
+		25437AC32297A53400B0105E /* ZPMSkeletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMSkeletonViewController.h; sourceTree = "<group>"; };
+		25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMSkeletonViewController.m; sourceTree = "<group>"; };
 		25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWaveEnd.m; sourceTree = "<group>"; };
 		25D32BC022964A4200B3D882 /* AnimationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationStyle.h; sourceTree = "<group>"; };
 		25D32BC122964A4200B3D882 /* UIView+HHLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHLayout.h"; sourceTree = "<group>"; };
@@ -294,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C3B73C6FD7F6B4239698CD /* libPods-ZPMLibraries.a in Frameworks */,
+				25437A392297979500B0105E /* TABKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +483,7 @@
 				250F9BC1229532C700A3800E /* Assets.xcassets */,
 				250F9BC3229532C700A3800E /* LaunchScreen.storyboard */,
 				250F9BC6229532C700A3800E /* Info.plist */,
+				25437A4722979B9A00B0105E /* PrefixHeader.pch */,
 				250F9BC7229532C700A3800E /* main.m */,
 			);
 			path = ZPMLibraries;
@@ -511,8 +659,158 @@
 				25D32BFE22964F6300B3D882 /* ZPMDetailViewController.m */,
 				25D32C7C2296BAFC00B3D882 /* ZPMFloatBallViewController.h */,
 				25D32C7D2296BAFC00B3D882 /* ZPMFloatBallViewController.m */,
+				25437A232297940A00B0105E /* ZPMLoadingPageViewController.h */,
+				25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */,
+				25437AC32297A53400B0105E /* ZPMSkeletonViewController.h */,
+				25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */,
 			);
 			path = "页面库";
+			sourceTree = "<group>";
+		};
+		25437A262297965D00B0105E /* TABAnimated */ = {
+			isa = PBXGroup;
+			children = (
+				25437A8B2297A25300B0105E /* TABAnimated */,
+				25437A302297979500B0105E /* Sources */,
+				25437A282297967F00B0105E /* TestTableViewController.h */,
+				25437A272297967E00B0105E /* TestTableViewController.m */,
+				25437A4322979AE800B0105E /* LabWithLinesViewController.h */,
+				25437A4222979AE700B0105E /* LabWithLinesViewController.m */,
+				25437A4422979AE800B0105E /* TestCollectionViewController.h */,
+				25437A4122979AE700B0105E /* TestCollectionViewController.m */,
+				25437A5122979D5A00B0105E /* CardViewController.h */,
+				25437A5622979D5B00B0105E /* CardViewController.m */,
+				25437A5A22979D5D00B0105E /* ExampleOfPackageViewController.h */,
+				25437A5922979D5C00B0105E /* ExampleOfPackageViewController.m */,
+				25437A5322979D5B00B0105E /* NestCollectionViewController.h */,
+				25437A5422979D5B00B0105E /* NestCollectionViewController.m */,
+				25437A5222979D5B00B0105E /* SectionsCollectionViewController.h */,
+				25437A5722979D5B00B0105E /* SectionsCollectionViewController.m */,
+				25437A5B22979D5D00B0105E /* SectionsTableViewController.h */,
+				25437A5D22979D5E00B0105E /* SectionsTableViewController.m */,
+				25437A5822979D5C00B0105E /* SegmentCollectionViewController.h */,
+				25437A5C22979D5D00B0105E /* SegmentCollectionViewController.m */,
+				25437A5522979D5B00B0105E /* ViewExampleViewController.h */,
+				25437A5E22979D5E00B0105E /* ViewExampleViewController.m */,
+				25437A2B229796B400B0105E /* TestTableViewCell.h */,
+				25437A2A229796B400B0105E /* TestTableViewCell.m */,
+				25437A4922979CDF00B0105E /* NewsCollectionViewCell.h */,
+				25437A4822979CDF00B0105E /* NewsCollectionViewCell.m */,
+				25437A4E22979D1600B0105E /* LabWithLinesViewCell.h */,
+				25437A4F22979D1600B0105E /* LabWithLinesViewCell.m */,
+				25437A6D22979D6E00B0105E /* CardCollectionViewCell.h */,
+				25437A6B22979D6D00B0105E /* CardCollectionViewCell.m */,
+				25437A7022979D6E00B0105E /* CourseCollectionViewCell.h */,
+				25437A6722979D6C00B0105E /* CourseCollectionViewCell.m */,
+				25437A6C22979D6D00B0105E /* DailyCollectionViewCell.h */,
+				25437A6A22979D6C00B0105E /* DailyCollectionViewCell.m */,
+				25437A6F22979D6E00B0105E /* ImageCollectionViewCell.h */,
+				25437A6822979D6C00B0105E /* ImageCollectionViewCell.m */,
+				25437A6E22979D6E00B0105E /* LawyerArticleCollectionViewCell.h */,
+				25437A7122979D6F00B0105E /* LawyerArticleCollectionViewCell.m */,
+				25437A6922979D6C00B0105E /* LawyerCollectionViewCell.h */,
+				25437A6622979D6B00B0105E /* LawyerCollectionViewCell.m */,
+				25437A7822979D8400B0105E /* NestCollectionViewCell.h */,
+				25437A7922979D8400B0105E /* NestCollectionViewCell.m */,
+				25437A8622979EC700B0105E /* PackageTableViewCell.h */,
+				25437A8522979EC700B0105E /* PackageTableViewCell.m */,
+				25437A4C22979CFE00B0105E /* BaseCollectionCell.h */,
+				25437A4B22979CFD00B0105E /* BaseCollectionCell.m */,
+				25437AC12297A29900B0105E /* TestHeadView.h */,
+				25437AC02297A29900B0105E /* TestHeadView.m */,
+				25437A2D229796DC00B0105E /* Game.h */,
+				25437A2E229796DC00B0105E /* Game.m */,
+				25437A8822979F7E00B0105E /* News.h */,
+				25437A8922979F7E00B0105E /* News.m */,
+			);
+			path = TABAnimated;
+			sourceTree = "<group>";
+		};
+		25437A302297979500B0105E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				25437A312297979500B0105E /* TABKit.framework */,
+				25437A322297979500B0105E /* test0.jpg */,
+				25437A332297979500B0105E /* test1.jpg */,
+				25437A342297979500B0105E /* test2.jpg */,
+				25437A352297979500B0105E /* comic.jpg */,
+				25437A362297979500B0105E /* test.jpg */,
+				25437A372297979500B0105E /* head.jpg */,
+				25437A382297979500B0105E /* long.jpg */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		25437A8B2297A25300B0105E /* TABAnimated */ = {
+			isa = PBXGroup;
+			children = (
+				25437A8C2297A25300B0105E /* TABAnimated.m */,
+				25437A8D2297A25300B0105E /* Animation */,
+				25437A902297A25300B0105E /* Manager */,
+				25437AA32297A25300B0105E /* Layer */,
+				25437AA82297A25300B0105E /* Model */,
+				25437AAF2297A25300B0105E /* TABAnimated.h */,
+			);
+			name = TABAnimated;
+			path = "../../../../../../../Downloads/TABAnimated-master 2/AnimatedDemo/AnimatedDemo/TABAnimated";
+			sourceTree = "<group>";
+		};
+		25437A8D2297A25300B0105E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				25437A8E2297A25300B0105E /* TABAnimationMethod.m */,
+				25437A8F2297A25300B0105E /* TABAnimationMethod.h */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		25437A902297A25300B0105E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				25437A912297A25300B0105E /* UIView+TABControlAnimation.m */,
+				25437A922297A25300B0105E /* TABManagerMethod.h */,
+				25437A932297A25300B0105E /* UICollectionView+TABAnimated.m */,
+				25437A942297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */,
+				25437A952297A25300B0105E /* UITableView+TABAnimated.h */,
+				25437A962297A25300B0105E /* NSArray+TABAnimated.m */,
+				25437A972297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m */,
+				25437A982297A25300B0105E /* UIView+TABLayoutSubviews.h */,
+				25437A992297A25300B0105E /* UIView+TABAnimated.m */,
+				25437A9A2297A25300B0105E /* TABManagerMethod.m */,
+				25437A9B2297A25300B0105E /* UIView+TABControlAnimation.h */,
+				25437A9C2297A25300B0105E /* NSArray+TABAnimated.h */,
+				25437A9D2297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.h */,
+				25437A9E2297A25300B0105E /* UITableView+TABAnimated.m */,
+				25437A9F2297A25300B0105E /* UICollectionView+TABAnimated.h */,
+				25437AA02297A25300B0105E /* UITableViewCell+TABLayoutSubviews.h */,
+				25437AA12297A25300B0105E /* UIView+TABLayoutSubviews.m */,
+				25437AA22297A25300B0105E /* UIView+TABAnimated.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		25437AA32297A25300B0105E /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				25437AA42297A25300B0105E /* TABComponentLayer.m */,
+				25437AA52297A25300B0105E /* TABLayer.h */,
+				25437AA62297A25300B0105E /* TABComponentLayer.h */,
+				25437AA72297A25300B0105E /* TABLayer.m */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		25437AA82297A25300B0105E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25437AA92297A25300B0105E /* TABViewAnimated.m */,
+				25437AAA2297A25300B0105E /* TABCollectionAnimated.m */,
+				25437AAB2297A25300B0105E /* TABTableAnimated.m */,
+				25437AAC2297A25300B0105E /* TABCollectionAnimated.h */,
+				25437AAD2297A25300B0105E /* TABViewAnimated.h */,
+				25437AAE2297A25300B0105E /* TABTableAnimated.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		25D32BBE22964A4200B3D882 /* HHTransition */ = {
@@ -564,6 +862,7 @@
 		25D32BF922964A6700B3D882 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				25437A262297965D00B0105E /* TABAnimated */,
 				25D32BBE22964A4200B3D882 /* HHTransition */,
 			);
 			path = Others;
@@ -693,13 +992,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D32C5E22968CA700B3D882 /* reset.png in Resources */,
+				25437A402297979500B0105E /* long.jpg in Resources */,
 				250F9BC5229532C700A3800E /* LaunchScreen.storyboard in Resources */,
 				250F9BC2229532C700A3800E /* Assets.xcassets in Resources */,
+				25437A3E2297979500B0105E /* test.jpg in Resources */,
+				25437A3D2297979500B0105E /* comic.jpg in Resources */,
+				25437A3C2297979500B0105E /* test2.jpg in Resources */,
+				25437A3B2297979500B0105E /* test1.jpg in Resources */,
 				25D32C5F22968CA700B3D882 /* filter.png in Resources */,
 				25D32C062296756300B3D882 /* 2.jpg in Resources */,
 				25D32C5D22968CA700B3D882 /* XYOverlayerView.xib in Resources */,
 				250F9BC0229532C600A3800E /* Main.storyboard in Resources */,
+				25437A3F2297979500B0105E /* head.jpg in Resources */,
 				25D32C072296756300B3D882 /* 1.jpg in Resources */,
+				25437A3A2297979500B0105E /* test0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +1020,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png",
 				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js",
 				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@2x.png",
@@ -724,6 +1031,7 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JPSuspensionEntrance.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GithubDebug.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightKeywords.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/next@2x.png",
@@ -761,17 +1069,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25437A6022979D5F00B0105E /* CardViewController.m in Sources */,
 				250F9C4E2295430C00A3800E /* SPActivityIndicatorBallScaleRippleAnimation.m in Sources */,
+				25437A6222979D5F00B0105E /* ExampleOfPackageViewController.m in Sources */,
 				250F9C602295430C00A3800E /* SPActivityIndicatorDoubleBounceAnimation.m in Sources */,
 				25D32C6122968CA700B3D882 /* XYDebugCategory.m in Sources */,
+				25437A4A22979CE000B0105E /* NewsCollectionViewCell.m in Sources */,
+				25437A7522979D6F00B0105E /* DailyCollectionViewCell.m in Sources */,
+				25437A292297967F00B0105E /* TestTableViewController.m in Sources */,
 				250F9C652295430C00A3800E /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
 				25D32BF722964A4200B3D882 /* AnimationScaleEnd.m in Sources */,
 				250F9C672295430C00A3800E /* SPActivityIndicatorBallRotaingAroundBallAnimation.m in Sources */,
+				25437A2C229796B400B0105E /* TestTableViewCell.m in Sources */,
 				250F9C6A2295430C00A3800E /* SPActivityIndicatorBallRotateAnimation.m in Sources */,
 				25D32BFC22964A9000B3D882 /* ZPMTransitionViewController.m in Sources */,
 				25D32BEF22964A4200B3D882 /* AnimationScaleBegin.m in Sources */,
 				250F9C522295430C00A3800E /* SPActivityIndicatorLoadingFailAnimation.m in Sources */,
+				25437A7422979D6F00B0105E /* ImageCollectionViewCell.m in Sources */,
 				25D32C7E2296BAFC00B3D882 /* ZPMFloatBallViewController.m in Sources */,
+				25437A4D22979CFE00B0105E /* BaseCollectionCell.m in Sources */,
 				250F9C532295430C00A3800E /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */,
 				25D32BED22964A4200B3D882 /* AnimationFadeEnd.m in Sources */,
 				250F9C492295430C00A3800E /* SPActivityIndicator3DotsExchangePositionAnimation.m in Sources */,
@@ -779,6 +1095,7 @@
 				250F9BDE2295344200A3800E /* ZPMDebugViewController.m in Sources */,
 				250F9C632295430C00A3800E /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
 				250F9C6D2295430C00A3800E /* SPActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				25437AB92297A25300B0105E /* UITableView+TABAnimated.m in Sources */,
 				250F9C662295430C00A3800E /* SPActivityIndicatorRotatingSandglassAnimation.m in Sources */,
 				250F9C572295430C00A3800E /* SPActivityIndicatorAnimation.m in Sources */,
 				25D32BF122964A4200B3D882 /* VCInteractionDelegate.m in Sources */,
@@ -793,43 +1110,66 @@
 				250F9C692295430C00A3800E /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
 				25D32C6222968CA700B3D882 /* XYDebugViewManager.m in Sources */,
 				25D32BF622964A4200B3D882 /* AnimationTransitionBegin.m in Sources */,
+				25437A5022979D1600B0105E /* LabWithLinesViewCell.m in Sources */,
 				250F9C582295430C00A3800E /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m in Sources */,
 				250F9C482295430C00A3800E /* SPActivityIndicatorBallPulseAnimation.m in Sources */,
+				25437ABF2297A25300B0105E /* TABTableAnimated.m in Sources */,
+				25437A4622979AE800B0105E /* LabWithLinesViewController.m in Sources */,
 				25D32BEE22964A4200B3D882 /* AnimationFadeBegin.m in Sources */,
 				250F9BE72295395C00A3800E /* ZPMRootViewController.m in Sources */,
 				250F9C5E2295430C00A3800E /* SPActivityIndicatorBallTrianglePathAnimation.m in Sources */,
 				250F9C612295430C00A3800E /* SPActivityIndicatorBallLoopScaleAnimation.m in Sources */,
+				25437A8722979EC700B0105E /* PackageTableViewCell.m in Sources */,
 				250F9C542295430C00A3800E /* SPActivityIndicatorBallGridPulseAnimation.m in Sources */,
 				250F9C7A2295515600A3800E /* ZPMToastViewController.m in Sources */,
 				250F9C502295430C00A3800E /* SPActivityIndicatorBallGridBeatAnimation.m in Sources */,
+				25437AC22297A29900B0105E /* TestHeadView.m in Sources */,
 				25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */,
+				25437ABA2297A25300B0105E /* UIView+TABLayoutSubviews.m in Sources */,
 				250F9C4A2295430C00A3800E /* SPActivityIndicator3DotsFadeAnimation.m in Sources */,
 				250F9C4C2295430C00A3800E /* SPActivityIndicatorLineScaleAnimation.m in Sources */,
 				250F9BBD229532C600A3800E /* ViewController.m in Sources */,
 				25D32BF422964A4200B3D882 /* UIView+HHLayout.m in Sources */,
+				25437A6322979D5F00B0105E /* SegmentCollectionViewController.m in Sources */,
 				25D32BF822964A4200B3D882 /* QuadrantRecognise.m in Sources */,
+				25437AB62297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m in Sources */,
 				250F9C562295430C00A3800E /* SPActivityIndicatorTripleRingsAnimation.m in Sources */,
+				25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */,
 				25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */,
+				25437A7622979D6F00B0105E /* CardCollectionViewCell.m in Sources */,
 				25D32BEA22964A4200B3D882 /* AnimationTiltBegin.m in Sources */,
+				25437A6522979D5F00B0105E /* ViewExampleViewController.m in Sources */,
 				250F9C6C2295430C00A3800E /* SPActivityIndicatorFiveDotsAnimation.m in Sources */,
 				25D32BF522964A4200B3D882 /* AnimationErectEnd.m in Sources */,
 				25D32C6422968CA700B3D882 /* XYOverlayerView.m in Sources */,
 				250F9C462295430C00A3800E /* SPActivityIndicatorRotatingTrigonAnimation.m in Sources */,
+				25437ABB2297A25300B0105E /* TABComponentLayer.m in Sources */,
 				250F9C6B2295430C00A3800E /* SPActivityIndicatorBallZigZagAnimation.m in Sources */,
 				250F9C552295430C00A3800E /* SPActivityIndicatorCookieTerminatorAnimation.m in Sources */,
 				25D32BF322964A4200B3D882 /* AnimationErectBegin.m in Sources */,
+				25437A4522979AE800B0105E /* TestCollectionViewController.m in Sources */,
+				25437A7222979D6F00B0105E /* LawyerCollectionViewCell.m in Sources */,
 				250F9BD5229533FB00A3800E /* ZPMPageLibViewController.m in Sources */,
+				25437A5F22979D5F00B0105E /* NestCollectionViewController.m in Sources */,
 				25D32BFF22964F6300B3D882 /* ZPMDetailViewController.m in Sources */,
+				25437A8A22979F7E00B0105E /* News.m in Sources */,
+				25437AC52297A53400B0105E /* ZPMSkeletonViewController.m in Sources */,
 				250F9BC8229532C700A3800E /* main.m in Sources */,
 				250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */,
 				250F9C5A2295430C00A3800E /* SPActivityIndicatorLineScalePartyAnimation.m in Sources */,
 				25D32BF222964A4200B3D882 /* AnimationWaveBegin.m in Sources */,
 				250F9C682295430C00A3800E /* SPActivityIndicatorThreeDotsAnimation.m in Sources */,
+				25437AB22297A25300B0105E /* UIView+TABControlAnimation.m in Sources */,
+				25437A2F229796DD00B0105E /* Game.m in Sources */,
 				25D32C6022968CA700B3D882 /* XYDebugCloneView.m in Sources */,
 				250F9C5F2295430C00A3800E /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */,
 				250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */,
+				25437A6422979D5F00B0105E /* SectionsTableViewController.m in Sources */,
 				25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */,
 				250F9C452295430C00A3800E /* SPActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
+				25437A7A22979D8400B0105E /* NestCollectionViewCell.m in Sources */,
+				25437ABE2297A25300B0105E /* TABCollectionAnimated.m in Sources */,
+				25437A6122979D5F00B0105E /* SectionsCollectionViewController.m in Sources */,
 				25D32BEC22964A4200B3D882 /* AnimationTildEnd.m in Sources */,
 				25D32BE922964A4200B3D882 /* VCTransitionDelegate.m in Sources */,
 				250F9BD2229533E800A3800E /* ZPMControlLibViewController.m in Sources */,
@@ -837,13 +1177,24 @@
 				250F9BD82295342600A3800E /* ZPMAnimationLibViewController.m in Sources */,
 				250F9C4B2295430C00A3800E /* SPActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
 				250F9C432295430C00A3800E /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
+				25437AB52297A25300B0105E /* NSArray+TABAnimated.m in Sources */,
 				250F9C512295430C00A3800E /* SPActivityIndicatorThreeDotsFadeAnimation.m in Sources */,
+				25437A7722979D6F00B0105E /* LawyerArticleCollectionViewCell.m in Sources */,
+				25437AB82297A25300B0105E /* TABManagerMethod.m in Sources */,
+				25437AB12297A25300B0105E /* TABAnimationMethod.m in Sources */,
 				250F9C472295430C00A3800E /* SPActivityIndicatorBallScaleAnimation.m in Sources */,
+				25437AB02297A25300B0105E /* TABAnimated.m in Sources */,
 				250F9C4F2295430C00A3800E /* SPActivityIndicatorRotatingSquaresAnimation.m in Sources */,
 				250F9C622295430C00A3800E /* SPActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
 				250F9BDB2295343800A3800E /* ZPMUnitLibViewController.m in Sources */,
+				25437ABD2297A25300B0105E /* TABViewAnimated.m in Sources */,
+				25437AB42297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */,
 				250F9C5B2295430C00A3800E /* SPActivityIndicatorBallBeatAnimation.m in Sources */,
+				25437A7322979D6F00B0105E /* CourseCollectionViewCell.m in Sources */,
 				250F9C4D2295430C00A3800E /* SPActivityIndicatorTriplePulseAnimation.m in Sources */,
+				25437AB72297A25300B0105E /* UIView+TABAnimated.m in Sources */,
+				25437ABC2297A25300B0105E /* TABLayer.m in Sources */,
+				25437AB32297A25300B0105E /* UICollectionView+TABAnimated.m in Sources */,
 				25D32BEB22964A4200B3D882 /* AnimationBackBegin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -988,6 +1339,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZPMLibraries/ViewControllers/页面库/Others/TABAnimated/Sources",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZPMLibraries/PrefixHeader.pch";
 				INFOPLIST_FILE = ZPMLibraries/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1006,6 +1363,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZPMLibraries/ViewControllers/页面库/Others/TABAnimated/Sources",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZPMLibraries/PrefixHeader.pch";
 				INFOPLIST_FILE = ZPMLibraries/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

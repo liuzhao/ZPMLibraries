@@ -12,7 +12,6 @@
 #import "ZPMAnimationLibViewController.h"
 #import "ZPMUnitLibViewController.h"
 #import "ZPMDebugViewController.h"
-#import "HKFloatManager.h"
 
 @interface ZPMTabBarController ()
 
@@ -65,8 +64,6 @@
     
     NSArray *items = [NSArray arrayWithObjects:nav1, nav2, nav3, nav4, nav5, nil];
     [self setViewControllers:items];
-    
-    [HKFloatManager addFloatVcs:@[@"ZPMDetailViewController"]];
 }
 
 /*

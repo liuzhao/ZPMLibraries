@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ZPMTabBarController.h"
-#import "HKFloatManager.h"
+#import "TABAnimated.h"
 
 @interface AppDelegate ()
 
@@ -20,11 +20,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    [self initTABAnimated];
+    
     [self setupMainView];
     
     [self.window makeKeyAndVisible];
-    
-    [HKFloatManager addFloatVcs:@[@"ZPMFloatBallViewController"]];
     
     return YES;
 }
@@ -34,6 +34,18 @@
     ZPMTabBarController *tabbar = [[ZPMTabBarController alloc] init];
     [tabbar setSelectedIndex:1];
     self.window.rootViewController = tabbar;
+}
+
+- (void)initTABAnimated
+{
+    // Init `TABAnimated`, and set the properties you need.
+    // 初始化TABAnimated，并设置TABAnimated相关属性
+    [[TABAnimated sharedAnimated] initWithOnlySkeleton];
+    // open log
+    // 开启日志
+    [TABAnimated sharedAnimated].openLog = YES;
+    // set gobal cornerRadius
+    [TABAnimated sharedAnimated].useGlobalCornerRadius = YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

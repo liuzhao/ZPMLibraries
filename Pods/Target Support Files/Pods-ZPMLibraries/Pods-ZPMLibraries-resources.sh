@@ -93,6 +93,7 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@2x.png"
@@ -102,6 +103,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/next@2x.png"

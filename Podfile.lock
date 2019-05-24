@@ -1,20 +1,32 @@
 PODS:
   - JPSuspensionEntrance (0.2.2)
+  - JXCategoryView (1.3.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.16)
   - ZPMConsoleLog (0.0.6)
 
 DEPENDENCIES:
   - JPSuspensionEntrance
+  - JXCategoryView
+  - Masonry
+  - MJRefresh
   - ZPMConsoleLog
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - JPSuspensionEntrance
+    - JXCategoryView
+    - Masonry
+    - MJRefresh
     - ZPMConsoleLog
 
 SPEC CHECKSUMS:
   JPSuspensionEntrance: 9d3c6946d88edf39479c0cbb7466102f9862aa97
+  JXCategoryView: 25e379fa1e8f5577f878e2446207bb869ec97228
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
   ZPMConsoleLog: bf20a7551a452dbd57c346b7c6da895562084465
 
-PODFILE CHECKSUM: af3a55ccf1509f9d5b7549f29cfe453f710910da
+PODFILE CHECKSUM: a8f0b399c19f45a2df64cfdeaf46f6726fe0a326
 
 COCOAPODS: 1.5.3

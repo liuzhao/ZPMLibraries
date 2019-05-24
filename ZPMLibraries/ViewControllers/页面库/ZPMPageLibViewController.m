@@ -10,6 +10,7 @@
 #import "ZPMTransitionViewController.h"
 #import "ZPMFloatBallViewController.h"
 #import "JPSuspensionEntrance.h"
+#import "ZPMLoadingPageViewController.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -31,11 +32,11 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
     
     JPSEInstance.navCtr = self.navigationController;
     
-    __weak typeof(self) weakSelf = self;
-    JPSEInstance.willSpreadSuspensionViewControllerBlock = ^(UIViewController<JPSuspensionEntranceProtocol> *targetVC) {
+//    __weak typeof(self) weakSelf = self;
+//    JPSEInstance.willSpreadSuspensionViewControllerBlock = ^(UIViewController<JPSuspensionEntranceProtocol> *targetVC) {
 //        [(ViewController *)targetVC setIsHideNavBar:weakSelf.isHideNavBar];
 //        [(ViewController *)targetVC setRightBtnTitle:@"取消浮窗"];
-    };
+//    };
 }
 
 - (void)setupJPSEInstance {
@@ -108,8 +109,10 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
     ZPMFloatBallViewController *vc2 = [ZPMFloatBallViewController new];
     vc2.hk_iconImage = [UIImage imageNamed:@"icn_color_utils"];
     
+    ZPMLoadingPageViewController *vc3 = [[ZPMLoadingPageViewController alloc] init];
+    
     self.listArray = @[@[@{@"title": @"空页面 EmptyPage"},
-                         @{@"title": @"加载页面 LoadingPage"},
+                         @{@"title": @"加载页面 LoadingPage", @"vc": vc3},
                          @{@"title": @"引导页 GuidePage"},
                          @{@"title": @"广告页 AdPage"},
                          @{@"title": @"轮播页 Banner"},
