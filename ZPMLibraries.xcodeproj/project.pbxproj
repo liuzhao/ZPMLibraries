@@ -101,24 +101,24 @@
 		25437A7A22979D8400B0105E /* NestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A7922979D8400B0105E /* NestCollectionViewCell.m */; };
 		25437A8722979EC700B0105E /* PackageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8522979EC700B0105E /* PackageTableViewCell.m */; };
 		25437A8A22979F7E00B0105E /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8922979F7E00B0105E /* News.m */; };
-		25437AB02297A25300B0105E /* TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8C2297A25300B0105E /* TABAnimated.m */; };
-		25437AB12297A25300B0105E /* TABAnimationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A8E2297A25300B0105E /* TABAnimationMethod.m */; };
-		25437AB22297A25300B0105E /* UIView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A912297A25300B0105E /* UIView+TABControlAnimation.m */; };
-		25437AB32297A25300B0105E /* UICollectionView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A932297A25300B0105E /* UICollectionView+TABAnimated.m */; };
-		25437AB42297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A942297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */; };
-		25437AB52297A25300B0105E /* NSArray+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A962297A25300B0105E /* NSArray+TABAnimated.m */; };
-		25437AB62297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A972297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m */; };
-		25437AB72297A25300B0105E /* UIView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A992297A25300B0105E /* UIView+TABAnimated.m */; };
-		25437AB82297A25300B0105E /* TABManagerMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A9A2297A25300B0105E /* TABManagerMethod.m */; };
-		25437AB92297A25300B0105E /* UITableView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A9E2297A25300B0105E /* UITableView+TABAnimated.m */; };
-		25437ABA2297A25300B0105E /* UIView+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA12297A25300B0105E /* UIView+TABLayoutSubviews.m */; };
-		25437ABB2297A25300B0105E /* TABComponentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA42297A25300B0105E /* TABComponentLayer.m */; };
-		25437ABC2297A25300B0105E /* TABLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA72297A25300B0105E /* TABLayer.m */; };
-		25437ABD2297A25300B0105E /* TABViewAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AA92297A25300B0105E /* TABViewAnimated.m */; };
-		25437ABE2297A25300B0105E /* TABCollectionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AAA2297A25300B0105E /* TABCollectionAnimated.m */; };
-		25437ABF2297A25300B0105E /* TABTableAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AAB2297A25300B0105E /* TABTableAnimated.m */; };
 		25437AC22297A29900B0105E /* TestHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AC02297A29900B0105E /* TestHeadView.m */; };
 		25437AC52297A53400B0105E /* ZPMSkeletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */; };
+		25437AEB2297C2F300B0105E /* TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AC72297C2F300B0105E /* TABAnimated.m */; };
+		25437AEC2297C2F300B0105E /* TABAnimationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AC92297C2F300B0105E /* TABAnimationMethod.m */; };
+		25437AED2297C2F300B0105E /* UIView+TABControlAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437ACC2297C2F300B0105E /* UIView+TABControlAnimation.m */; };
+		25437AEE2297C2F300B0105E /* UICollectionView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437ACE2297C2F300B0105E /* UICollectionView+TABAnimated.m */; };
+		25437AEF2297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437ACF2297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */; };
+		25437AF02297C2F300B0105E /* NSArray+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AD12297C2F300B0105E /* NSArray+TABAnimated.m */; };
+		25437AF12297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AD22297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.m */; };
+		25437AF22297C2F300B0105E /* UIView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AD42297C2F300B0105E /* UIView+TABAnimated.m */; };
+		25437AF32297C2F300B0105E /* TABManagerMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AD52297C2F300B0105E /* TABManagerMethod.m */; };
+		25437AF42297C2F300B0105E /* UITableView+TABAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AD92297C2F300B0105E /* UITableView+TABAnimated.m */; };
+		25437AF52297C2F300B0105E /* UIView+TABLayoutSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437ADC2297C2F300B0105E /* UIView+TABLayoutSubviews.m */; };
+		25437AF62297C2F300B0105E /* TABComponentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437ADF2297C2F300B0105E /* TABComponentLayer.m */; };
+		25437AF72297C2F300B0105E /* TABLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE22297C2F300B0105E /* TABLayer.m */; };
+		25437AF82297C2F300B0105E /* TABViewAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE42297C2F300B0105E /* TABViewAnimated.m */; };
+		25437AF92297C2F300B0105E /* TABCollectionAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE52297C2F300B0105E /* TABCollectionAnimated.m */; };
+		25437AFA2297C2F300B0105E /* TABTableAnimated.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437AE62297C2F300B0105E /* TABTableAnimated.m */; };
 		25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */; };
 		25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC222964A4200B3D882 /* AnimationBackEnd.m */; };
 		25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC322964A4200B3D882 /* AnimationTransitionEnd.m */; };
@@ -333,42 +333,42 @@
 		25437A8622979EC700B0105E /* PackageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageTableViewCell.h; sourceTree = "<group>"; };
 		25437A8822979F7E00B0105E /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		25437A8922979F7E00B0105E /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
-		25437A8C2297A25300B0105E /* TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimated.m; sourceTree = "<group>"; };
-		25437A8E2297A25300B0105E /* TABAnimationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimationMethod.m; sourceTree = "<group>"; };
-		25437A8F2297A25300B0105E /* TABAnimationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimationMethod.h; sourceTree = "<group>"; };
-		25437A912297A25300B0105E /* UIView+TABControlAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABControlAnimation.m"; sourceTree = "<group>"; };
-		25437A922297A25300B0105E /* TABManagerMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABManagerMethod.h; sourceTree = "<group>"; };
-		25437A932297A25300B0105E /* UICollectionView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TABAnimated.m"; sourceTree = "<group>"; };
-		25437A942297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TABLayoutSubviews.m"; sourceTree = "<group>"; };
-		25437A952297A25300B0105E /* UITableView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TABAnimated.h"; sourceTree = "<group>"; };
-		25437A962297A25300B0105E /* NSArray+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TABAnimated.m"; sourceTree = "<group>"; };
-		25437A972297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TABLayoutSubviews.m"; sourceTree = "<group>"; };
-		25437A982297A25300B0105E /* UIView+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABLayoutSubviews.h"; sourceTree = "<group>"; };
-		25437A992297A25300B0105E /* UIView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABAnimated.m"; sourceTree = "<group>"; };
-		25437A9A2297A25300B0105E /* TABManagerMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABManagerMethod.m; sourceTree = "<group>"; };
-		25437A9B2297A25300B0105E /* UIView+TABControlAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABControlAnimation.h"; sourceTree = "<group>"; };
-		25437A9C2297A25300B0105E /* NSArray+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TABAnimated.h"; sourceTree = "<group>"; };
-		25437A9D2297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TABLayoutSubviews.h"; sourceTree = "<group>"; };
-		25437A9E2297A25300B0105E /* UITableView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TABAnimated.m"; sourceTree = "<group>"; };
-		25437A9F2297A25300B0105E /* UICollectionView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TABAnimated.h"; sourceTree = "<group>"; };
-		25437AA02297A25300B0105E /* UITableViewCell+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TABLayoutSubviews.h"; sourceTree = "<group>"; };
-		25437AA12297A25300B0105E /* UIView+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABLayoutSubviews.m"; sourceTree = "<group>"; };
-		25437AA22297A25300B0105E /* UIView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABAnimated.h"; sourceTree = "<group>"; };
-		25437AA42297A25300B0105E /* TABComponentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentLayer.m; sourceTree = "<group>"; };
-		25437AA52297A25300B0105E /* TABLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABLayer.h; sourceTree = "<group>"; };
-		25437AA62297A25300B0105E /* TABComponentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayer.h; sourceTree = "<group>"; };
-		25437AA72297A25300B0105E /* TABLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABLayer.m; sourceTree = "<group>"; };
-		25437AA92297A25300B0105E /* TABViewAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABViewAnimated.m; sourceTree = "<group>"; };
-		25437AAA2297A25300B0105E /* TABCollectionAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABCollectionAnimated.m; sourceTree = "<group>"; };
-		25437AAB2297A25300B0105E /* TABTableAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABTableAnimated.m; sourceTree = "<group>"; };
-		25437AAC2297A25300B0105E /* TABCollectionAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABCollectionAnimated.h; sourceTree = "<group>"; };
-		25437AAD2297A25300B0105E /* TABViewAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABViewAnimated.h; sourceTree = "<group>"; };
-		25437AAE2297A25300B0105E /* TABTableAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABTableAnimated.h; sourceTree = "<group>"; };
-		25437AAF2297A25300B0105E /* TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimated.h; sourceTree = "<group>"; };
 		25437AC02297A29900B0105E /* TestHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHeadView.m; sourceTree = "<group>"; };
 		25437AC12297A29900B0105E /* TestHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHeadView.h; sourceTree = "<group>"; };
 		25437AC32297A53400B0105E /* ZPMSkeletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMSkeletonViewController.h; sourceTree = "<group>"; };
 		25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMSkeletonViewController.m; sourceTree = "<group>"; };
+		25437AC72297C2F300B0105E /* TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimated.m; sourceTree = "<group>"; };
+		25437AC92297C2F300B0105E /* TABAnimationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABAnimationMethod.m; sourceTree = "<group>"; };
+		25437ACA2297C2F300B0105E /* TABAnimationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimationMethod.h; sourceTree = "<group>"; };
+		25437ACC2297C2F300B0105E /* UIView+TABControlAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABControlAnimation.m"; sourceTree = "<group>"; };
+		25437ACD2297C2F300B0105E /* TABManagerMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABManagerMethod.h; sourceTree = "<group>"; };
+		25437ACE2297C2F300B0105E /* UICollectionView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TABAnimated.m"; sourceTree = "<group>"; };
+		25437ACF2297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+TABLayoutSubviews.m"; sourceTree = "<group>"; };
+		25437AD02297C2F300B0105E /* UITableView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TABAnimated.h"; sourceTree = "<group>"; };
+		25437AD12297C2F300B0105E /* NSArray+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TABAnimated.m"; sourceTree = "<group>"; };
+		25437AD22297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+TABLayoutSubviews.m"; sourceTree = "<group>"; };
+		25437AD32297C2F300B0105E /* UIView+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABLayoutSubviews.h"; sourceTree = "<group>"; };
+		25437AD42297C2F300B0105E /* UIView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABAnimated.m"; sourceTree = "<group>"; };
+		25437AD52297C2F300B0105E /* TABManagerMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABManagerMethod.m; sourceTree = "<group>"; };
+		25437AD62297C2F300B0105E /* UIView+TABControlAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABControlAnimation.h"; sourceTree = "<group>"; };
+		25437AD72297C2F300B0105E /* NSArray+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TABAnimated.h"; sourceTree = "<group>"; };
+		25437AD82297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+TABLayoutSubviews.h"; sourceTree = "<group>"; };
+		25437AD92297C2F300B0105E /* UITableView+TABAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TABAnimated.m"; sourceTree = "<group>"; };
+		25437ADA2297C2F300B0105E /* UICollectionView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TABAnimated.h"; sourceTree = "<group>"; };
+		25437ADB2297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+TABLayoutSubviews.h"; sourceTree = "<group>"; };
+		25437ADC2297C2F300B0105E /* UIView+TABLayoutSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TABLayoutSubviews.m"; sourceTree = "<group>"; };
+		25437ADD2297C2F300B0105E /* UIView+TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TABAnimated.h"; sourceTree = "<group>"; };
+		25437ADF2297C2F300B0105E /* TABComponentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABComponentLayer.m; sourceTree = "<group>"; };
+		25437AE02297C2F300B0105E /* TABLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABLayer.h; sourceTree = "<group>"; };
+		25437AE12297C2F300B0105E /* TABComponentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABComponentLayer.h; sourceTree = "<group>"; };
+		25437AE22297C2F300B0105E /* TABLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABLayer.m; sourceTree = "<group>"; };
+		25437AE42297C2F300B0105E /* TABViewAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABViewAnimated.m; sourceTree = "<group>"; };
+		25437AE52297C2F300B0105E /* TABCollectionAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABCollectionAnimated.m; sourceTree = "<group>"; };
+		25437AE62297C2F300B0105E /* TABTableAnimated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABTableAnimated.m; sourceTree = "<group>"; };
+		25437AE72297C2F300B0105E /* TABCollectionAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABCollectionAnimated.h; sourceTree = "<group>"; };
+		25437AE82297C2F300B0105E /* TABViewAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABViewAnimated.h; sourceTree = "<group>"; };
+		25437AE92297C2F300B0105E /* TABTableAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABTableAnimated.h; sourceTree = "<group>"; };
+		25437AEA2297C2F300B0105E /* TABAnimated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABAnimated.h; sourceTree = "<group>"; };
 		25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWaveEnd.m; sourceTree = "<group>"; };
 		25D32BC022964A4200B3D882 /* AnimationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationStyle.h; sourceTree = "<group>"; };
 		25D32BC122964A4200B3D882 /* UIView+HHLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHLayout.h"; sourceTree = "<group>"; };
@@ -670,7 +670,7 @@
 		25437A262297965D00B0105E /* TABAnimated */ = {
 			isa = PBXGroup;
 			children = (
-				25437A8B2297A25300B0105E /* TABAnimated */,
+				25437AC62297C2F300B0105E /* TABAnimated */,
 				25437A302297979500B0105E /* Sources */,
 				25437A282297967F00B0105E /* TestTableViewController.h */,
 				25437A272297967E00B0105E /* TestTableViewController.m */,
@@ -741,74 +741,73 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		25437A8B2297A25300B0105E /* TABAnimated */ = {
+		25437AC62297C2F300B0105E /* TABAnimated */ = {
 			isa = PBXGroup;
 			children = (
-				25437A8C2297A25300B0105E /* TABAnimated.m */,
-				25437A8D2297A25300B0105E /* Animation */,
-				25437A902297A25300B0105E /* Manager */,
-				25437AA32297A25300B0105E /* Layer */,
-				25437AA82297A25300B0105E /* Model */,
-				25437AAF2297A25300B0105E /* TABAnimated.h */,
+				25437AC72297C2F300B0105E /* TABAnimated.m */,
+				25437AC82297C2F300B0105E /* Animation */,
+				25437ACB2297C2F300B0105E /* Manager */,
+				25437ADE2297C2F300B0105E /* Layer */,
+				25437AE32297C2F300B0105E /* Model */,
+				25437AEA2297C2F300B0105E /* TABAnimated.h */,
 			);
-			name = TABAnimated;
-			path = "../../../../../../../Downloads/TABAnimated-master 2/AnimatedDemo/AnimatedDemo/TABAnimated";
+			path = TABAnimated;
 			sourceTree = "<group>";
 		};
-		25437A8D2297A25300B0105E /* Animation */ = {
+		25437AC82297C2F300B0105E /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				25437A8E2297A25300B0105E /* TABAnimationMethod.m */,
-				25437A8F2297A25300B0105E /* TABAnimationMethod.h */,
+				25437AC92297C2F300B0105E /* TABAnimationMethod.m */,
+				25437ACA2297C2F300B0105E /* TABAnimationMethod.h */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
 		};
-		25437A902297A25300B0105E /* Manager */ = {
+		25437ACB2297C2F300B0105E /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				25437A912297A25300B0105E /* UIView+TABControlAnimation.m */,
-				25437A922297A25300B0105E /* TABManagerMethod.h */,
-				25437A932297A25300B0105E /* UICollectionView+TABAnimated.m */,
-				25437A942297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */,
-				25437A952297A25300B0105E /* UITableView+TABAnimated.h */,
-				25437A962297A25300B0105E /* NSArray+TABAnimated.m */,
-				25437A972297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m */,
-				25437A982297A25300B0105E /* UIView+TABLayoutSubviews.h */,
-				25437A992297A25300B0105E /* UIView+TABAnimated.m */,
-				25437A9A2297A25300B0105E /* TABManagerMethod.m */,
-				25437A9B2297A25300B0105E /* UIView+TABControlAnimation.h */,
-				25437A9C2297A25300B0105E /* NSArray+TABAnimated.h */,
-				25437A9D2297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.h */,
-				25437A9E2297A25300B0105E /* UITableView+TABAnimated.m */,
-				25437A9F2297A25300B0105E /* UICollectionView+TABAnimated.h */,
-				25437AA02297A25300B0105E /* UITableViewCell+TABLayoutSubviews.h */,
-				25437AA12297A25300B0105E /* UIView+TABLayoutSubviews.m */,
-				25437AA22297A25300B0105E /* UIView+TABAnimated.h */,
+				25437ACC2297C2F300B0105E /* UIView+TABControlAnimation.m */,
+				25437ACD2297C2F300B0105E /* TABManagerMethod.h */,
+				25437ACE2297C2F300B0105E /* UICollectionView+TABAnimated.m */,
+				25437ACF2297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.m */,
+				25437AD02297C2F300B0105E /* UITableView+TABAnimated.h */,
+				25437AD12297C2F300B0105E /* NSArray+TABAnimated.m */,
+				25437AD22297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.m */,
+				25437AD32297C2F300B0105E /* UIView+TABLayoutSubviews.h */,
+				25437AD42297C2F300B0105E /* UIView+TABAnimated.m */,
+				25437AD52297C2F300B0105E /* TABManagerMethod.m */,
+				25437AD62297C2F300B0105E /* UIView+TABControlAnimation.h */,
+				25437AD72297C2F300B0105E /* NSArray+TABAnimated.h */,
+				25437AD82297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.h */,
+				25437AD92297C2F300B0105E /* UITableView+TABAnimated.m */,
+				25437ADA2297C2F300B0105E /* UICollectionView+TABAnimated.h */,
+				25437ADB2297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.h */,
+				25437ADC2297C2F300B0105E /* UIView+TABLayoutSubviews.m */,
+				25437ADD2297C2F300B0105E /* UIView+TABAnimated.h */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		25437AA32297A25300B0105E /* Layer */ = {
+		25437ADE2297C2F300B0105E /* Layer */ = {
 			isa = PBXGroup;
 			children = (
-				25437AA42297A25300B0105E /* TABComponentLayer.m */,
-				25437AA52297A25300B0105E /* TABLayer.h */,
-				25437AA62297A25300B0105E /* TABComponentLayer.h */,
-				25437AA72297A25300B0105E /* TABLayer.m */,
+				25437ADF2297C2F300B0105E /* TABComponentLayer.m */,
+				25437AE02297C2F300B0105E /* TABLayer.h */,
+				25437AE12297C2F300B0105E /* TABComponentLayer.h */,
+				25437AE22297C2F300B0105E /* TABLayer.m */,
 			);
 			path = Layer;
 			sourceTree = "<group>";
 		};
-		25437AA82297A25300B0105E /* Model */ = {
+		25437AE32297C2F300B0105E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				25437AA92297A25300B0105E /* TABViewAnimated.m */,
-				25437AAA2297A25300B0105E /* TABCollectionAnimated.m */,
-				25437AAB2297A25300B0105E /* TABTableAnimated.m */,
-				25437AAC2297A25300B0105E /* TABCollectionAnimated.h */,
-				25437AAD2297A25300B0105E /* TABViewAnimated.h */,
-				25437AAE2297A25300B0105E /* TABTableAnimated.h */,
+				25437AE42297C2F300B0105E /* TABViewAnimated.m */,
+				25437AE52297C2F300B0105E /* TABCollectionAnimated.m */,
+				25437AE62297C2F300B0105E /* TABTableAnimated.m */,
+				25437AE72297C2F300B0105E /* TABCollectionAnimated.h */,
+				25437AE82297C2F300B0105E /* TABViewAnimated.h */,
+				25437AE92297C2F300B0105E /* TABTableAnimated.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1070,9 +1069,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25437A6022979D5F00B0105E /* CardViewController.m in Sources */,
+				25437AF22297C2F300B0105E /* UIView+TABAnimated.m in Sources */,
 				250F9C4E2295430C00A3800E /* SPActivityIndicatorBallScaleRippleAnimation.m in Sources */,
 				25437A6222979D5F00B0105E /* ExampleOfPackageViewController.m in Sources */,
 				250F9C602295430C00A3800E /* SPActivityIndicatorDoubleBounceAnimation.m in Sources */,
+				25437AEC2297C2F300B0105E /* TABAnimationMethod.m in Sources */,
 				25D32C6122968CA700B3D882 /* XYDebugCategory.m in Sources */,
 				25437A4A22979CE000B0105E /* NewsCollectionViewCell.m in Sources */,
 				25437A7522979D6F00B0105E /* DailyCollectionViewCell.m in Sources */,
@@ -1087,6 +1088,7 @@
 				250F9C522295430C00A3800E /* SPActivityIndicatorLoadingFailAnimation.m in Sources */,
 				25437A7422979D6F00B0105E /* ImageCollectionViewCell.m in Sources */,
 				25D32C7E2296BAFC00B3D882 /* ZPMFloatBallViewController.m in Sources */,
+				25437AEB2297C2F300B0105E /* TABAnimated.m in Sources */,
 				25437A4D22979CFE00B0105E /* BaseCollectionCell.m in Sources */,
 				250F9C532295430C00A3800E /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */,
 				25D32BED22964A4200B3D882 /* AnimationFadeEnd.m in Sources */,
@@ -1095,7 +1097,6 @@
 				250F9BDE2295344200A3800E /* ZPMDebugViewController.m in Sources */,
 				250F9C632295430C00A3800E /* SPActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
 				250F9C6D2295430C00A3800E /* SPActivityIndicatorBallPulseSyncAnimation.m in Sources */,
-				25437AB92297A25300B0105E /* UITableView+TABAnimated.m in Sources */,
 				250F9C662295430C00A3800E /* SPActivityIndicatorRotatingSandglassAnimation.m in Sources */,
 				250F9C572295430C00A3800E /* SPActivityIndicatorAnimation.m in Sources */,
 				25D32BF122964A4200B3D882 /* VCInteractionDelegate.m in Sources */,
@@ -1105,6 +1106,8 @@
 				250F9BE42295354900A3800E /* ZPMTabBarController.m in Sources */,
 				25D32C6322968CA700B3D882 /* XYDebugWindow.m in Sources */,
 				250F9C6E2295430C00A3800E /* SPActivityIndicatorNineDotsAnimation.m in Sources */,
+				25437AF12297C2F300B0105E /* UITableViewCell+TABLayoutSubviews.m in Sources */,
+				25437AFA2297C2F300B0105E /* TABTableAnimated.m in Sources */,
 				25D32BF022964A4200B3D882 /* UIViewController+HHTransition.m in Sources */,
 				250F9C442295430C00A3800E /* SPActivityIndicatorBallClipRotateAnimation.m in Sources */,
 				250F9C692295430C00A3800E /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
@@ -1112,8 +1115,8 @@
 				25D32BF622964A4200B3D882 /* AnimationTransitionBegin.m in Sources */,
 				25437A5022979D1600B0105E /* LabWithLinesViewCell.m in Sources */,
 				250F9C582295430C00A3800E /* SPActivityIndicatorRotaingCurveEaseOutAnimation.m in Sources */,
+				25437AEE2297C2F300B0105E /* UICollectionView+TABAnimated.m in Sources */,
 				250F9C482295430C00A3800E /* SPActivityIndicatorBallPulseAnimation.m in Sources */,
-				25437ABF2297A25300B0105E /* TABTableAnimated.m in Sources */,
 				25437A4622979AE800B0105E /* LabWithLinesViewController.m in Sources */,
 				25D32BEE22964A4200B3D882 /* AnimationFadeBegin.m in Sources */,
 				250F9BE72295395C00A3800E /* ZPMRootViewController.m in Sources */,
@@ -1125,26 +1128,27 @@
 				250F9C502295430C00A3800E /* SPActivityIndicatorBallGridBeatAnimation.m in Sources */,
 				25437AC22297A29900B0105E /* TestHeadView.m in Sources */,
 				25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */,
-				25437ABA2297A25300B0105E /* UIView+TABLayoutSubviews.m in Sources */,
 				250F9C4A2295430C00A3800E /* SPActivityIndicator3DotsFadeAnimation.m in Sources */,
 				250F9C4C2295430C00A3800E /* SPActivityIndicatorLineScaleAnimation.m in Sources */,
 				250F9BBD229532C600A3800E /* ViewController.m in Sources */,
 				25D32BF422964A4200B3D882 /* UIView+HHLayout.m in Sources */,
 				25437A6322979D5F00B0105E /* SegmentCollectionViewController.m in Sources */,
 				25D32BF822964A4200B3D882 /* QuadrantRecognise.m in Sources */,
-				25437AB62297A25300B0105E /* UITableViewCell+TABLayoutSubviews.m in Sources */,
 				250F9C562295430C00A3800E /* SPActivityIndicatorTripleRingsAnimation.m in Sources */,
 				25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */,
 				25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */,
 				25437A7622979D6F00B0105E /* CardCollectionViewCell.m in Sources */,
+				25437AF42297C2F300B0105E /* UITableView+TABAnimated.m in Sources */,
 				25D32BEA22964A4200B3D882 /* AnimationTiltBegin.m in Sources */,
+				25437AED2297C2F300B0105E /* UIView+TABControlAnimation.m in Sources */,
+				25437AF92297C2F300B0105E /* TABCollectionAnimated.m in Sources */,
 				25437A6522979D5F00B0105E /* ViewExampleViewController.m in Sources */,
 				250F9C6C2295430C00A3800E /* SPActivityIndicatorFiveDotsAnimation.m in Sources */,
 				25D32BF522964A4200B3D882 /* AnimationErectEnd.m in Sources */,
 				25D32C6422968CA700B3D882 /* XYOverlayerView.m in Sources */,
 				250F9C462295430C00A3800E /* SPActivityIndicatorRotatingTrigonAnimation.m in Sources */,
-				25437ABB2297A25300B0105E /* TABComponentLayer.m in Sources */,
 				250F9C6B2295430C00A3800E /* SPActivityIndicatorBallZigZagAnimation.m in Sources */,
+				25437AF82297C2F300B0105E /* TABViewAnimated.m in Sources */,
 				250F9C552295430C00A3800E /* SPActivityIndicatorCookieTerminatorAnimation.m in Sources */,
 				25D32BF322964A4200B3D882 /* AnimationErectBegin.m in Sources */,
 				25437A4522979AE800B0105E /* TestCollectionViewController.m in Sources */,
@@ -1154,12 +1158,12 @@
 				25D32BFF22964F6300B3D882 /* ZPMDetailViewController.m in Sources */,
 				25437A8A22979F7E00B0105E /* News.m in Sources */,
 				25437AC52297A53400B0105E /* ZPMSkeletonViewController.m in Sources */,
+				25437AEF2297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */,
 				250F9BC8229532C700A3800E /* main.m in Sources */,
 				250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */,
 				250F9C5A2295430C00A3800E /* SPActivityIndicatorLineScalePartyAnimation.m in Sources */,
 				25D32BF222964A4200B3D882 /* AnimationWaveBegin.m in Sources */,
 				250F9C682295430C00A3800E /* SPActivityIndicatorThreeDotsAnimation.m in Sources */,
-				25437AB22297A25300B0105E /* UIView+TABControlAnimation.m in Sources */,
 				25437A2F229796DD00B0105E /* Game.m in Sources */,
 				25D32C6022968CA700B3D882 /* XYDebugCloneView.m in Sources */,
 				250F9C5F2295430C00A3800E /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */,
@@ -1168,7 +1172,7 @@
 				25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */,
 				250F9C452295430C00A3800E /* SPActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
 				25437A7A22979D8400B0105E /* NestCollectionViewCell.m in Sources */,
-				25437ABE2297A25300B0105E /* TABCollectionAnimated.m in Sources */,
+				25437AF72297C2F300B0105E /* TABLayer.m in Sources */,
 				25437A6122979D5F00B0105E /* SectionsCollectionViewController.m in Sources */,
 				25D32BEC22964A4200B3D882 /* AnimationTildEnd.m in Sources */,
 				25D32BE922964A4200B3D882 /* VCTransitionDelegate.m in Sources */,
@@ -1177,24 +1181,19 @@
 				250F9BD82295342600A3800E /* ZPMAnimationLibViewController.m in Sources */,
 				250F9C4B2295430C00A3800E /* SPActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
 				250F9C432295430C00A3800E /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
-				25437AB52297A25300B0105E /* NSArray+TABAnimated.m in Sources */,
 				250F9C512295430C00A3800E /* SPActivityIndicatorThreeDotsFadeAnimation.m in Sources */,
 				25437A7722979D6F00B0105E /* LawyerArticleCollectionViewCell.m in Sources */,
-				25437AB82297A25300B0105E /* TABManagerMethod.m in Sources */,
-				25437AB12297A25300B0105E /* TABAnimationMethod.m in Sources */,
+				25437AF02297C2F300B0105E /* NSArray+TABAnimated.m in Sources */,
 				250F9C472295430C00A3800E /* SPActivityIndicatorBallScaleAnimation.m in Sources */,
-				25437AB02297A25300B0105E /* TABAnimated.m in Sources */,
+				25437AF32297C2F300B0105E /* TABManagerMethod.m in Sources */,
 				250F9C4F2295430C00A3800E /* SPActivityIndicatorRotatingSquaresAnimation.m in Sources */,
 				250F9C622295430C00A3800E /* SPActivityIndicatorBallClipRotatePulseAnimation.m in Sources */,
 				250F9BDB2295343800A3800E /* ZPMUnitLibViewController.m in Sources */,
-				25437ABD2297A25300B0105E /* TABViewAnimated.m in Sources */,
-				25437AB42297A25300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */,
 				250F9C5B2295430C00A3800E /* SPActivityIndicatorBallBeatAnimation.m in Sources */,
+				25437AF62297C2F300B0105E /* TABComponentLayer.m in Sources */,
+				25437AF52297C2F300B0105E /* UIView+TABLayoutSubviews.m in Sources */,
 				25437A7322979D6F00B0105E /* CourseCollectionViewCell.m in Sources */,
 				250F9C4D2295430C00A3800E /* SPActivityIndicatorTriplePulseAnimation.m in Sources */,
-				25437AB72297A25300B0105E /* UIView+TABAnimated.m in Sources */,
-				25437ABC2297A25300B0105E /* TABLayer.m in Sources */,
-				25437AB32297A25300B0105E /* UICollectionView+TABAnimated.m in Sources */,
 				25D32BEB22964A4200B3D882 /* AnimationBackBegin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

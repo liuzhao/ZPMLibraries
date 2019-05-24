@@ -57,22 +57,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ZPMLibraries/ViewControllers/&#x8c03;&#x8bd5;&#x5e93;/ZPMDebugViewController.m"
-            timestampString = "580305486.626811"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "-switchChanged:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Pods/ZPMConsoleLog/ZPMConsoleLog/Console/ZPMLog.m"
             timestampString = "580305486.626919"
             startingColumnNumber = "9223372036854775807"
