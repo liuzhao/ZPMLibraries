@@ -28,14 +28,19 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     [super awakeFromNib];
 }
 
+- (void)dealloc
+{
+    NSLog(@"dealloc");
+}
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
     // Resets styling
-//    self.navigationController.navigationBar.titleTextAttributes = nil;
-//    self.navigationController.navigationBar.barTintColor = [UIColor colorWithHex:@"f8f8f8"];
-//    self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBar.titleTextAttributes = nil;
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithHex:@"f8f8f8"];
+    self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
 

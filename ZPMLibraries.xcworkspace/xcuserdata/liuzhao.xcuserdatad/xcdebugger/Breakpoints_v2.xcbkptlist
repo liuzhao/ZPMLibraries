@@ -73,13 +73,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMLoadingPageViewController.m"
-            timestampString = "580388821.4147559"
+            filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMBannerViewController.m"
+            timestampString = "580571235.70797"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-addPagerView"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -89,13 +89,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMEmptyViewController.m"
-            timestampString = "580388821.414899"
+            filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMBannerViewController.m"
+            timestampString = "580571235.710735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-viewWillAppear:"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -12,8 +12,11 @@
 #import "ZPMAnimationLibViewController.h"
 #import "ZPMUnitLibViewController.h"
 #import "ZPMDebugViewController.h"
+#import "YYWebImage.h"
 
-@interface ZPMTabBarController ()
+@interface ZPMTabBarController () <UITabBarControllerDelegate>
+
+@property (nonatomic, strong) YYAnimatedImageView *gifImageView;
 
 @end
 
@@ -23,7 +26,9 @@
 {
     self = [super init];
     if (self) {
+        self.delegate = self;
         [self setupMainViewControllers];
+        [self setupGif];
     }
     return self;
 }
@@ -51,7 +56,7 @@
                                                       tag:1];
     UINavigationController *nav3 = [[UINavigationController alloc] initWithRootViewController:vc3];
     nav3.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"动画库"
-                                                    image:[UIImage imageNamed:@"icn_color_animation"]
+                                                    image:nil
                                                       tag:2];
     UINavigationController *nav4 = [[UINavigationController alloc] initWithRootViewController:vc4];
     nav4.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"工具库"
@@ -64,6 +69,27 @@
     
     NSArray *items = [NSArray arrayWithObjects:nav1, nav2, nav3, nav4, nav5, nil];
     [self setViewControllers:items];
+}
+
+- (void)setupGif
+{
+    CGFloat width = [UIScreen mainScreen].bounds.size.width / 5;
+    
+    YYAnimatedImageView *imageView = [[YYAnimatedImageView alloc] init];
+    imageView.frame = CGRectMake(width * 2 + (width - 30) / 2, 2, 32, 32);
+    imageView.yy_imageURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"yumeitu_normal" ofType:@"gif"]];
+    [self.tabBar addSubview:imageView];
+    self.gifImageView = imageView;
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    if (tabBarController.selectedIndex == 2) {
+        self.gifImageView.yy_imageURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"yumeitu_selected" ofType:@"gif"]];
+    }
+    else {
+        self.gifImageView.yy_imageURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"yumeitu_normal" ofType:@"gif"]];
+    }
 }
 
 /*

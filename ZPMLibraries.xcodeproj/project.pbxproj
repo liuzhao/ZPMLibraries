@@ -68,6 +68,8 @@
 		250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C712295431400A3800E /* SPActivityIndicatorView.m */; };
 		250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */; };
 		250F9C7A2295515600A3800E /* ZPMToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C792295515600A3800E /* ZPMToastViewController.m */; };
+		25402328229AD09600F7684A /* ZPMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25402327229AD09600F7684A /* ZPMMenuViewController.m */; };
+		2540232B229AD1DF00F7684A /* ZPMSuspensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2540232A229AD1DF00F7684A /* ZPMSuspensionViewController.m */; };
 		25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */; };
 		25437A292297967F00B0105E /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A272297967E00B0105E /* TestTableViewController.m */; };
 		25437A2C229796B400B0105E /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A2A229796B400B0105E /* TestTableViewCell.m */; };
@@ -124,6 +126,14 @@
 		25437B042297C75800B0105E /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437B012297C75800B0105E /* UIColor+Hexadecimal.m */; };
 		25437B0B2297C9EE00B0105E /* ZPMEmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437B0A2297C9EE00B0105E /* ZPMEmptyViewController.m */; };
 		25437B0D2297F2CE00B0105E /* applications.json in Resources */ = {isa = PBXBuildFile; fileRef = 25437B0C2297F2CE00B0105E /* applications.json */; };
+		25459CDC2298F1110023B754 /* ZPMBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25459CDB2298F1110023B754 /* ZPMBannerViewController.m */; };
+		25459CDF2298F1560023B754 /* ZPMBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25459CDE2298F1560023B754 /* ZPMBannerCollectionViewCell.m */; };
+		25459CE42298F3F40023B754 /* temp03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25459CE02298F3F30023B754 /* temp03.jpg */; };
+		25459CE52298F3F40023B754 /* timg01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25459CE12298F3F30023B754 /* timg01.jpeg */; };
+		25459CE62298F3F40023B754 /* temp04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25459CE22298F3F30023B754 /* temp04.jpg */; };
+		25459CE72298F3F40023B754 /* timg02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 25459CE32298F3F40023B754 /* timg02.jpeg */; };
+		25B92B7E22992BFE00ADFB3A /* yumeitu_normal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B92B7D22992BFE00ADFB3A /* yumeitu_normal.gif */; };
+		25B92B802299347400ADFB3A /* yumeitu_selected.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B92B7F2299347400ADFB3A /* yumeitu_selected.gif */; };
 		25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */; };
 		25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC222964A4200B3D882 /* AnimationBackEnd.m */; };
 		25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BC322964A4200B3D882 /* AnimationTransitionEnd.m */; };
@@ -145,8 +155,6 @@
 		25D32BF822964A4200B3D882 /* QuadrantRecognise.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BE022964A4200B3D882 /* QuadrantRecognise.m */; };
 		25D32BFC22964A9000B3D882 /* ZPMTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BFB22964A9000B3D882 /* ZPMTransitionViewController.m */; };
 		25D32BFF22964F6300B3D882 /* ZPMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D32BFE22964F6300B3D882 /* ZPMDetailViewController.m */; };
-		25D32C062296756300B3D882 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C042296756300B3D882 /* 2.jpg */; };
-		25D32C072296756300B3D882 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C052296756300B3D882 /* 1.jpg */; };
 		25D32C5D22968CA700B3D882 /* XYOverlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C4F22968CA500B3D882 /* XYOverlayerView.xib */; };
 		25D32C5E22968CA700B3D882 /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C5022968CA500B3D882 /* reset.png */; };
 		25D32C5F22968CA700B3D882 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 25D32C5122968CA500B3D882 /* filter.png */; };
@@ -279,6 +287,10 @@
 		250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMIndicatorViewViewController.m; sourceTree = "<group>"; };
 		250F9C782295515600A3800E /* ZPMToastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMToastViewController.h; sourceTree = "<group>"; };
 		250F9C792295515600A3800E /* ZPMToastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMToastViewController.m; sourceTree = "<group>"; };
+		25402326229AD09600F7684A /* ZPMMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMMenuViewController.h; sourceTree = "<group>"; };
+		25402327229AD09600F7684A /* ZPMMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMMenuViewController.m; sourceTree = "<group>"; };
+		25402329229AD1DF00F7684A /* ZPMSuspensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMSuspensionViewController.h; sourceTree = "<group>"; };
+		2540232A229AD1DF00F7684A /* ZPMSuspensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMSuspensionViewController.m; sourceTree = "<group>"; };
 		25437A232297940A00B0105E /* ZPMLoadingPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMLoadingPageViewController.h; sourceTree = "<group>"; };
 		25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMLoadingPageViewController.m; sourceTree = "<group>"; };
 		25437A272297967E00B0105E /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
@@ -383,6 +395,16 @@
 		25437B092297C9EE00B0105E /* ZPMEmptyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMEmptyViewController.h; sourceTree = "<group>"; };
 		25437B0A2297C9EE00B0105E /* ZPMEmptyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMEmptyViewController.m; sourceTree = "<group>"; };
 		25437B0C2297F2CE00B0105E /* applications.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = applications.json; sourceTree = "<group>"; };
+		25459CDA2298F1110023B754 /* ZPMBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMBannerViewController.h; sourceTree = "<group>"; };
+		25459CDB2298F1110023B754 /* ZPMBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMBannerViewController.m; sourceTree = "<group>"; };
+		25459CDD2298F1560023B754 /* ZPMBannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		25459CDE2298F1560023B754 /* ZPMBannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		25459CE02298F3F30023B754 /* temp03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp03.jpg; sourceTree = "<group>"; };
+		25459CE12298F3F30023B754 /* timg01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg01.jpeg; sourceTree = "<group>"; };
+		25459CE22298F3F30023B754 /* temp04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp04.jpg; sourceTree = "<group>"; };
+		25459CE32298F3F40023B754 /* timg02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg02.jpeg; sourceTree = "<group>"; };
+		25B92B7D22992BFE00ADFB3A /* yumeitu_normal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yumeitu_normal.gif; sourceTree = "<group>"; };
+		25B92B7F2299347400ADFB3A /* yumeitu_selected.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = yumeitu_selected.gif; sourceTree = "<group>"; };
 		25D32BBF22964A4200B3D882 /* AnimationWaveEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWaveEnd.m; sourceTree = "<group>"; };
 		25D32BC022964A4200B3D882 /* AnimationStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationStyle.h; sourceTree = "<group>"; };
 		25D32BC122964A4200B3D882 /* UIView+HHLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HHLayout.h"; sourceTree = "<group>"; };
@@ -426,8 +448,6 @@
 		25D32BFB22964A9000B3D882 /* ZPMTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMTransitionViewController.m; sourceTree = "<group>"; };
 		25D32BFD22964F6300B3D882 /* ZPMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMDetailViewController.h; sourceTree = "<group>"; };
 		25D32BFE22964F6300B3D882 /* ZPMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMDetailViewController.m; sourceTree = "<group>"; };
-		25D32C042296756300B3D882 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		25D32C052296756300B3D882 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		25D32C4F22968CA500B3D882 /* XYOverlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYOverlayerView.xib; sourceTree = "<group>"; };
 		25D32C5022968CA500B3D882 /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 		25D32C5122968CA500B3D882 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filter.png; sourceTree = "<group>"; };
@@ -506,6 +526,10 @@
 		250F9BCE2295337D00A3800E /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				250F9BE52295395C00A3800E /* ZPMRootViewController.h */,
+				250F9BE62295395C00A3800E /* ZPMRootViewController.m */,
+				250F9BE22295354900A3800E /* ZPMTabBarController.h */,
+				250F9BE32295354900A3800E /* ZPMTabBarController.m */,
 				250F9BB8229532C600A3800E /* AppDelegate.h */,
 				250F9BB9229532C600A3800E /* AppDelegate.m */,
 			);
@@ -515,19 +539,13 @@
 		250F9BCF2295338C00A3800E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				25459CD92298F0DB0023B754 /* 工具库 */,
+				25459CD82298F0C20023B754 /* 动画库 */,
 				25D32C0822967C9F00B3D882 /* 调试库 */,
 				250F9C732295436400A3800E /* 控件库 */,
 				250F9C742295437D00A3800E /* 页面库 */,
 				250F9BBB229532C600A3800E /* ViewController.h */,
 				250F9BBC229532C600A3800E /* ViewController.m */,
-				250F9BE52295395C00A3800E /* ZPMRootViewController.h */,
-				250F9BE62295395C00A3800E /* ZPMRootViewController.m */,
-				250F9BE22295354900A3800E /* ZPMTabBarController.h */,
-				250F9BE32295354900A3800E /* ZPMTabBarController.m */,
-				250F9BD62295342600A3800E /* ZPMAnimationLibViewController.h */,
-				250F9BD72295342600A3800E /* ZPMAnimationLibViewController.m */,
-				250F9BD92295343800A3800E /* ZPMUnitLibViewController.h */,
-				250F9BDA2295343800A3800E /* ZPMUnitLibViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -679,6 +697,10 @@
 				25437AC42297A53400B0105E /* ZPMSkeletonViewController.m */,
 				25437B092297C9EE00B0105E /* ZPMEmptyViewController.h */,
 				25437B0A2297C9EE00B0105E /* ZPMEmptyViewController.m */,
+				25459CDA2298F1110023B754 /* ZPMBannerViewController.h */,
+				25459CDB2298F1110023B754 /* ZPMBannerViewController.m */,
+				25459CDD2298F1560023B754 /* ZPMBannerCollectionViewCell.h */,
+				25459CDE2298F1560023B754 /* ZPMBannerCollectionViewCell.m */,
 			);
 			path = "页面库";
 			sourceTree = "<group>";
@@ -842,6 +864,30 @@
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
+		25459CD82298F0C20023B754 /* 动画库 */ = {
+			isa = PBXGroup;
+			children = (
+				25B92B7D22992BFE00ADFB3A /* yumeitu_normal.gif */,
+				25B92B7F2299347400ADFB3A /* yumeitu_selected.gif */,
+				250F9BD62295342600A3800E /* ZPMAnimationLibViewController.h */,
+				250F9BD72295342600A3800E /* ZPMAnimationLibViewController.m */,
+				25402326229AD09600F7684A /* ZPMMenuViewController.h */,
+				25402327229AD09600F7684A /* ZPMMenuViewController.m */,
+				25402329229AD1DF00F7684A /* ZPMSuspensionViewController.h */,
+				2540232A229AD1DF00F7684A /* ZPMSuspensionViewController.m */,
+			);
+			path = "动画库";
+			sourceTree = "<group>";
+		};
+		25459CD92298F0DB0023B754 /* 工具库 */ = {
+			isa = PBXGroup;
+			children = (
+				250F9BD92295343800A3800E /* ZPMUnitLibViewController.h */,
+				250F9BDA2295343800A3800E /* ZPMUnitLibViewController.m */,
+			);
+			path = "工具库";
+			sourceTree = "<group>";
+		};
 		25D32BBE22964A4200B3D882 /* HHTransition */ = {
 			isa = PBXGroup;
 			children = (
@@ -901,8 +947,10 @@
 		25D32C032296753D00B3D882 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				25D32C052296756300B3D882 /* 1.jpg */,
-				25D32C042296756300B3D882 /* 2.jpg */,
+				25459CE02298F3F30023B754 /* temp03.jpg */,
+				25459CE22298F3F30023B754 /* temp04.jpg */,
+				25459CE12298F3F30023B754 /* timg01.jpeg */,
+				25459CE32298F3F40023B754 /* timg02.jpeg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1021,22 +1069,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B92B7E22992BFE00ADFB3A /* yumeitu_normal.gif in Resources */,
 				25437B0D2297F2CE00B0105E /* applications.json in Resources */,
+				25459CE52298F3F40023B754 /* timg01.jpeg in Resources */,
 				25D32C5E22968CA700B3D882 /* reset.png in Resources */,
 				25437A402297979500B0105E /* long.jpg in Resources */,
 				250F9BC5229532C700A3800E /* LaunchScreen.storyboard in Resources */,
 				250F9BC2229532C700A3800E /* Assets.xcassets in Resources */,
 				25437A3E2297979500B0105E /* test.jpg in Resources */,
+				25B92B802299347400ADFB3A /* yumeitu_selected.gif in Resources */,
 				25437A3D2297979500B0105E /* comic.jpg in Resources */,
+				25459CE72298F3F40023B754 /* timg02.jpeg in Resources */,
 				25437A3C2297979500B0105E /* test2.jpg in Resources */,
 				25437A3B2297979500B0105E /* test1.jpg in Resources */,
+				25459CE62298F3F40023B754 /* temp04.jpg in Resources */,
 				25D32C5F22968CA700B3D882 /* filter.png in Resources */,
-				25D32C062296756300B3D882 /* 2.jpg in Resources */,
 				25D32C5D22968CA700B3D882 /* XYOverlayerView.xib in Resources */,
 				250F9BC0229532C600A3800E /* Main.storyboard in Resources */,
 				25437A3F2297979500B0105E /* head.jpg in Resources */,
-				25D32C072296756300B3D882 /* 1.jpg in Resources */,
 				25437A3A2297979500B0105E /* test0.jpg in Resources */,
+				25459CE42298F3F40023B754 /* temp03.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,6 +1214,7 @@
 				250F9C502295430C00A3800E /* SPActivityIndicatorBallGridBeatAnimation.m in Sources */,
 				25437AC22297A29900B0105E /* TestHeadView.m in Sources */,
 				25D32BE822964A4200B3D882 /* AnimationTransitionEnd.m in Sources */,
+				25459CDF2298F1560023B754 /* ZPMBannerCollectionViewCell.m in Sources */,
 				250F9C4A2295430C00A3800E /* SPActivityIndicator3DotsFadeAnimation.m in Sources */,
 				250F9C4C2295430C00A3800E /* SPActivityIndicatorLineScaleAnimation.m in Sources */,
 				250F9BBD229532C600A3800E /* ViewController.m in Sources */,
@@ -1204,6 +1257,7 @@
 				250F9C5F2295430C00A3800E /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */,
 				250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */,
 				25437A6422979D5F00B0105E /* SectionsTableViewController.m in Sources */,
+				25459CDC2298F1110023B754 /* ZPMBannerViewController.m in Sources */,
 				25D32BE722964A4200B3D882 /* AnimationBackEnd.m in Sources */,
 				250F9C452295430C00A3800E /* SPActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
 				25437A7A22979D8400B0105E /* NestCollectionViewCell.m in Sources */,
@@ -1215,8 +1269,10 @@
 				250F9BBA229532C600A3800E /* AppDelegate.m in Sources */,
 				250F9BD82295342600A3800E /* ZPMAnimationLibViewController.m in Sources */,
 				250F9C4B2295430C00A3800E /* SPActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
+				25402328229AD09600F7684A /* ZPMMenuViewController.m in Sources */,
 				250F9C432295430C00A3800E /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
 				250F9C512295430C00A3800E /* SPActivityIndicatorThreeDotsFadeAnimation.m in Sources */,
+				2540232B229AD1DF00F7684A /* ZPMSuspensionViewController.m in Sources */,
 				25437A7722979D6F00B0105E /* LawyerArticleCollectionViewCell.m in Sources */,
 				25437B042297C75800B0105E /* UIColor+Hexadecimal.m in Sources */,
 				25437AF02297C2F300B0105E /* NSArray+TABAnimated.m in Sources */,

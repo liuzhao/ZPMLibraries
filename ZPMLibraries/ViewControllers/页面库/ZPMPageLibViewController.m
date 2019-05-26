@@ -12,6 +12,7 @@
 #import "JPSuspensionEntrance.h"
 #import "ZPMLoadingPageViewController.h"
 #import "ZPMEmptyViewController.h"
+#import "ZPMBannerViewController.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -105,24 +106,26 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
 
 - (void)initData
 {
-    ZPMTransitionViewController *vc1 = [[ZPMTransitionViewController alloc] init];
+//    ZPMTransitionViewController *vc1 = [[ZPMTransitionViewController alloc] init];
+//
+//    ZPMFloatBallViewController *vc2 = [ZPMFloatBallViewController new];
+//    vc2.hk_iconImage = [UIImage imageNamed:@"icn_color_utils"];
+//
+//    ZPMLoadingPageViewController *vc3 = [[ZPMLoadingPageViewController alloc] init];
+//
+//    ZPMEmptyViewController *vc4 = [[ZPMEmptyViewController alloc] initWithStyle:UITableViewStylePlain];
+//
+//    ZPMBannerViewController *vc5 = [[ZPMBannerViewController alloc] init];
     
-    ZPMFloatBallViewController *vc2 = [ZPMFloatBallViewController new];
-    vc2.hk_iconImage = [UIImage imageNamed:@"icn_color_utils"];
-    
-    ZPMLoadingPageViewController *vc3 = [[ZPMLoadingPageViewController alloc] init];
-    
-    ZPMEmptyViewController *vc4 = [[ZPMEmptyViewController alloc] initWithStyle:UITableViewStylePlain];
-    
-    self.listArray = @[@[@{@"title": @"空页面 EmptyPage", @"vc": vc4},
-                         @{@"title": @"加载页面 LoadingPage", @"vc": vc3},
+    self.listArray = @[@[@{@"title": @"空页面 EmptyPage", @"vc": @"ZPMEmptyViewController"},
+                         @{@"title": @"加载页面 LoadingPage", @"vc": @"ZPMLoadingPageViewController"},
                          @{@"title": @"引导页 GuidePage"},
                          @{@"title": @"广告页 AdPage"},
-                         @{@"title": @"轮播页 Banner"},
+                         @{@"title": @"轮播页 Banner", @"vc": @"ZPMBannerViewController"},
                          ],
-                       @[@{@"title": @"页面转场 TransitionPage", @"vc": vc1}
+                       @[@{@"title": @"页面转场 TransitionPage", @"vc": @"ZPMTransitionViewController"}
                          ],
-                       @[@{@"title": @"悬浮小窗", @"vc": vc2}]];
+                       @[@{@"title": @"悬浮小窗", @"vc": @"ZPMFloatBallViewController"}]];
 }
 
 - (void)setupTableView
@@ -181,9 +184,17 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    UIViewController *vc = self.listArray[indexPath.section][indexPath.row][@"vc"];
-    [vc setHidesBottomBarWhenPushed:YES];
-    [self.navigationController pushViewController:vc animated:YES];
+//    UIViewController *vc = self.listArray[indexPath.section][indexPath.row][@"vc"];
+//    [vc setHidesBottomBarWhenPushed:YES];
+//    [self.navigationController pushViewController:vc animated:YES];
+//
+    NSString *className = self.listArray[indexPath.section][indexPath.row][@"vc"];
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *vc = class.new;
+        [vc setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 /*
