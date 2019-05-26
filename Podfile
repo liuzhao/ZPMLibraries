@@ -17,7 +17,7 @@ target 'ZPMLibraries' do
    pod 'YYWebImage' #类似SDWebImage
    
    pod 'YBPopupMenu' #浮窗
-   
+
   # Pods for ZPMLibraries
   
 end

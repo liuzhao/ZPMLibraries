@@ -68,8 +68,14 @@
 		250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C712295431400A3800E /* SPActivityIndicatorView.m */; };
 		250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */; };
 		250F9C7A2295515600A3800E /* ZPMToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9C792295515600A3800E /* ZPMToastViewController.m */; };
+		2517EAB5229AE1CD001593D0 /* WSDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2517EAB1229AE1CD001593D0 /* WSDatePickerView.xib */; };
+		2517EAB6229AE1CD001593D0 /* WSDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517EAB2229AE1CD001593D0 /* WSDatePickerView.m */; };
+		2517EAB7229AE1CD001593D0 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517EAB3229AE1CD001593D0 /* NSDate+Extension.m */; };
+		2517EAB8229AE1CD001593D0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517EAB4229AE1CD001593D0 /* UIView+Extension.m */; };
 		25402328229AD09600F7684A /* ZPMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25402327229AD09600F7684A /* ZPMMenuViewController.m */; };
 		2540232B229AD1DF00F7684A /* ZPMSuspensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2540232A229AD1DF00F7684A /* ZPMSuspensionViewController.m */; };
+		2540232E229ADD5F00F7684A /* ZPMPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2540232D229ADD5F00F7684A /* ZPMPickerViewController.m */; };
+		25402331229ADD6C00F7684A /* ZPMTimePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25402330229ADD6C00F7684A /* ZPMTimePickerViewController.m */; };
 		25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */; };
 		25437A292297967F00B0105E /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A272297967E00B0105E /* TestTableViewController.m */; };
 		25437A2C229796B400B0105E /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25437A2A229796B400B0105E /* TestTableViewCell.m */; };
@@ -287,10 +293,21 @@
 		250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMIndicatorViewViewController.m; sourceTree = "<group>"; };
 		250F9C782295515600A3800E /* ZPMToastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMToastViewController.h; sourceTree = "<group>"; };
 		250F9C792295515600A3800E /* ZPMToastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMToastViewController.m; sourceTree = "<group>"; };
+		2517EAAE229AE1CD001593D0 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		2517EAAF229AE1CD001593D0 /* WSDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDatePickerView.h; sourceTree = "<group>"; };
+		2517EAB0229AE1CD001593D0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2517EAB1229AE1CD001593D0 /* WSDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WSDatePickerView.xib; sourceTree = "<group>"; };
+		2517EAB2229AE1CD001593D0 /* WSDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDatePickerView.m; sourceTree = "<group>"; };
+		2517EAB3229AE1CD001593D0 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		2517EAB4229AE1CD001593D0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		25402326229AD09600F7684A /* ZPMMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMMenuViewController.h; sourceTree = "<group>"; };
 		25402327229AD09600F7684A /* ZPMMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMMenuViewController.m; sourceTree = "<group>"; };
 		25402329229AD1DF00F7684A /* ZPMSuspensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMSuspensionViewController.h; sourceTree = "<group>"; };
 		2540232A229AD1DF00F7684A /* ZPMSuspensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMSuspensionViewController.m; sourceTree = "<group>"; };
+		2540232C229ADD5F00F7684A /* ZPMPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMPickerViewController.h; sourceTree = "<group>"; };
+		2540232D229ADD5F00F7684A /* ZPMPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMPickerViewController.m; sourceTree = "<group>"; };
+		2540232F229ADD6C00F7684A /* ZPMTimePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMTimePickerViewController.h; sourceTree = "<group>"; };
+		25402330229ADD6C00F7684A /* ZPMTimePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMTimePickerViewController.m; sourceTree = "<group>"; };
 		25437A232297940A00B0105E /* ZPMLoadingPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMLoadingPageViewController.h; sourceTree = "<group>"; };
 		25437A242297940A00B0105E /* ZPMLoadingPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMLoadingPageViewController.m; sourceTree = "<group>"; };
 		25437A272297967E00B0105E /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
@@ -553,6 +570,7 @@
 		250F9BE8229542E600A3800E /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				2517EAAD229AE1CD001593D0 /* WSDatePickerView */,
 				250F9BE92295430100A3800E /* SPActivityIndicatorView */,
 			);
 			path = Others;
@@ -674,6 +692,10 @@
 				250F9C76229543BD00A3800E /* ZPMIndicatorViewViewController.m */,
 				250F9C782295515600A3800E /* ZPMToastViewController.h */,
 				250F9C792295515600A3800E /* ZPMToastViewController.m */,
+				2540232C229ADD5F00F7684A /* ZPMPickerViewController.h */,
+				2540232D229ADD5F00F7684A /* ZPMPickerViewController.m */,
+				2540232F229ADD6C00F7684A /* ZPMTimePickerViewController.h */,
+				25402330229ADD6C00F7684A /* ZPMTimePickerViewController.m */,
 			);
 			path = "控件库";
 			sourceTree = "<group>";
@@ -703,6 +725,20 @@
 				25459CDE2298F1560023B754 /* ZPMBannerCollectionViewCell.m */,
 			);
 			path = "页面库";
+			sourceTree = "<group>";
+		};
+		2517EAAD229AE1CD001593D0 /* WSDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				2517EAAE229AE1CD001593D0 /* NSDate+Extension.h */,
+				2517EAAF229AE1CD001593D0 /* WSDatePickerView.h */,
+				2517EAB0229AE1CD001593D0 /* UIView+Extension.h */,
+				2517EAB1229AE1CD001593D0 /* WSDatePickerView.xib */,
+				2517EAB2229AE1CD001593D0 /* WSDatePickerView.m */,
+				2517EAB3229AE1CD001593D0 /* NSDate+Extension.m */,
+				2517EAB4229AE1CD001593D0 /* UIView+Extension.m */,
+			);
+			path = WSDatePickerView;
 			sourceTree = "<group>";
 		};
 		25437A262297965D00B0105E /* TABAnimated */ = {
@@ -1070,6 +1106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B92B7E22992BFE00ADFB3A /* yumeitu_normal.gif in Resources */,
+				2517EAB5229AE1CD001593D0 /* WSDatePickerView.xib in Resources */,
 				25437B0D2297F2CE00B0105E /* applications.json in Resources */,
 				25459CE52298F3F40023B754 /* timg01.jpeg in Resources */,
 				25D32C5E22968CA700B3D882 /* reset.png in Resources */,
@@ -1162,6 +1199,7 @@
 				25437A4A22979CE000B0105E /* NewsCollectionViewCell.m in Sources */,
 				25437B0B2297C9EE00B0105E /* ZPMEmptyViewController.m in Sources */,
 				25437A7522979D6F00B0105E /* DailyCollectionViewCell.m in Sources */,
+				2517EAB8229AE1CD001593D0 /* UIView+Extension.m in Sources */,
 				25437B032297C75800B0105E /* Application.m in Sources */,
 				25437A292297967F00B0105E /* TestTableViewController.m in Sources */,
 				250F9C652295430C00A3800E /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
@@ -1248,13 +1286,16 @@
 				25437AC52297A53400B0105E /* ZPMSkeletonViewController.m in Sources */,
 				25437AEF2297C2F300B0105E /* UICollectionViewCell+TABLayoutSubviews.m in Sources */,
 				250F9BC8229532C700A3800E /* main.m in Sources */,
+				2540232E229ADD5F00F7684A /* ZPMPickerViewController.m in Sources */,
 				250F9C722295431400A3800E /* SPActivityIndicatorView.m in Sources */,
+				2517EAB6229AE1CD001593D0 /* WSDatePickerView.m in Sources */,
 				250F9C5A2295430C00A3800E /* SPActivityIndicatorLineScalePartyAnimation.m in Sources */,
 				25D32BF222964A4200B3D882 /* AnimationWaveBegin.m in Sources */,
 				250F9C682295430C00A3800E /* SPActivityIndicatorThreeDotsAnimation.m in Sources */,
 				25437A2F229796DD00B0105E /* Game.m in Sources */,
 				25D32C6022968CA700B3D882 /* XYDebugCloneView.m in Sources */,
 				250F9C5F2295430C00A3800E /* SPActivityIndicatorLoadingSuccessAnimation.m in Sources */,
+				2517EAB7229AE1CD001593D0 /* NSDate+Extension.m in Sources */,
 				250F9C77229543BD00A3800E /* ZPMIndicatorViewViewController.m in Sources */,
 				25437A6422979D5F00B0105E /* SectionsTableViewController.m in Sources */,
 				25459CDC2298F1110023B754 /* ZPMBannerViewController.m in Sources */,
@@ -1284,6 +1325,7 @@
 				250F9C5B2295430C00A3800E /* SPActivityIndicatorBallBeatAnimation.m in Sources */,
 				25437AF62297C2F300B0105E /* TABComponentLayer.m in Sources */,
 				25437AF52297C2F300B0105E /* UIView+TABLayoutSubviews.m in Sources */,
+				25402331229ADD6C00F7684A /* ZPMTimePickerViewController.m in Sources */,
 				25437A7322979D6F00B0105E /* CourseCollectionViewCell.m in Sources */,
 				250F9C4D2295430C00A3800E /* SPActivityIndicatorTriplePulseAnimation.m in Sources */,
 				25D32BEB22964A4200B3D882 /* AnimationBackBegin.m in Sources */,
