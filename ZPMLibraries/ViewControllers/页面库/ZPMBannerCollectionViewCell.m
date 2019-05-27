@@ -21,7 +21,7 @@
 - (void)addImageView
 {
     UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
     imageView.clipsToBounds = YES;
     [self addSubview:imageView];
     _imageView = imageView;

@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMBannerViewController.m"
-            timestampString = "580571235.70797"
+            timestampString = "580643246.344646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "-addPagerView"
             landmarkType = "7">
          </BreakpointContent>
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMBannerViewController.m"
-            timestampString = "580571235.710735"
+            timestampString = "580643246.3451869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"

@@ -102,7 +102,6 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     
     cell.textLabel.text = self.listArray[indexPath.section][indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
@@ -114,6 +113,9 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     }
     else if (indexPath.section == 1) {
         [cell.contentView addSubview:self.consoleLogSwitch];
+    }
+    else if (indexPath.section == 2) {
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     return cell;

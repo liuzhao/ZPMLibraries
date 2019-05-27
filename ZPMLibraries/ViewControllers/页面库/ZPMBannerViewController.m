@@ -32,11 +32,65 @@
     [self addPageControl];
     
     [self loadData];
+    
+    [self setupMainUI];
+}
+
+- (void)setupMainUI
+{
+    UILabel *layoutLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 300, kScreenWidth - 20, 25)];
+    layoutLabel.text = @"样式";
+    [self.view addSubview:layoutLabel];
+    
+    UILabel *itemSizeLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 360, kScreenWidth - 20, 25)];
+    itemSizeLabel.text = @"itemSize";
+    [self.view addSubview:itemSizeLabel];
+    
+    UILabel *itemSpaceLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 420, kScreenWidth - 20, 25)];
+    itemSpaceLabel.text = @"itemSpace";
+    [self.view addSubview:itemSpaceLabel];
+    
+    NSArray *items = @[@"Normal", @"Linear", @"Coverflow"];
+    UISegmentedControl *seg = [[UISegmentedControl alloc] initWithItems:items];
+    [seg setFrame:CGRectMake(90, 300, 240, 30)];
+    [seg addTarget:self action:@selector(segChange:) forControlEvents:UIControlEventValueChanged];
+    seg.selectedSegmentIndex = 0;
+    [self.view addSubview:seg];
+    
+    UISlider *slider1 = [[UISlider alloc] initWithFrame:CGRectMake(100, 360, kScreenWidth - 120, 25)];
+    [slider1 addTarget:self action:@selector(sliderValueChangeAction:) forControlEvents:UIControlEventValueChanged];
+    slider1.value = 0.8;
+    slider1.tag = 0;
+    [self.view addSubview:slider1];
+    
+    UISlider *slider2 = [[UISlider alloc] initWithFrame:CGRectMake(100, 420, kScreenWidth - 120, 25)];
+    [slider2 addTarget:self action:@selector(sliderValueChangeAction:) forControlEvents:UIControlEventValueChanged];
+    slider2.value = 0.2;
+    slider2.tag = 1;
+    [self.view addSubview:slider2];
+    
+    NSArray *array = @[@"是否循环", @"是否自动"];
+    for (int i = 0; i < 2; i++) {
+        UILabel *layoutLabel = [[UILabel alloc] initWithFrame:CGRectMake(10 + kScreenWidth/2 * i, 480, 100, 25)];
+        layoutLabel.text = array[i];
+        [self.view addSubview:layoutLabel];
+        
+        UISwitch *aSwitch = [[UISwitch alloc] initWithFrame:CGRectMake(110 + kScreenWidth/2 * i, 480, 100, 25)];
+        aSwitch.on = YES;
+        aSwitch.tag = i;
+        [aSwitch addTarget:self action:@selector(switchValueChangeAction:) forControlEvents:UIControlEventValueChanged];
+        [self.view addSubview:aSwitch];
+    }
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self->_pagerView.layout.itemSize = CGSizeMake(CGRectGetWidth(self->_pagerView.frame)*slider1.value, CGRectGetHeight(self->_pagerView.frame)*slider1.value);
+        [self->_pagerView setNeedUpdateLayout];
+    });
 }
 
 - (void)addPagerView {
     TYCyclePagerView *pagerView = [[TYCyclePagerView alloc]initWithFrame:self.view.frame];
-    pagerView.layer.borderWidth = 1;
+    pagerView.layer.borderWidth = 0.5;
     pagerView.isInfiniteLoop = YES;
     pagerView.autoScrollInterval = 3.0;
     pagerView.dataSource = self;
@@ -120,7 +174,7 @@
 
 - (TYCyclePagerViewLayout *)layoutForPagerView:(TYCyclePagerView *)pageView {
     TYCyclePagerViewLayout *layout = [[TYCyclePagerViewLayout alloc]init];
-    layout.itemSize = CGSizeMake(CGRectGetWidth(pageView.frame)*0.8, CGRectGetHeight(pageView.frame)*0.8);
+    layout.itemSize = CGSizeMake(CGRectGetWidth(pageView.frame), CGRectGetHeight(pageView.frame));
     layout.itemSpacing = 15;
     //layout.minimumAlpha = 0.3;
     layout.itemHorizontalCenter = _horCenterSwitch.isOn;
@@ -166,6 +220,12 @@
         _pageControl.currentPageIndicatorSize = CGSizeMake(8*(1+sender.value), 8*(1+sender.value));
         _pageControl.pageIndicatorSpaing = (1+sender.value)*10;
     }
+}
+
+- (void)segChange:(UISegmentedControl *)sender
+{
+    _pagerView.layout.layoutType = sender.selectedSegmentIndex;
+    [_pagerView setNeedUpdateLayout];
 }
 
 - (IBAction)buttonAction:(UIButton *)sender {
