@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		24C3B73C6FD7F6B4239698CD /* libPods-ZPMLibraries.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012B81BC6858D25DE191516 /* libPods-ZPMLibraries.a */; };
+		250C801D229BCEF000D3317D /* TestColorStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C8015229BCEEE00D3317D /* TestColorStyleViewController.m */; };
+		250C801E229BCEF000D3317D /* TestLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C8018229BCEEF00D3317D /* TestLogViewController.m */; };
+		250C801F229BCEF000D3317D /* TestCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C8019229BCEEF00D3317D /* TestCrashViewController.m */; };
+		250C8020229BCEF000D3317D /* BaseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C801A229BCEF000D3317D /* BaseTestViewController.m */; };
+		250C8021229BCEF000D3317D /* TestWindowStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C801B229BCEF000D3317D /* TestWindowStyleViewController.m */; };
+		250C8022229BCEF000D3317D /* TestNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C801C229BCEF000D3317D /* TestNetworkViewController.m */; };
+		250C8025229BCF1C00D3317D /* NetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C8024229BCF1C00D3317D /* NetTool.m */; };
+		250C8028229BCFC100D3317D /* ZPMLLDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C8027229BCFC100D3317D /* ZPMLLDebugViewController.m */; };
+		250C8032229BD2BB00D3317D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 250C8034229BD2BB00D3317D /* Localizable.strings */; };
 		250F9BBA229532C600A3800E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9BB9229532C600A3800E /* AppDelegate.m */; };
 		250F9BBD229532C600A3800E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250F9BBC229532C600A3800E /* ViewController.m */; };
 		250F9BC0229532C600A3800E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F9BBE229532C600A3800E /* Main.storyboard */; };
@@ -174,6 +183,23 @@
 
 /* Begin PBXFileReference section */
 		1012B81BC6858D25DE191516 /* libPods-ZPMLibraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPMLibraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250C8011229BCEEC00D3317D /* TestCrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCrashViewController.h; sourceTree = "<group>"; };
+		250C8012229BCEED00D3317D /* TestWindowStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWindowStyleViewController.h; sourceTree = "<group>"; };
+		250C8013229BCEED00D3317D /* TestNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetworkViewController.h; sourceTree = "<group>"; };
+		250C8014229BCEEE00D3317D /* TestLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLogViewController.h; sourceTree = "<group>"; };
+		250C8015229BCEEE00D3317D /* TestColorStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestColorStyleViewController.m; sourceTree = "<group>"; };
+		250C8016229BCEEF00D3317D /* TestColorStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestColorStyleViewController.h; sourceTree = "<group>"; };
+		250C8017229BCEEF00D3317D /* BaseTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestViewController.h; sourceTree = "<group>"; };
+		250C8018229BCEEF00D3317D /* TestLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestLogViewController.m; sourceTree = "<group>"; };
+		250C8019229BCEEF00D3317D /* TestCrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCrashViewController.m; sourceTree = "<group>"; };
+		250C801A229BCEF000D3317D /* BaseTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTestViewController.m; sourceTree = "<group>"; };
+		250C801B229BCEF000D3317D /* TestWindowStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWindowStyleViewController.m; sourceTree = "<group>"; };
+		250C801C229BCEF000D3317D /* TestNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetworkViewController.m; sourceTree = "<group>"; };
+		250C8023229BCF1C00D3317D /* NetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetTool.h; sourceTree = "<group>"; };
+		250C8024229BCF1C00D3317D /* NetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetTool.m; sourceTree = "<group>"; };
+		250C8026229BCFC100D3317D /* ZPMLLDebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMLLDebugViewController.h; sourceTree = "<group>"; };
+		250C8027229BCFC100D3317D /* ZPMLLDebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMLLDebugViewController.m; sourceTree = "<group>"; };
+		250C8033229BD2BB00D3317D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		250F9BB5229532C600A3800E /* ZPMLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPMLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		250F9BB8229532C600A3800E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		250F9BB9229532C600A3800E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -505,6 +531,28 @@
 				9D4162412166E9731C5BCD16 /* Pods-ZPMLibraries.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		250C8010229BCED700D3317D /* LLDebug */ = {
+			isa = PBXGroup;
+			children = (
+				250C8023229BCF1C00D3317D /* NetTool.h */,
+				250C8024229BCF1C00D3317D /* NetTool.m */,
+				250C8017229BCEEF00D3317D /* BaseTestViewController.h */,
+				250C801A229BCEF000D3317D /* BaseTestViewController.m */,
+				250C8016229BCEEF00D3317D /* TestColorStyleViewController.h */,
+				250C8015229BCEEE00D3317D /* TestColorStyleViewController.m */,
+				250C8011229BCEEC00D3317D /* TestCrashViewController.h */,
+				250C8019229BCEEF00D3317D /* TestCrashViewController.m */,
+				250C8014229BCEEE00D3317D /* TestLogViewController.h */,
+				250C8018229BCEEF00D3317D /* TestLogViewController.m */,
+				250C8013229BCEED00D3317D /* TestNetworkViewController.h */,
+				250C801C229BCEF000D3317D /* TestNetworkViewController.m */,
+				250C8012229BCEED00D3317D /* TestWindowStyleViewController.h */,
+				250C801B229BCEF000D3317D /* TestWindowStyleViewController.m */,
+				250C8034229BD2BB00D3317D /* Localizable.strings */,
+			);
+			path = LLDebug;
 			sourceTree = "<group>";
 		};
 		250F9BAC229532C600A3800E = {
@@ -997,6 +1045,8 @@
 				25D32C2322968BC100B3D882 /* Others */,
 				250F9BDC2295344200A3800E /* ZPMDebugViewController.h */,
 				250F9BDD2295344200A3800E /* ZPMDebugViewController.m */,
+				250C8026229BCFC100D3317D /* ZPMLLDebugViewController.h */,
+				250C8027229BCFC100D3317D /* ZPMLLDebugViewController.m */,
 			);
 			path = "调试库";
 			sourceTree = "<group>";
@@ -1004,6 +1054,7 @@
 		25D32C2322968BC100B3D882 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				250C8010229BCED700D3317D /* LLDebug */,
 				25D32C2422968BC800B3D882 /* XYDebug */,
 			);
 			path = Others;
@@ -1118,6 +1169,7 @@
 				25437A3D2297979500B0105E /* comic.jpg in Resources */,
 				25459CE72298F3F40023B754 /* timg02.jpeg in Resources */,
 				25437A3C2297979500B0105E /* test2.jpg in Resources */,
+				250C8032229BD2BB00D3317D /* Localizable.strings in Resources */,
 				25437A3B2297979500B0105E /* test1.jpg in Resources */,
 				25459CE62298F3F40023B754 /* temp04.jpg in Resources */,
 				25D32C5F22968CA700B3D882 /* filter.png in Resources */,
@@ -1140,6 +1192,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZPMLibraries/Pods-ZPMLibraries-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashContentCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterLabelCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterTextFieldCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLSubTitleTableViewCell/LLSubTitleTableViewCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Log/UserInterface/LLLogCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkImageCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Sandbox/UserInterface/LLSandboxCell.xib",
+				"${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Resources/LLDebugTool.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png",
 				"${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js",
@@ -1151,6 +1213,16 @@
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JPSuspensionEntrance.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCrashCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCrashContentCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLFilterLabelCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLFilterTextFieldCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLSubTitleTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLLogCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLNetworkCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLNetworkImageCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLSandboxCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLDebugTool.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GithubDebug.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightKeywords.js",
@@ -1201,12 +1273,14 @@
 				25437A7522979D6F00B0105E /* DailyCollectionViewCell.m in Sources */,
 				2517EAB8229AE1CD001593D0 /* UIView+Extension.m in Sources */,
 				25437B032297C75800B0105E /* Application.m in Sources */,
+				250C8021229BCEF000D3317D /* TestWindowStyleViewController.m in Sources */,
 				25437A292297967F00B0105E /* TestTableViewController.m in Sources */,
 				250F9C652295430C00A3800E /* SPActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
 				25D32BF722964A4200B3D882 /* AnimationScaleEnd.m in Sources */,
 				250F9C672295430C00A3800E /* SPActivityIndicatorBallRotaingAroundBallAnimation.m in Sources */,
 				25437A2C229796B400B0105E /* TestTableViewCell.m in Sources */,
 				250F9C6A2295430C00A3800E /* SPActivityIndicatorBallRotateAnimation.m in Sources */,
+				250C8025229BCF1C00D3317D /* NetTool.m in Sources */,
 				25D32BFC22964A9000B3D882 /* ZPMTransitionViewController.m in Sources */,
 				25D32BEF22964A4200B3D882 /* AnimationScaleBegin.m in Sources */,
 				250F9C522295430C00A3800E /* SPActivityIndicatorLoadingFailAnimation.m in Sources */,
@@ -1214,6 +1288,7 @@
 				25D32C7E2296BAFC00B3D882 /* ZPMFloatBallViewController.m in Sources */,
 				25437AEB2297C2F300B0105E /* TABAnimated.m in Sources */,
 				25437A4D22979CFE00B0105E /* BaseCollectionCell.m in Sources */,
+				250C801E229BCEF000D3317D /* TestLogViewController.m in Sources */,
 				250F9C532295430C00A3800E /* SPActivityIndicatorBallSpinFadeLoader.m in Sources */,
 				25D32BED22964A4200B3D882 /* AnimationFadeEnd.m in Sources */,
 				250F9C492295430C00A3800E /* SPActivityIndicator3DotsExchangePositionAnimation.m in Sources */,
@@ -1234,6 +1309,7 @@
 				25437AFA2297C2F300B0105E /* TABTableAnimated.m in Sources */,
 				25D32BF022964A4200B3D882 /* UIViewController+HHTransition.m in Sources */,
 				250F9C442295430C00A3800E /* SPActivityIndicatorBallClipRotateAnimation.m in Sources */,
+				250C8022229BCEF000D3317D /* TestNetworkViewController.m in Sources */,
 				250F9C692295430C00A3800E /* SPActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
 				25D32C6222968CA700B3D882 /* XYDebugViewManager.m in Sources */,
 				25D32BF622964A4200B3D882 /* AnimationTransitionBegin.m in Sources */,
@@ -1259,11 +1335,13 @@
 				25D32BF422964A4200B3D882 /* UIView+HHLayout.m in Sources */,
 				25437A6322979D5F00B0105E /* SegmentCollectionViewController.m in Sources */,
 				25D32BF822964A4200B3D882 /* QuadrantRecognise.m in Sources */,
+				250C801F229BCEF000D3317D /* TestCrashViewController.m in Sources */,
 				250F9C562295430C00A3800E /* SPActivityIndicatorTripleRingsAnimation.m in Sources */,
 				25437B022297C75800B0105E /* DetailViewController.m in Sources */,
 				25437A252297940A00B0105E /* ZPMLoadingPageViewController.m in Sources */,
 				25D32BE622964A4200B3D882 /* AnimationWaveEnd.m in Sources */,
 				25437A7622979D6F00B0105E /* CardCollectionViewCell.m in Sources */,
+				250C8020229BCEF000D3317D /* BaseTestViewController.m in Sources */,
 				25437AF42297C2F300B0105E /* UITableView+TABAnimated.m in Sources */,
 				25D32BEA22964A4200B3D882 /* AnimationTiltBegin.m in Sources */,
 				25437AED2297C2F300B0105E /* UIView+TABControlAnimation.m in Sources */,
@@ -1313,9 +1391,11 @@
 				25402328229AD09600F7684A /* ZPMMenuViewController.m in Sources */,
 				250F9C432295430C00A3800E /* SPActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
 				250F9C512295430C00A3800E /* SPActivityIndicatorThreeDotsFadeAnimation.m in Sources */,
+				250C8028229BCFC100D3317D /* ZPMLLDebugViewController.m in Sources */,
 				2540232B229AD1DF00F7684A /* ZPMSuspensionViewController.m in Sources */,
 				25437A7722979D6F00B0105E /* LawyerArticleCollectionViewCell.m in Sources */,
 				25437B042297C75800B0105E /* UIColor+Hexadecimal.m in Sources */,
+				250C801D229BCEF000D3317D /* TestColorStyleViewController.m in Sources */,
 				25437AF02297C2F300B0105E /* NSArray+TABAnimated.m in Sources */,
 				250F9C472295430C00A3800E /* SPActivityIndicatorBallScaleAnimation.m in Sources */,
 				25437AF32297C2F300B0105E /* TABManagerMethod.m in Sources */,
@@ -1335,6 +1415,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		250C8034229BD2BB00D3317D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250C8033229BD2BB00D3317D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		250F9BBE229532C600A3800E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1472,6 +1560,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4743XBSB5W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZPMLibraries/ViewControllers/页面库/Others/TABAnimated/Sources",
@@ -1496,6 +1585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4743XBSB5W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZPMLibraries/ViewControllers/页面库/Others/TABAnimated/Sources",

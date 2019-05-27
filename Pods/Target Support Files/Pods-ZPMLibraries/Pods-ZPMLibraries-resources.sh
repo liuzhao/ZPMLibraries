@@ -93,6 +93,16 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashContentCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterLabelCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterTextFieldCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLSubTitleTableViewCell/LLSubTitleTableViewCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Log/UserInterface/LLLogCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkImageCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Sandbox/UserInterface/LLSandboxCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Resources/LLDebugTool.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js"
@@ -103,6 +113,16 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/JPSuspensionEntrance/JPSuspensionEntrance.bundle"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Crash/UserInterface/LLCrashContentCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterLabelCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLFilterView/LLFilterTextFieldCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Controls/LLSubTitleTableViewCell/LLSubTitleTableViewCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Log/UserInterface/LLLogCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Network/UserInterface/LLNetworkImageCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/Sandbox/UserInterface/LLSandboxCell.xib"
+  install_resource "${PODS_ROOT}/LLDebugTool/LLDebugTool/Components/General/UserInterface/Resources/LLDebugTool.bundle"
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/GithubDebug.png"
   install_resource "${PODS_ROOT}/ZPMConsoleLog/ZPMConsoleLog/Resources/HighlightKeywords.js"

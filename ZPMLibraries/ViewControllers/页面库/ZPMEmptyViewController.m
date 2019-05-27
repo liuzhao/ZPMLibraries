@@ -40,7 +40,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     // Resets styling
     self.navigationController.navigationBar.titleTextAttributes = nil;
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithHex:@"f8f8f8"];
-    self.navigationController.navigationBar.translucent = NO;
+//    self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
 }
 

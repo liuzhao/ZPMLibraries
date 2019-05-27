@@ -9,6 +9,7 @@
 #import "ZPMDebugViewController.h"
 #import "XYDebugViewManager.h"
 #import "ZPMLog.h"
+#import "ZPMLLDebugViewController.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
@@ -47,7 +48,8 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     self.listArray = @[@[@"DebugWindow_2D",
                          @"DebugWindow_3D",
                          ],
-                       @[@"控制台日志"]];
+                       @[@"控制台日志"],
+                       @[@"LLDebug"]];
 }
 
 - (void)setupUI
@@ -100,6 +102,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     
     cell.textLabel.text = self.listArray[indexPath.section][indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
@@ -114,6 +117,15 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
     }
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.section == 2) {
+        ZPMLLDebugViewController *vc = ZPMLLDebugViewController.new;
+        [vc setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (void)switchChanged:(UISwitch *)sender {

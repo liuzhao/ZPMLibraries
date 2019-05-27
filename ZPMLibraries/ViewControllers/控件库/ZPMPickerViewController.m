@@ -31,7 +31,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 - (void)initData
 {
-    self.listArray = @[@"时间选择器"];
+    self.listArray = @[@"时间选择器", @"地点选择器"];
 }
 
 - (void)setupTableView

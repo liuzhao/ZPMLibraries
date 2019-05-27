@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ZPMTabBarController.h"
 #import "TABAnimated.h"
+#import "LLDebug.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,8 @@
     // Override point for customization after application launch.
     
     [self initTABAnimated];
+    
+    [self initLLDebug];
     
     [self setupMainView];
     
@@ -46,6 +49,30 @@
     [TABAnimated sharedAnimated].openLog = YES;
     // set gobal cornerRadius
     [TABAnimated sharedAnimated].useGlobalCornerRadius = YES;
+}
+
+- (void)initLLDebug
+{
+    //####################### Color Style #######################//
+    // Uncomment one of the following lines to change the color configuration.
+    // [LLConfig sharedConfig].colorStyle = LLConfigColorStyleSystem;
+    // [[LLConfig sharedConfig] configBackgroundColor:[UIColor orangeColor] textColor:[UIColor whiteColor] statusBarStyle:UIStatusBarStyleDefault];
+    
+    //####################### User Identity #######################//
+    // Use this line to tag user. More config please see "LLConfig.h".
+    [LLConfig sharedConfig].userIdentity = @"Miss L";
+    
+    //####################### Window Style #######################//
+    // Uncomment one of the following lines to change the window style.
+    // [LLConfig sharedConfig].windowStyle = LLConfigWindowNetBar;
+    
+    //####################### Features #######################//
+    // Uncomment this line to change the available features.
+    // [LLConfig sharedConfig].availables = LLConfigAvailableNoneAppInfo;
+    
+    // ####################### Start LLDebugTool #######################//
+    // Use this line to start working.
+    [[LLDebugTool sharedTool] startWorking];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

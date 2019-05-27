@@ -17,6 +17,10 @@ target 'ZPMLibraries' do
    pod 'YYWebImage' #类似SDWebImage
    
    pod 'YBPopupMenu' #浮窗
+   
+   pod 'LLDebugTool' #Debug
+   
+   pod 'AFNetworking'
 
   # Pods for ZPMLibraries
   
