@@ -31,8 +31,9 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 - (void)initData
 {
-    self.listArray = @[@[@"浮窗",
-                         ]];
+    self.listArray = @[@{@"title": @"浮窗", @"vc": @"ZPMSuspensionViewController"},
+                       @{@"title": @"菜单1", @"vc": @"ZPMRoundMenuViewController"}
+                       ];
 }
 
 - (void)setupTableView
@@ -49,13 +50,14 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.listArray[section] count];
-}
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
+//    return [self.listArray[section] count];
     return self.listArray.count;
 }
+
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+//{
+//    return self.listArray.count;
+//}
 
 //- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 //{
@@ -69,7 +71,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kReuseIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = self.listArray[indexPath.section][indexPath.row];
+    cell.textLabel.text = self.listArray[indexPath.row][@"title"];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
@@ -78,8 +80,13 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ZPMSuspensionViewController *vc = ZPMSuspensionViewController.new;
-    [self.navigationController pushViewController:vc animated:YES];
+    NSString *className = self.listArray[indexPath.row][@"vc"];
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *vc = class.new;
+        [vc setHidesBottomBarWhenPushed:YES];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 

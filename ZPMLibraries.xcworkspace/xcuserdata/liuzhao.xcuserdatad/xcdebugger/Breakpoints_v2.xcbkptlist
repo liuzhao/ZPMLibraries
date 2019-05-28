@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMBannerViewController.m"
-            timestampString = "580643246.344646"
+            timestampString = "580644849.027918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "92"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZPMLibraries/ViewControllers/&#x9875;&#x9762;&#x5e93;/ZPMBannerViewController.m"
-            timestampString = "580643246.3451869"
+            timestampString = "580644849.028023"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -122,12 +122,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZPMLibraries/ViewControllers/&#x63a7;&#x4ef6;&#x5e93;/ZPMControlLibViewController.m"
-            timestampString = "580575859.85263"
+            timestampString = "580730277.139769"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
             endingLineNumber = "87"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZPMLibraries/ViewControllers/&#x52a8;&#x753b;&#x5e93;/ZPMMenuViewController.m"
+            timestampString = "580736925.246451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-initData"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

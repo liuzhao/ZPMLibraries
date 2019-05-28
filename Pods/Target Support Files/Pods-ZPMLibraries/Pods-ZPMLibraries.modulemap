@@ -1,4 +1,4 @@
-framework module Pods_ZPMLibraries {
+module Pods_ZPMLibraries {
   umbrella header "Pods-ZPMLibraries-umbrella.h"
 
   export *

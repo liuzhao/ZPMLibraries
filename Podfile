@@ -20,7 +20,10 @@ target 'ZPMLibraries' do
    
    pod 'LLDebugTool' #Debug
    
-   pod 'AFNetworking'
+   pod 'AFNetworking' #网络
+   
+#   use_frameworks!
+#   pod 'PathMenu' #Path公司的菜单
 
   # Pods for ZPMLibraries
   
