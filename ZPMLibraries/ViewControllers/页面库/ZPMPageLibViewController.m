@@ -138,7 +138,7 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
 
 - (void)setupTableView
 {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStyleGrouped];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
     tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     tableView.dataSource = self;
