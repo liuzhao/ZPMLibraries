@@ -21,6 +21,13 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 
 @implementation ZPMCategoryViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBar.translucent = NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -83,28 +90,25 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
         }
     }
     
-    switch (indexPath.row) {
+    switch (indexPath.section) {
         case 0:
         {
-            UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            IndicatorCustomizeViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([IndicatorCustomizeViewController class])];
-            vc.title = title;
+            IndicatorCustomizeViewController *vc = IndicatorCustomizeViewController.new;
+            [vc setHidesBottomBarWhenPushed:YES];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 1:
         {
-            UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            CellCustomizeViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([CellCustomizeViewController class])];
-            vc.title = title;
+            CellCustomizeViewController *vc = CellCustomizeViewController.new;
+            [vc setHidesBottomBarWhenPushed:YES];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
         case 2:
         {
-            UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-            SpecialCustomizeViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:NSStringFromClass([SpecialCustomizeViewController class])];
-            vc.title = title;
+            SpecialCustomizeViewController *vc = SpecialCustomizeViewController.new;
+            [vc setHidesBottomBarWhenPushed:YES];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

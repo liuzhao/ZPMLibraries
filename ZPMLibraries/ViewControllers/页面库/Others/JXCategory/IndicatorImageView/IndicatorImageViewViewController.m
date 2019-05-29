@@ -34,7 +34,8 @@
     indicatorImageView.indicatorImageView.image = [UIImage imageNamed:@"boat"];
     self.myCategoryView.indicators = @[indicatorImageView];
 
-    CGRect bgImageViewFrame = CGRectMake(0, 0, WindowsSize.width, 100);
+    CGFloat height = self.navigationController.navigationBar.translucent == YES ? 64 : 0;
+    CGRect bgImageViewFrame = CGRectMake(0, height, WindowsSize.width, 100);
     _bgSelectedImageView = [[UIImageView alloc] initWithFrame:bgImageViewFrame];
     self.bgSelectedImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.bgSelectedImageView.image = [self getImageWithIndex:0];
@@ -52,7 +53,8 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
 
-    self.categoryView.frame = CGRectMake(30, 20, WindowsSize.width - 30*2, 60);
+    CGFloat height = self.navigationController.navigationBar.translucent == YES ? 64 : 0;
+    self.categoryView.frame = CGRectMake(30, height + 20, WindowsSize.width - 30*2, 60);
 }
 
 - (JXCategoryTitleView *)myCategoryView {

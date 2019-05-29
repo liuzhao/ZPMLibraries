@@ -41,6 +41,13 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
 //    };
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBar.translucent = YES;
+}
+
 - (void)setupJPSEInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

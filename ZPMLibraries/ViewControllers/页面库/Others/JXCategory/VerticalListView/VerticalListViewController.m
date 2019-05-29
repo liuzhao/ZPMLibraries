@@ -37,6 +37,7 @@ static const NSUInteger VerticalListPinSectionIndex = 1;    //悬浮固定sectio
 
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+    layout.sectionHeadersPinToVisibleBounds = YES;
     self.collectionView = [[VerticalListCollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
 
     __weak typeof(self)weakSelf = self;

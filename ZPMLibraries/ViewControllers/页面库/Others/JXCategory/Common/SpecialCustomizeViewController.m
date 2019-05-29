@@ -17,7 +17,11 @@
 #import "LoadDataListCollectionViewController.h"
 #import "ScrollZoomViewController.h"
 
+static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
+
 @interface SpecialCustomizeViewController ()
+
+@property (nonatomic, copy) NSArray *listArray;
 
 @end
 
@@ -27,6 +31,38 @@
     [super viewDidLoad];
     
     self.tableView.rowHeight = 44;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
+    
+    [self initData];
+}
+
+- (void)initData
+{
+    self.listArray = @[@"个人主页",
+                       @"SegmentedControl效果",
+                       @"导航栏使用",
+                       @"嵌套使用",
+                       @"垂直列表滚动",
+                       @"刷新数据+UIScrollView封装列表",
+                       @"刷新数据+UICollectionView封装列表",
+                       @"刷新数据+列表自定义",
+                       @"垂直滚动缩放",
+                       ];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.listArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kReuseIdentifier forIndexPath:indexPath];
+    
+    cell.textLabel.text = self.listArray[indexPath.row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

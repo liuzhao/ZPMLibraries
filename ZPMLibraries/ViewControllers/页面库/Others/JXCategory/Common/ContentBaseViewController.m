@@ -16,6 +16,11 @@
 
 @implementation ContentBaseViewController
 
+- (void)dealloc
+{
+    NSLog(@"dealloc");
+}
+
 - (instancetype)init
 {
     self = [super init];
@@ -47,10 +52,11 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
 
+    CGFloat height = self.navigationController.navigationBar.translucent == YES ? 64 : 0;
     if (![self isKindOfClass:[NaviSegmentedControlViewController class]]) {
-        self.categoryView.frame = CGRectMake(0, 0, self.view.bounds.size.width, [self preferredCategoryViewHeight]);
+        self.categoryView.frame = CGRectMake(0, height, self.view.bounds.size.width, [self preferredCategoryViewHeight]);
     }
-    self.listContainerView.frame = CGRectMake(0, [self preferredCategoryViewHeight], self.view.bounds.size.width, self.view.bounds.size.height);
+    self.listContainerView.frame = CGRectMake(0, height + [self preferredCategoryViewHeight], self.view.bounds.size.width, self.view.bounds.size.height);
 }
 
 - (void)viewDidAppear:(BOOL)animated {

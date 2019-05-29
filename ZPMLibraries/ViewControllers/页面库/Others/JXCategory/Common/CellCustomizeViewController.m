@@ -14,7 +14,11 @@
 #import "DotViewController.h"
 #import "AttributeViewViewController.h"
 
+static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
+
 @interface CellCustomizeViewController ()
+
+@property (nonatomic, copy) NSArray *listArray;
 
 @end
 
@@ -24,6 +28,42 @@
     [super viewDidLoad];
     
     self.tableView.rowHeight = 44;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
+    
+    [self initData];
+}
+
+- (void)initData
+{
+    self.listArray = @[@"颜色渐变",
+                       @"大小缩放",
+                       @"大小缩放+底部锚点",
+                       @"大小缩放+顶部锚点",
+                       @"大小缩放+字体粗细",
+                       @"大小缩放+点击动画",
+                       @"大小缩放+Cell宽度缩放",
+                       @"Cell图片样式",
+                       @"Cell数字样式",
+                       @"Cell红点样式",
+                       @"Cell Title&图片样式",
+                       @"多行文本",
+                       @"多行富文本",
+                       @"分割线"];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.listArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kReuseIdentifier forIndexPath:indexPath];
+    
+    cell.textLabel.text = self.listArray[indexPath.row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

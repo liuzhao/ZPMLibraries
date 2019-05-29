@@ -33,7 +33,8 @@
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
 
-    self.categoryView.frame = CGRectMake(0, 20, WindowsSize.width, 60);
+    CGFloat height = self.navigationController.navigationBar.translucent == YES ? 64 : 0;
+    self.categoryView.frame = CGRectMake(0, height + 20, WindowsSize.width, 60);
 }
 
 - (JXCategoryTitleView *)myCategoryView {

@@ -15,7 +15,11 @@
 #import "JXCategoryIndicatorDotLineView.h"
 #import "JXGradientView.h"
 
-@interface IndicatorCustomizeViewController ()
+static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
+
+@interface IndicatorCustomizeViewController () <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, copy) NSArray *listArray;
 
 @end
 
@@ -25,6 +29,48 @@
     [super viewDidLoad];
 
     self.tableView.rowHeight = 44;
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kReuseIdentifier];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    
+     [self initData];
+}
+
+- (void)initData
+{
+    self.listArray = @[@"LineView固定长度",
+                       @"LineView与Cell同宽",
+                       @"LineView延长style",
+                       @"LineView延长+偏移style",
+                       @"DotLineView点线效果",
+                       @"RainbowLineView彩虹效果",
+                       @"BallView QQ小红点",
+                       @"TriangleView三角形",
+                       @"BackgroundView椭圆形",
+                       @"BackgroundView椭圆形+阴影",
+                       @"BackgroundView长方形",
+                       @"BackgroundView遮罩有背景",
+                       @"BackgroundView遮罩无背景",
+                       @"BackgroundView渐变色",
+                       @"ImageView底部",
+                       @"ImageView Cell背景",
+                       @"ImageView足球滚动",
+                       @"混合使用"];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.listArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kReuseIdentifier forIndexPath:indexPath];
+    
+    cell.textLabel.text = self.listArray[indexPath.row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    
+    return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

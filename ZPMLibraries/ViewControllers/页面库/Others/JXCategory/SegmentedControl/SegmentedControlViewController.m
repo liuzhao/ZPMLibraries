@@ -43,7 +43,8 @@
     [super viewDidLayoutSubviews];
 
     CGFloat totalItemWidth = self.view.bounds.size.width - 30*2;
-    self.myCategoryView.frame = CGRectMake(30, 10, totalItemWidth, 30);
+    CGFloat height = self.navigationController.navigationBar.translucent == YES ? 64 : 0;
+    self.myCategoryView.frame = CGRectMake(30, height + 10, totalItemWidth, 30);
 }
 
 - (JXCategoryTitleView *)myCategoryView {
