@@ -7,7 +7,7 @@ target 'ZPMLibraries' do
    pod 'ZPMConsoleLog'
    pod 'JPSuspensionEntrance'
    pod 'Masonry'
-   pod 'JXCategoryView' # segment分类切换
+   pod 'JXCategoryView', '~>1.3.7' # segment分类切换
    pod 'MJRefresh' # 下拉刷新
    
    pod 'TYCyclePagerView' # 轮播图

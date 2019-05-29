@@ -1,22 +1,23 @@
 //
-//  DetailViewController.m
-//  Applications
+//  DZNDetailViewController.m
+//  ZPMLibraries
 //
-//  Created by Ignacio on 6/6/14.
-//  Copyright (c) 2014 DZN Labs. All rights reserved.
+//  Created by Liu Zhao on 2019/5/29.
+//  Copyright © 2019 Liu Zhao. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "DZNDetailViewController.h"
 #import "UIColor+Hexadecimal.h"
 #import "UIScrollView+EmptyDataSet.h"
-//#import <DZNEmptyDataSet/DZNEmptyDataSet.h>
 
-@interface DetailViewController () <DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
+@interface DZNDetailViewController () <DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
+
 @property (nonatomic, strong) Application *application;
 @property (nonatomic, getter=isLoading) BOOL loading;
+
 @end
 
-@implementation DetailViewController
+@implementation DZNDetailViewController
 
 - (instancetype)initWithApplication:(Application *)application
 {
@@ -60,7 +61,7 @@
     UIColor *tintColor = nil;
     
     self.navigationController.navigationBar.titleTextAttributes = nil;
-
+    
     switch (self.application.type) {
         case ApplicationType500px:
         {
@@ -211,15 +212,15 @@
         UIImage *image = [UIImage imageNamed:imageName inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
         UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
         imageView.userInteractionEnabled = YES;
-
+        
         UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapHeaderView:)];
         [imageView addGestureRecognizer:tapGesture];
-
+        
         CGRect frame = self.view.bounds;
         frame.size.height = image.size.height;
         UIView *headerView = [[UIView alloc] initWithFrame:frame];
         headerView.backgroundColor = [UIColor whiteColor];
-
+        
         imageView.center = CGPointMake(frame.size.width/2.0, frame.size.height/2.0);
         [headerView addSubview:imageView];
         
@@ -290,7 +291,7 @@
 - (Application *)randomApplication
 {
     ApplicationType randomType = arc4random() % ApplicationCount;
-
+    
     NSPredicate *query = [NSPredicate predicateWithFormat:@"type == %d", randomType];
     
     return [[self.applications filteredArrayUsingPredicate:query] firstObject];
@@ -700,7 +701,7 @@
     if (font) [attributes setObject:font forKey:NSFontAttributeName];
     if (textColor) [attributes setObject:textColor forKey:NSForegroundColorAttributeName];
     if (paragraph) [attributes setObject:paragraph forKey:NSParagraphStyleAttributeName];
-
+    
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text attributes:attributes];
     
     switch (self.application.type) {
@@ -840,7 +841,7 @@
     }
     
     UIImage *image = [UIImage imageNamed:imageName inBundle:[NSBundle bundleForClass:[self class]] compatibleWithTraitCollection:nil];
-
+    
     return [[image resizableImageWithCapInsets:capInsets resizingMode:UIImageResizingModeStretch] imageWithAlignmentRectInsets:rectInsets];
 }
 
@@ -944,5 +945,15 @@
         self.loading = NO;
     });
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

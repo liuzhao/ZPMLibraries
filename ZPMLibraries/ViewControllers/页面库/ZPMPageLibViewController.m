@@ -122,6 +122,7 @@ static NSString *const JPSuspensionDefaultYKey = @"JPSuspensionDefaultYKey";
                          @{@"title": @"引导页 GuidePage"},
                          @{@"title": @"广告页 AdPage"},
                          @{@"title": @"轮播页 Banner", @"vc": @"ZPMBannerViewController"},
+                         @{@"title": @"分类页 CategoryPage", @"vc": @"ZPMCategoryViewController"},
                          ],
                        @[@{@"title": @"页面转场 TransitionPage", @"vc": @"ZPMTransitionViewController"}
                          ],

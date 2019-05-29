@@ -9,7 +9,7 @@
 #import "ZPMEmptyViewController.h"
 #import "UIColor+Hexadecimal.h"
 #import "UIScrollView+EmptyDataSet.h"
-#import "DetailViewController.h"
+#import "DZNDetailViewController.h"
 #import "Application.h"
 
 static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
@@ -223,7 +223,7 @@ static NSString *kReuseIdentifier = @"ZPMCellIdentifier";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Application *app = [[self filteredApps] objectAtIndex:indexPath.row];
-    DetailViewController *controller = [[DetailViewController alloc] initWithApplication:app];
+    DZNDetailViewController *controller = [[DZNDetailViewController alloc] initWithApplication:app];
     controller.applications = self.applications;
     controller.allowShuffling = YES;
     
